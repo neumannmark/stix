@@ -1,0 +1,87 @@
+{
+	"id": "bundle--776093fe-c761-4d7e-82d8-d64380491754",
+	"spec_version": "2.0",
+	"objects": [{
+				"name": "Carbon_Black",
+				"identity_class": "events",
+				"type": "identity",
+				"id": "identity--c3bd2c0d-b311-4fb9-916b-ff8dbd2aa237",
+				"created": "2020-07-22T17:30:51.893Z",
+				"modified": "2020-07-22T17:30:51.893Z"
+			},
+			{
+				"id": "observed-data--940d4125-1b47-4864-a890-c1e6a45d6e19",
+				"number_observed": 1,
+				"first_observed": "2020-04-05T20:04:36.087731Z",
+				"last_observed": "2020-04-05T20:04:36.087731Z",
+				"created": "2020-04-05T20:04:36.087Z",
+				"modified": "2020-04-05T20:04:36.087Z",
+				"objects": {
+					"0": {
+						"value": "10.10.9.56",
+						"type": "ipv4-addr"
+					},
+					"1": {
+						"name": "uiete-imbrogli-megabyt.tpf",
+						"hashes": {
+							"SHA-256": "35e1f022861474407246f0c66218a83019381e8745e4c6b294cf150f401c16dc"
+						},
+						"type": "file"
+					},
+					"2": {
+						"value": "shmbidgp.monster",
+						"type": "url"
+					},
+					"3": {
+						"user_id": "TBY1992",
+						"type": "user-account"
+					},
+					"4": {
+						"value": "CC:46:D6:f2:45:38",
+						"type": "mac-addr"
+					},
+					"5": {
+						"value": "125-65-202-82.hicoria.com",
+						"type": "domain-name"
+					}
+				},
+				"type": "observed-data"
+			},
+			{
+				"id": "observed-data--b30de31a-8f83-4579-a747-681c93f849e5",
+				"number_observed": 1,
+				"first_observed": "2020-05-02T03:17:42.168314Z",
+				"last_observed": "2020-05-02T03:17:42.168314Z",
+				"created": "2020-05-02T03:17:42.168Z",
+				"modified": "2020-05-02T03:17:42.168Z",
+				"objects": {
+					"0": {
+						"value": "82.202.65.125",
+						"type": "ipv4-addr"
+					},
+					"1": {
+						"name": "opiou.pcb",
+						"hashes": {
+							"SHA-256": "c269cbffec913fe22458ebaf05a0b70fdd339f39123c9809c4997bb40107a73f"
+						},
+						"type": "file"
+					},
+					"2": {
+						"value": "http://hysiqu-cedill-gree.weather/5RSp56V8ZnoDqI3J/lsV6cp1L8s/xcursio-instantiat.blend",
+						"type": "url"
+					},
+					"3": {
+						"user_id": "verea",
+						"type": "user-account"
+					},
+					"4": {
+						"value": "CC:46:D6:72:04:08",
+						"type": "mac-addr"
+					},
+					"5": {
+						"value": "nterceptor.shia",
+						"type": "domain-name"
+					}
+				},
+				"type": "observed-data"
+			}
