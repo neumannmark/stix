@@ -59,6 +59,54 @@
             "last_observed": "2020-08-31T23:46:36.000Z",
             "number_observed": 1
         },
+		           { "id": "observed-data--032f7c3b-5e5e-4798-af33-5b8a6c975a9a",
+            "type": "observed-data",
+            "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+            "created": "2021-02-24T13:57:07.712Z",
+            "modified": "2021-02-24T13:57:07.712Z",
+            "objects": {
+                "0": {
+                    "type": "x-ibm-finding",
+                    "dst_device": "9.199.146.190",
+                    "details": "SELECT * from SSN",
+                    "name": "Sensitive Objects - Log Violation",
+                    "finding_type": "Policy Violation",
+                    "src_database_user_ref": "2",
+                    "src_ip_ref": "3",
+                    "src_application_ref": "4",
+                    "dst_ip_ref": "5",
+                    "dst_application_ref": "6",
+                    "source": "collector1.gdemo.com"
+                },
+                "1": {
+                    "type": "x-guardium",
+                    "severity": "High"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "BILL"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "46.185.116.2"
+                },
+                "4": {
+                    "type": "software",
+                    "name": "MYSQL"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "9.199.146.190"
+                },
+                "6": {
+                    "type": "software",
+                    "name": "MYSQL"
+                }
+            },
+            "first_observed": "2021-02-23T21:12:07.000Z",
+            "last_observed": "2021-02-23T21:12:07.000Z",
+            "number_observed": 1
+        },
 {
             "id": "observed-data--a2490ee4-5245-4bec-a931-547d8e5b5207",
             "type": "observed-data",
