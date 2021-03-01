@@ -109925,6 +109925,51 @@
 			"first_observed": "2021-01-14T12:34:59.093Z",
 			"last_observed": "2021-01-14T12:34:59.093Z",
 			"number_observed": 1
+		},
+		{
+			"created": "2021-01-14T21:12:35.830Z",
+			"created_by_ref": "identity--20feee85-f6f8-427c-9dc1-7fde08310491",
+			"first_observed": "2021-01-14T12:35:41.824Z",
+			"last_observed": "2021-01-14T12:35:41.824Z",
+			"id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693c",
+			"modified": "2021-01-14T21:12:35.830Z",
+			"number_observed": 1,
+			"objects": {
+				"0": {
+					"type": "user-account",
+					"user_id": "GUYGA"
+				},
+				"1": {
+					"type": "ipv4-addr",
+					"value": "9.199.146.190"
+				},
+				"2": {
+					"dst_port": 3306,
+					"dst_ref": "1",
+					"src_port": 44494,
+					"src_ref": "3",
+					"type": "network-traffic",
+					"protocols": [
+						"tcp",
+						"ipv4"
+					]
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "9.148.24.172"
+				}
+			},
+			"type": "observed-data",
+			"x_com_guardium": {
+				"anomaly_score": 100,
+				"db_user": "GUYGA",
+				"error_outlier": "false",
+				"high_volume_outlier": "true",
+				"new_outlier": "false",
+				"service_name": "9.199.146.190:5.6.27",
+				"source_program": "MYSQL CLIENT",
+				"temp_outlier": "false"
+			}
 		}
 	]
 }
