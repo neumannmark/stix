@@ -109937,7 +109937,7 @@
 			"objects": {
 				"0": {
 					"type": "user-account",
-					"user_id": "GUYGA"
+					"user_id": "BILL"
 				},
 				"1": {
 					"type": "ipv4-addr",
@@ -109962,7 +109962,7 @@
 			"type": "observed-data",
 			"x_com_guardium": {
 				"anomaly_score": 100,
-				"db_user": "GUYGA",
+				"db_user": "BILL",
 				"error_outlier": "false",
 				"high_volume_outlier": "true",
 				"new_outlier": "false",
