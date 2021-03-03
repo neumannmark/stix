@@ -85,4 +85,6 @@
 				},
 				"type": "observed-data"
 			}
-		    }
+			    ],
+    "type": "bundle"
+			}
