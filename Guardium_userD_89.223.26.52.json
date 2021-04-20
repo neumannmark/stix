@@ -53,7 +53,7 @@
     },
     "6": {
       "type": "software",
-      "name": "ORACLE"
+      "name": "MYSQL"
     }
   },
   "first_observed": "2021-04-19T19:00:16.000Z",
