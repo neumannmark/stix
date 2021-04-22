@@ -8,15 +8,15 @@
 			"id": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
 			"identity_class": "system",
 			"name": "guardium",
-			"created": "2021-04-19T13:39:16.000Z",
-			"modified": "2021-04-19T13:39:16.000Z"
+			"created": "2021-04-22T13:39:16.000Z",
+			"modified": "2021-04-22T13:39:16.000Z"
 		},
 		{
   "id": "observed-data--02994cfc-6a0b-4625-9cc2-1f0c4935ad00",
   "type": "observed-data",
   "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-  "created": "2021-04-19T13:59:33.396Z",
-  "modified": "2021-04-19T13:59:33.396Z",
+  "created": "2021-04-22T13:59:33.396Z",
+  "modified": "2021-04-22T13:59:33.396Z",
   "objects": {
     "0": {
       "type": "x-ibm-finding",
@@ -56,16 +56,16 @@
       "name": "MYSQL"
     }
   },
-  "first_observed": "2021-04-19T19:00:16.000Z",
-  "last_observed": "2021-04-19T19:00:16.000Z",
+  "first_observed": "2021-04-22T19:00:16.000Z",
+  "last_observed": "2021-04-22T19:00:16.000Z",
   "number_observed": 1
 },
 		{
             "id": "observed-data--b081f2f7-23b9-43cc-8c6a-4f96c2704b8d",
             "type": "observed-data",
             "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-  "created": "2021-04-19T14:59:33.396Z",
-  "modified": "2021-04-19T14:59:33.396Z",
+  "created": "2021-04-22T14:59:33.396Z",
+  "modified": "2021-04-22T14:59:33.396Z",
   "objects": {
     "0": {
       "type": "x-ibm-finding",
@@ -105,8 +105,204 @@
       "name": "MYSQL"
     }
   },
-  "first_observed": "2021-04-19T19:00:16.000Z",
-  "last_observed": "2021-04-19T19:00:16.000Z",
+  "first_observed": "2021-04-22T19:00:16.000Z",
+  "last_observed": "2021-04-22T19:00:16.000Z",
+  "number_observed": 1
+},
+		{
+  "id": "observed-data--02994cfc-6a0b-4625-9cc2-1f0c4935ad00",
+  "type": "observed-data",
+  "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+  "created": "2021-04-22T13:59:33.396Z",
+  "modified": "2021-04-22T13:59:33.396Z",
+  "objects": {
+    "0": {
+      "type": "x-ibm-finding",
+      "dst_device": "MYSQL",
+      "details": "Select * from Creditcards",
+      "name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
+      "finding_type": "Policy Violation",
+      "src_database_user_ref": "2",
+      "src_ip_ref": "3",
+      "src_application_ref": "4",
+      "dst_ip_ref": "5",
+      "dst_application_ref": "6",
+      "source": "collector1.gdemo.com"
+    },
+    "1": {
+      "type": "x-guardium",
+      "severity": "Low"
+    },
+    "2": {
+      "type": "user-account",
+      "user_id": "userD"
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "89.223.26.52"
+    },
+    "4": {
+      "type": "software",
+      "name": "SQLPLUS"
+    },
+    "5": {
+      "type": "ipv4-addr",
+      "value": "9.195.20.102"
+    },
+    "6": {
+      "type": "software",
+      "name": "MYSQL"
+    }
+  },
+  "first_observed": "2021-04-22T19:00:16.000Z",
+  "last_observed": "2021-04-22T19:00:16.000Z",
+  "number_observed": 1
+},
+		{
+            "id": "observed-data--b081f2f7-23b9-43cc-8c6a-4f96c2704b8d",
+            "type": "observed-data",
+            "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+  "created": "2021-04-22T14:59:33.396Z",
+  "modified": "2021-04-22T14:59:33.396Z",
+  "objects": {
+    "0": {
+      "type": "x-ibm-finding",
+      "dst_device": "MYSQL",
+      "details": "Select * from Creditcards",
+      "name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
+      "finding_type": "Policy Violation",
+      "src_database_user_ref": "2",
+      "src_ip_ref": "3",
+      "src_application_ref": "4",
+      "dst_ip_ref": "5",
+      "dst_application_ref": "6",
+      "source": "collector1.gdemo.com"
+    },
+    "1": {
+      "type": "x-guardium",
+      "severity": "Low"
+    },
+    "2": {
+      "type": "user-account",
+      "user_id": "userD"
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "193.184.16.214"
+    },
+    "4": {
+      "type": "software",
+      "name": "SQLPLUS"
+    },
+    "5": {
+      "type": "ipv4-addr",
+      "value": "9.195.20.102"
+    },
+    "6": {
+      "type": "software",
+      "name": "MYSQL"
+    }
+  },
+  "first_observed": "2021-04-22T19:00:16.000Z",
+  "last_observed": "2021-04-22T19:00:16.000Z",
+  "number_observed": 1
+},
+		{
+  "id": "observed-data--02994cfc-6a0b-4625-9cc2-1f0c4935ad00",
+  "type": "observed-data",
+  "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+  "created": "2021-04-22T13:59:33.396Z",
+  "modified": "2021-04-22T13:59:33.396Z",
+  "objects": {
+    "0": {
+      "type": "x-ibm-finding",
+      "dst_device": "MYSQL",
+      "details": "Select * from Creditcards",
+      "name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
+      "finding_type": "Policy Violation",
+      "src_database_user_ref": "2",
+      "src_ip_ref": "3",
+      "src_application_ref": "4",
+      "dst_ip_ref": "5",
+      "dst_application_ref": "6",
+      "source": "collector1.gdemo.com"
+    },
+    "1": {
+      "type": "x-guardium",
+      "severity": "Low"
+    },
+    "2": {
+      "type": "user-account",
+      "user_id": "userD"
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "89.223.26.52"
+    },
+    "4": {
+      "type": "software",
+      "name": "SQLPLUS"
+    },
+    "5": {
+      "type": "ipv4-addr",
+      "value": "9.195.20.102"
+    },
+    "6": {
+      "type": "software",
+      "name": "MYSQL"
+    }
+  },
+  "first_observed": "2021-04-22T19:00:16.000Z",
+  "last_observed": "2021-04-22T19:00:16.000Z",
+  "number_observed": 1
+},
+		{
+            "id": "observed-data--b081f2f7-23b9-43cc-8c6a-4f96c2704b8d",
+            "type": "observed-data",
+            "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+  "created": "2021-04-22T14:59:33.396Z",
+  "modified": "2021-04-22T14:59:33.396Z",
+  "objects": {
+    "0": {
+      "type": "x-ibm-finding",
+      "dst_device": "MYSQL",
+      "details": "Select * from Creditcards",
+      "name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
+      "finding_type": "Policy Violation",
+      "src_database_user_ref": "2",
+      "src_ip_ref": "3",
+      "src_application_ref": "4",
+      "dst_ip_ref": "5",
+      "dst_application_ref": "6",
+      "source": "collector1.gdemo.com"
+    },
+    "1": {
+      "type": "x-guardium",
+      "severity": "Low"
+    },
+    "2": {
+      "type": "user-account",
+      "user_id": "userD"
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "193.184.16.214"
+    },
+    "4": {
+      "type": "software",
+      "name": "SQLPLUS"
+    },
+    "5": {
+      "type": "ipv4-addr",
+      "value": "9.195.20.102"
+    },
+    "6": {
+      "type": "software",
+      "name": "MYSQL"
+    }
+  },
+  "first_observed": "2021-04-22T19:00:16.000Z",
+  "last_observed": "2021-04-22T19:00:16.000Z",
   "number_observed": 1
 }
 	]
