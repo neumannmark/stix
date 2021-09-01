@@ -1,0 +1,727 @@
+{
+	"type": "bundle",
+	"id": "a4c492c1-2ddf-44e8-a37c-56b208ec4373",
+	"spec_version": "2.0",
+	"objects": [
+		{
+			"type": "identity",
+			"id": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"identity_class": "system",
+			"name": "splunk",
+			"created": "2021-08-31T21:19:49.301Z",
+			"modified": "2021-08-31T21:19:49.301Z"
+		},
+		{
+			"id": "observed-data--07d3dbd3-5f77-4139-a821-835cb9adc979",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.379Z",
+			"modified": "2021-08-31T21:19:49.379Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://damtare.by.ru/id.txt"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "damtare.by.ru"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyOTg0ODk4OS4wMDAwMDAgMTY5MjIgMTcyLjIwLjEzLjEwNCBUQ1BfUkVGUkVTSF9ISVQvMjAwIDQ3NCBHRVQgaHR0cDovL2RhbXRhcmUuYnkucnUvaWQudHh0ICJyb3J5QGRlbW8uY29tIiBESVJFQ1QvZGFtdGFyZS5ieS5ydSB0ZXh0L2h0bWwgREVGQVVMVF9DQVNFLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksLTYuOSwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NjdHksLT4gLSAiTW96aWxsYS81LjAgKGNvbXBhdGlibGU7IEtvbnF1ZXJvci80LjI7IExpbnV4KSBLSFRNTC80LjIuNCAobGlrZSBHZWNrbykgU2xhY2t3YXJlLzEzLjAiIC0gIlNvY2lldHkgYW5kIEN1bHR1cmUiIDIwMS4zLjEyMC4xNjUK"
+				}
+			},
+			"first_observed": "2021-08-24T19:49:49.000Z",
+			"last_observed": "2021-08-24T19:49:49.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--776833f0-8362-422d-86c7-6af985505cec",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.383Z",
+			"modified": "2021-08-31T21:19:49.383Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 443
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "98.137.201.252"
+				},
+				"3": {
+					"type": "url",
+					"value": "https://search.yahoo.com/search;_ylt=A2KK_KfD3_9SjWwBpqibvZx4?p=snowboard+lessons&toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-901"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "search.yahoo.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyOTQxNDM1MS4wMDAwMDAgNDY4OCAxNzIuMjAuMTMuMTA0IFRDUF9ISVQvMjAwIDQyMDYgR0VUIGh0dHBzOi8vc2VhcmNoLnlhaG9vLmNvbS9zZWFyY2g7X3lsdD1BMktLX0tmRDNfOVNqV3dCcHFpYnZaeDQ/cD1zbm93Ym9hcmQrbGVzc29ucyZ0b2dnbGU9MSZjb3A9bXNzJmVpPVVURi04JmZyPXlmcC10LTkwMSAicm9yeUBkZW1vLmNvbSIgRElSRUNUL3NlYXJjaC55YWhvby5jb20gdGV4dC9odG1sIERFRkFVTFRfQ0FTRS1EZWZhdWx0R3JvdXAtRGVtb19DbGllbnRzLU5PTkUtTk9ORS1OT05FLURlZmF1bHRSb3V0aW5nIDxJV19zcmNoLG5zLDAsLSwtLC0sLSwwLC0sLSwtLC0sLSwtLC0sSVdfc3JjaCwtPiAtICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjE7IFdpbjY0OyB4NjQ7IHJ2OjIuMC4xKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzQuMC4xIiAtICJTZWFyY2ggRW5naW5lcyBhbmQgUG9ydGFscyIgOTguMTM3LjIwMS4yNTIK"
+				}
+			},
+			"first_observed": "2021-08-19T19:05:51.000Z",
+			"last_observed": "2021-08-19T19:05:51.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--d6175550-7c35-4314-a9d6-dbf6a798fbf4",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.383Z",
+			"modified": "2021-08-31T21:19:49.383Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://444.er18.com/config.txt"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "444.er18.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyOTQwOTA4My4wMDAwMDAgMTEwIDE3Mi4yMC4xMy4xMDQgVENQX0RFTklFRC80MDMgMTkwMSBHRVQgaHR0cDovLzQ0NC5lcjE4LmNvbS9jb25maWcudHh0ICJyb3J5QGRlbW8uY29tIiBOT05FLy0gLSBCTE9DS19BTVdfUkVRLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtTk9ORSA8bmMsLTcuMSwyNSwiVmlydXMtT3R3eWNhbCIsMTAwLDE1NDUzLDQwNTg4MCwtLC0sLSwtLC0sLSwtLC0sbmMsLT4gLSAiTW96aWxsYS81LjAgKFgxMTsgVTsgTGludXg7IGk2ODY7IGVuLVVTOyBydjoxLjYpIEdlY2tvIEdhbGVvbi8xLjMuMTQiIC0gIlVua25vd24iIDIwMS4zLjEyMC4xNjUK"
+				}
+			},
+			"first_observed": "2021-08-19T17:38:03.000Z",
+			"last_observed": "2021-08-19T17:38:03.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--39406c2c-6c09-4750-89c5-bf477341d731",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.384Z",
+			"modified": "2021-08-31T21:19:49.384Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "url",
+					"value": "http://bewfsnfwka.net/"
+				},
+				"3": {
+					"type": "domain-name",
+					"value": "bewfsnfwka.net"
+				},
+				"4": {
+					"type": "artifact",
+					"payload_bin": "MTYyOTIzNzg0MC4wMDAwMDAgNDg5NTcgMTcyLjIwLjEzLjEwNCBUQ1BfREVOSUVELzQwMyAxOTE0IEdFVCBodHRwOi8vYmV3ZnNuZndrYS5uZXQvICJyb3J5QGRlbW8uY29tIiBOT05FLy0gLSBCTE9DS19BTVdfUkVRLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtTk9ORSA8bmMsZG5zLC05LCJUcm9qYW4tRG93bmxvYWRlci5HZW4iLDEwMCwxMzY4OSw1ODY2MzgsLSwtLC0sLSwtLC0sLSwtLG5jLC0+IC0gLTEyNjIzNTY0ODcuMDYwIDE2OTIyIDEzMC4yNTMuMzcuOTcgVENQX1JFRlJFU0hfSElULzIwMCA0NzQgR0VUIGh0dHA6Ly9kYW10YXJlLmJ5LnJ1L2lkLnR4dCAicm9yeUBkZW1vLmNvbSIgRElSRUNUL2RhbXRhcmUuYnkucnUgdGV4dC9odG1sIERFRkFVTFRfQ0FTRS1EZWZhdWx0R3JvdXAtRGVtb19DbGllbnRzLU5PTkUtTk9ORS1OT05FLURlZmF1bHRSb3V0aW5nIDxJV19zY3R5LC02LjksMCwtLC0sLSwtLDAsLSwtLC0sLSwtLC0sLSxJV19zY3R5LC0+IC0gIk1vemlsbGEvNC4wIChjb21wYXRpYmxlOyBNU0lFIDYuMDsgV2luZG93cyBOVCA1LjA7IGVuKSBPcGVyYSA4LjAiIC0xMjYyMzU2NDg3LjA2MCAxNjkyMiAxMzAuMjUzLjM3Ljk3IFRDUF9SRUZSRVNIX0hJVC8yMDAgNDc0IEdFVCBodHRwOi8vZGFtdGFyZS5ieS5ydS9pZC50eHQgInJvcnlAZGVtby5jb20iIERJUkVDVC9kYW10YXJlLmJ5LnJ1IHRleHQvaHRtbCBERUZBVUxUX0NBU0UtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksLTYuOSwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NjdHksLT4gLSAtICJTb2NpZXR5IGFuZCBDdWx0dXJlIiAyMDEuMy4xMjAuMTY1Cg=="
+				}
+			},
+			"first_observed": "2021-08-17T18:04:00.000Z",
+			"last_observed": "2021-08-17T18:04:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--7647fa24-4de4-4cc9-bd5b-00e9561fa7c0",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.384Z",
+			"modified": "2021-08-31T21:19:49.384Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "78.109.18.210"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://78.109.18.210/baka444.ext"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "78.109.18.210"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyOTIzNzc4MC4wMDAwMDAgMzU4IDE3Mi4yMC4xMy4xMDQgVENQX0RFTklFRC80MDMgNTU2NjQgR0VUIGh0dHA6Ly83OC4xMDkuMTguMjEwL2Jha2E0NDQuZXh0ICJyb3J5QGRlbW8uY29tIiBESVJFQ1QvNzguMTA5LjE4LjIxMCBhcHBsaWNhdGlvbi94LWRvc2V4ZWMgQkxPQ0tfQU1XX1JFU1AtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1EZWZhdWx0Um91dGluZyA8bmMsLTQuMCwwLC0sLSwtLC0sMjMsLSwwLDEsMSwiRmFrZUFsZXJ0LVNweXdhcmVHdWFyZC5nZW4uYiIsLSwtLG5jLC0+IC0gIk1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwLjY7IHJ2OjUuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC81LjAiIC0gIlVua25vd24iIDc4LjEwOS4xOC4yMTAK"
+				}
+			},
+			"first_observed": "2021-08-17T18:03:00.000Z",
+			"last_observed": "2021-08-17T18:03:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--bb4d7837-07a8-48b6-938d-2b870412934a",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.384Z",
+			"modified": "2021-08-31T21:19:49.384Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "url",
+					"value": "http://444.er18.com/config.txt"
+				},
+				"3": {
+					"type": "domain-name",
+					"value": "444.er18.com"
+				},
+				"4": {
+					"type": "artifact",
+					"payload_bin": "MTYyODI4MDQzNi4wMDAwMDAgMTEwIDE3Mi4yMC4xMy4xMDQgVENQX0RFTklFRC80MDMgMTkwMSBHRVQgaHR0cDovLzQ0NC5lcjE4LmNvbS9jb25maWcudHh0ICJyb3J5QGRlbW8uY29tIiBOT05FLy0gLSBCTE9DS19BTVdfUkVRLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtTk9ORSA8bmMsLTcuMSwyNSwiVmlydXMtT3R3eWNhbCIsMTAwLDE1NDUzLDQwNTg4MCwtLC0sLSwtLC0sLSwtLC0sbmMsLT4gLSAtMTM4MzY3OTM2MC42OSAxNjkyMiAyNy4xMDIuMC4wIFRDUF9SRUZSRVNIX0hJVC8yMDAgNDc0IEdFVCBodHRwOi8vZGFtdGFyZS5ieS5ydS9pZC50eHQgInJvcnlAZGVtby5jb20iIERJUkVDVC9kYW10YXJlLmJ5LnJ1IHRleHQvaHRtbCBERUZBVUxUX0NBU0UtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1EZWZhdWx0Um91dGluZyA8SVdfc2N0eSwtNi45LDAsLSwtLC0sLSwwLC0sLSwtLC0sLSwtLC0sSVdfc2N0eSwtPiAtICJNb3ppbGxhLzUuMCAoTGludXg7IFU7IEFuZHJvaWQgMi4yOyBlbi11czsgU3ByaW50IEFQQTkyOTJLVCBCdWlsZC9GUkY5MSkgQXBwbGVXZWJLaXQvNTMzLjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzQuMCBNb2JpbGUgU2FmYXJpLzUzMy4xIiAtMTM4MzY3OTM2MC42OSAxNjkyMiAyNy4xMDIuMC4wIFRDUF9SRUZSRVNIX0hJVC8yMDAgNDc0IEdFVCBodHRwOi8vZGFtdGFyZS5ieS5ydS9pZC50eHQgInJvcnlAZGVtby5jb20iIERJUkVDVC9kYW10YXJlLmJ5LnJ1IHRleHQvaHRtbCBERUZBVUxUX0NBU0UtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksLTYuOSwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NjdHksLT4gLSAtICJTb2NpZXR5IGFuZCBDdWx0dXJlIiAyMDEuMy4xMjAuMTY1Cg=="
+				}
+			},
+			"first_observed": "2021-08-06T16:07:16.000Z",
+			"last_observed": "2021-08-06T16:07:16.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--0bbb87a0-6de4-4b08-a58c-554ef5ffa8a1",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.384Z",
+			"modified": "2021-08-31T21:19:49.384Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://sdelaem.cn/ZsC/cfg.bin"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "sdelaem.cn"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODI3MTE4MS4wMDAwMDAgMzI3IDE3Mi4yMC4xMy4xMDQgVENQX0RFTklFRC80MDMgMTkyMSBHRVQgaHR0cDovL3NkZWxhZW0uY24vWnNDL2NmZy5iaW4gInJvcnlAZGVtby5jb20iIE5PTkUvLSAtIEJMT0NLX0FNV19SRVEtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1OT05FIDxuYywtOSwyMywiVHJvamFuLUJhY2tkb29yLVpib3QiLDEwMCwxMjcxNCw1ODIyNDMsLSwtLC0sLSwtLC0sLSwtLG5jLC0+IC0gIkhUQy1TVDczNzcvMS41OS41MDIuMyAoNjcxNTApIE9wZXJhLzkuNTAgKFdpbmRvd3MgTlQgNS4xOyBVOyBlbikgVVAuTGluay82LjMuMS4xNy4wIiAtICJVbmtub3duIiAyMDEuMy4xMjAuMTY1Cg=="
+				}
+			},
+			"first_observed": "2021-08-06T13:33:01.000Z",
+			"last_observed": "2021-08-06T13:33:01.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--b66af85a-f32c-4786-a500-d6eecebda98f",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.384Z",
+			"modified": "2021-08-31T21:19:49.384Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "204.79.197.200"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://www.bing.com/search?q=texas+roadhouse&qa-n&form=QBLH&pq=texas+roadhouse&sc=8-3&sp=-1&sk=&cvid=b7dd5dd15d1f4a46ae004b8abba1b8f5"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "www.bing.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODI2MDM4NS4wMDAwMDAgODQ3NyAxNzIuMjAuMTMuMTA0IFRDUF9ISVQvMjAwIDQyMDYgR0VUIGh0dHA6Ly93d3cuYmluZy5jb20vc2VhcmNoP3E9dGV4YXMrcm9hZGhvdXNlJnFhLW4mZm9ybT1RQkxIJnBxPXRleGFzK3JvYWRob3VzZSZzYz04LTMmc3A9LTEmc2s9JmN2aWQ9YjdkZDVkZDE1ZDFmNGE0NmFlMDA0YjhhYmJhMWI4ZjUgInJvcnlAZGVtby5jb20iIERJUkVDVC93d3cuYmluZC5jb20gdGV4dC9odG1sIERFRkFVTFRfQ0FTRS1EZWZhdWx0R3JvdXAtRGVtb19DbGllbnRzLU5PTkUtTk9ORS1OT05FLURlZmF1bHRSb3V0aW5nIDxJV19zcmNoLG5zLDAsLSwtLC0sLSwwLC0sLSwtLC0sLSwtLC0sSVdfc3JjaCwtPiAtICJNb3ppbGxhLzUuMCAoTGludXg7IFU7IEFuZHJvaWQgMi4xLXVwZGF0ZTE7IGRlLWRlOyBIVEMgRGVzaXJlIDEuMTkuMTYxLjUgQnVpbGQvRVJFMjcpIEFwcGxlV2ViS2l0LzUzMC4xNyAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNC4wIE1vYmlsZSBTYWZhcmkvNTMwLjE3IiAtICJTZWFyY2ggRW5naW5lcyBhbmQgUG9ydGFscyIgMjA0Ljc5LjE5Ny4yMDAK"
+				}
+			},
+			"first_observed": "2021-08-06T10:33:05.000Z",
+			"last_observed": "2021-08-06T10:33:05.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--1f7f4bb4-1b19-4958-9b17-8571aa5e424d",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.384Z",
+			"modified": "2021-08-31T21:19:49.384Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 443
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "98.137.201.252"
+				},
+				"3": {
+					"type": "url",
+					"value": "https://search.yahoo.com/search;_ylt=A2KK_KfD3_9SjWwBpqibvZx4?p=bode+miller&toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-901"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "search.yahoo.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODI2MDEwOS4wMDAwMDAgNDY4OCAxNzIuMjAuMTMuMTA0IFRDUF9ISVQvMjAwIDQyMDYgR0VUIGh0dHBzOi8vc2VhcmNoLnlhaG9vLmNvbS9zZWFyY2g7X3lsdD1BMktLX0tmRDNfOVNqV3dCcHFpYnZaeDQ/cD1ib2RlK21pbGxlciZ0b2dnbGU9MSZjb3A9bXNzJmVpPVVURi04JmZyPXlmcC10LTkwMSAicm9yeUBkZW1vLmNvbSIgRElSRUNUL3NlYXJjaC55YWhvby5jb20gdGV4dC9odG1sIERFRkFVTFRfQ0FTRS1EZWZhdWx0R3JvdXAtRGVtb19DbGllbnRzLU5PTkUtTk9ORS1OT05FLURlZmF1bHRSb3V0aW5nIDxJV19zcmNoLG5zLDAsLSwtLC0sLSwwLC0sLSwtLC0sLSwtLC0sSVdfc3JjaCwtPiAtICJNb3ppbGxhLzUuMCAoaVBhZDsgVTsgQ1BVIE9TIDRfMl8xIGxpa2UgTWFjIE9TIFg7IGphLWpwKSBBcHBsZVdlYktpdC81MzMuMTcuOSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vNS4wLjIgTW9iaWxlLzhDMTQ4IFNhZmFyaS82NTMzLjE4LjUiIC0gIlNlYXJjaCBFbmdpbmVzIGFuZCBQb3J0YWxzIiA5OC4xMzcuMjAxLjI1Mgo="
+				}
+			},
+			"first_observed": "2021-08-06T10:28:29.000Z",
+			"last_observed": "2021-08-06T10:28:29.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--2f157e63-04e8-4bfa-8129-6a18cc91ba9e",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://damtare.by.ru/id.txt"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "damtare.by.ru"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODE3ODc5Ni4wMDAwMDAgMTY5MjIgMTcyLjIwLjEzLjEwNCBUQ1BfUkVGUkVTSF9ISVQvMjAwIDQ3NCBHRVQgaHR0cDovL2RhbXRhcmUuYnkucnUvaWQudHh0ICJyb3J5QGRlbW8uY29tIiBESVJFQ1QvZGFtdGFyZS5ieS5ydSB0ZXh0L2h0bWwgREVGQVVMVF9DQVNFLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksLTYuOSwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NjdHksLT4gLSAiTW96aWxsYS81LjAgKFgxMTsgTGludXggaTY4NjsgcnY6Ni4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzYuMCIgLSAiU29jaWV0eSBhbmQgQ3VsdHVyZSIgMjAxLjMuMTIwLjE2NQo="
+				}
+			},
+			"first_observed": "2021-08-05T11:53:16.000Z",
+			"last_observed": "2021-08-05T11:53:16.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--bbd51669-0a5c-43ea-a759-3280babba8ce",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "66.96.143.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://www.ati-amp.com/images/products_17.jpg"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "www.ati-amp.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODE3NzkxMC4wMDAwMDAgNTEgMTcyLjIwLjEzLjEwNCBUQ1BfUkVGUkVTSF9ISVQvMjAwIDk0NiBHRVQgaHR0cDovL3d3dy5hdGktYW1wLmNvbS9pbWFnZXMvcHJvZHVjdHNfMTcuanBnICJyb3J5QGRlbW8uY29tIiBESVJFQ1Qvd3d3LmF0aS1hbXAuY29tIGltYWdlL2pwZWcgREVGQVVMVF9DQVNFLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPG5jLG5zLDAsLSwtLC0sLSwwLC0sLSwtLC0sLSwtLC0sbmMsLT4gLSAiTW96aWxsYS80LjAgKGNvbXBhdGlibGU7IE1TSUUgNi4wOyBXaW5kb3dzIENFOyBJRU1vYmlsZSA3LjExKSIgaHR0cDovL3d3dy5hdGktYW1wLmNvbS8gIlVua25vd24iIDY2Ljk2LjE0My4xNjUK"
+				}
+			},
+			"first_observed": "2021-08-05T11:38:30.000Z",
+			"last_observed": "2021-08-05T11:38:30.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--78825b18-505c-4744-b3b9-e277df1406bb",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://damtare.by.ru/id.txt"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "damtare.by.ru"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODE3MTUxNS4wMDAwMDAgMTY5MjIgMTcyLjIwLjEzLjEwNCBUQ1BfUkVGUkVTSF9ISVQvMjAwIDQ3NCBHRVQgaHR0cDovL2RhbXRhcmUuYnkucnUvaWQudHh0ICJyb3J5QGRlbW8uY29tIiBESVJFQ1QvZGFtdGFyZS5ieS5ydSB0ZXh0L2h0bWwgREVGQVVMVF9DQVNFLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksLTYuOSwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NjdHksLT4gLSAiTW96aWxsYS81LjAgKFgxMTsgVTsgTGludXggaTY4NjsgZW4tVVM7IHJ2OjEuOC4xLjE2KSBHZWNrby8yMDA4MDcxNiAoR2VudG9vKSBHYWxlb24vMi4wLjYiIC0gIlNvY2lldHkgYW5kIEN1bHR1cmUiIDIwMS4zLjEyMC4xNjUK"
+				}
+			},
+			"first_observed": "2021-08-05T09:51:55.000Z",
+			"last_observed": "2021-08-05T09:51:55.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--4d1faa76-0020-4495-be64-adbb2ee0a9a5",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://damtare.by.ru/id.txt"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "damtare.by.ru"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODE3MTAwMS4wMDAwMDAgMTY5MjIgMTcyLjIwLjEzLjEwNCBUQ1BfUkVGUkVTSF9ISVQvMjAwIDQ3NCBHRVQgaHR0cDovL2RhbXRhcmUuYnkucnUvaWQudHh0ICJyb3J5QGRlbW8uY29tIiBESVJFQ1QvZGFtdGFyZS5ieS5ydSB0ZXh0L2h0bWwgREVGQVVMVF9DQVNFLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksLTYuOSwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NjdHksLT4gLSAiTW96aWxsYS81LjAgKFgxMTsgTGludXggaTY4NjsgcnY6MjAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8yMC4wIiAtICJTb2NpZXR5IGFuZCBDdWx0dXJlIiAyMDEuMy4xMjAuMTY1Cg=="
+				}
+			},
+			"first_observed": "2021-08-05T09:43:21.000Z",
+			"last_observed": "2021-08-05T09:43:21.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--c37473c0-9c56-42a7-82a3-87f15abe1a8b",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "204.79.197.200"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://www.bing.com/search?q=Olympic+Hockey&qa-n&form=QBLH&pq=Olympic+Hockey&sc=8-3&sp=-1&sk=&cvid=b7dd5dd15d1f4a46ae004b8abba1b8f5"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "www.bing.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODE1NjkxNS4wMDAwMDAgODQ3NyAxNzIuMjAuMTMuMTA0IFRDUF9ISVQvMjAwIDQyMDYgR0VUIGh0dHA6Ly93d3cuYmluZy5jb20vc2VhcmNoP3E9T2x5bXBpYytIb2NrZXkmcWEtbiZmb3JtPVFCTEgmcHE9T2x5bXBpYytIb2NrZXkmc2M9OC0zJnNwPS0xJnNrPSZjdmlkPWI3ZGQ1ZGQxNWQxZjRhNDZhZTAwNGI4YWJiYTFiOGY1ICJyb3J5QGRlbW8uY29tIiBESVJFQ1Qvd3d3LmJpbmQuY29tIHRleHQvaHRtbCBERUZBVUxUX0NBU0UtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1EZWZhdWx0Um91dGluZyA8SVdfc3JjaCxucywwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NyY2gsLT4gLSAiVUNXRUIvOC44IChpUGhvbmU7IENQVSBPU182OyBlbi1VUylBcHBsZVdlYktpdC81MzQuMSBVMy8zLjAuMCBNb2JpbGUiIC0gIlNlYXJjaCBFbmdpbmVzIGFuZCBQb3J0YWxzIiAyMDQuNzkuMTk3LjIwMAo="
+				}
+			},
+			"first_observed": "2021-08-05T05:48:35.000Z",
+			"last_observed": "2021-08-05T05:48:35.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--537f8f01-987d-4b37-b603-d9ab559930b4",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "185.186.142.32"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://fyz10eijkl03mytjfb.com"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "fyz10eijkl03mytjfb.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODE1MzI4Ny4wMDAwMDAgMTE3IDE3Mi4yMC4xMy4xMDQgVENQX01JU1MvMjAwIDI4NTc1IEdFVCBodHRwOi8vd3d3LmFpZ2Eub3JnL3Jlc291cmNlcy9ldmVudC8wL01vcm5pbmdCbGVuZF83NXg3NS5qcGcgInJvcnlAZGVtby5jb20iIERJUkVDVC93d3cuYWlnYS5vcmcgaW1hZ2UvanBlZyBERUZBVUxUX0NBU0UtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1EZWZhdWx0Um91dGluZyA8SVdfYXJ0LDUuMCwwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX2FydCwtPiAtICJBdmFudCBCcm93c2VyLzEuMi43ODlyZWwxIChodHRwOi8vd3d3LmF2YW50YnJvd3Nlci5jb20pIiBodHRwOi8vd3d3LmFpZ2Eub3JnLyAiQXJ0cyIgNzQuNDMuMjUzLjE5Mwo="
+				}
+			},
+			"first_observed": "2021-08-05T04:48:07.000Z",
+			"last_observed": "2021-08-05T04:48:07.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--5f75d65f-c3ba-42df-9c35-3fef65a79a57",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.385Z",
+			"modified": "2021-08-31T21:19:49.385Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "201.3.120.165"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://zsxz2.region.zhongsou.com/toolbar/tbsetup.exe.dat"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "zsxz2.region.zhongsou.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODEzNDMxNy4wMDAwMDAgNzU0IDE3Mi4yMC4xMy4xMDQgVENQX0RFTklFRC80MDMgMTk2NSBHRVQgaHR0cDovL3pzeHoyLnJlZ2lvbi56aG9uZ3NvdS5jb20vdG9vbGJhci90YnNldHVwLmV4ZS5kYXQgInJvcnlAZGVtby5jb20iIE5PTkUvLSAtIEJMT0NLX0FNV19SRVEtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1OT05FIDxuYywtNywxMywiemhvbmdzb3Ugenp0b29sYmFyIiwxMDAsMTUyMjUsMzU4NTk1LC0sLSwtLC0sLSwtLC0sLSxuYywtPiAtICJNb3ppbGxhLzQuMCAoY29tcGF0aWJsZTsgTGludXggMi42LjIyKSBOZXRGcm9udC8zLjQgS2luZGxlLzIuMCAoc2NyZWVuIDYwMHg4MDApIiAtICJVbmtub3duIiAyMDEuMy4xMjAuMTY1Cg=="
+				}
+			},
+			"first_observed": "2021-08-04T23:31:57.000Z",
+			"last_observed": "2021-08-04T23:31:57.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--0291e7e3-84b3-4d9d-b812-89c606b15da2",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.386Z",
+			"modified": "2021-08-31T21:19:49.386Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 443
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "74.125.225.178"
+				},
+				"3": {
+					"type": "url",
+					"value": "https://www.google.com/#q=richie+incognito"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "www.google.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODExOTA2My4wMDAwMDAgODQ3NyAxNzIuMjAuMTMuMTA0IFRDUF9ISVQvMjAwIDQyMDYgR0VUIGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vI3E9cmljaGllK2luY29nbml0byAicm9yeUBkZW1vLmNvbSIgRElSRUNUL3d3dy5nb29nbGUuY29tIHRleHQvaHRtbCBERUZBVUxUX0NBU0UtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1EZWZhdWx0Um91dGluZyA8SVdfc3JjaCxucywwLC0sLSwtLC0sMCwtLC0sLSwtLC0sLSwtLElXX3NyY2gsLT4gLSAiTW96aWxsYS81LjAgKGNvbXBhdGlibGU7IE1TSUUgOS4wOyBXaW5kb3dzIFBob25lIE9TIDcuNTsgVHJpZGVudC81LjA7IElFTW9iaWxlLzkuMCkiIC0gIlNlYXJjaCBFbmdpbmVzIGFuZCBQb3J0YWxzIiA3NC4xMjUuMjI1LjE3OAo="
+				}
+			},
+			"first_observed": "2021-08-04T19:17:43.000Z",
+			"last_observed": "2021-08-04T19:17:43.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--bf1ef946-3e71-4f51-9157-0faa66232771",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.386Z",
+			"modified": "2021-08-31T21:19:49.386Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "23.194.67.39"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://www.rei.com/pix/homepage/123109_main_4.jpg"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "www.rei.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODExMzkxOC4wMDAwMDAgMjIgMTcyLjIwLjEzLjEwNCBUQ1BfTUlTUy8yMDAgMTAzNTAgR0VUIGh0dHA6Ly93d3cucmVpLmNvbS9waXgvaG9tZXBhZ2UvMTIzMTA5X21haW5fNC5qcGcgInJvcnlAZGVtby5jb20iIERJUkVDVC93d3cucmVpLmNvbSAtIEFMTE9XX1dCUlMtRGVmYXVsdEdyb3VwLURlbW9fQ2xpZW50cy1OT05FLU5PTkUtTk9ORS1EZWZhdWx0Um91dGluZyA8SVdfc2hvcCw2LjUsLSwtLC0sLSwtLC0sLSwtLC0sLSwtLC0sLSxJV19zaG9wLC0+IC0gIk1vemlsbGEvNS4wIChTeW1iaWFuLzM7IFNlcmllczYwLzUuMiBOb2tpYUM2LTAxLzAxMS4wMTA7IFByb2ZpbGUvTUlEUC0yLjEgQ29uZmlndXJhdGlvbi9DTERDLTEuMSApIEFwcGxlV2ViS2l0LzUyNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMy4wIEJyb3dzZXJORy83LjIuNy4yIDNncHAtZ2JhIiBodHRwOi8vd3d3LnJlaS5jb20vICJTaG9wcGluZyIgMjMuMTk0LjY3LjM5Cg=="
+				}
+			},
+			"first_observed": "2021-08-04T17:51:58.000Z",
+			"last_observed": "2021-08-04T17:51:58.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--da3b541b-4357-428e-a425-9ea8bc42255f",
+			"type": "observed-data",
+			"created_by_ref": "identity--cdcf0576-90d2-4799-a17d-6733f30f76b4",
+			"created": "2021-08-31T21:19:49.386Z",
+			"modified": "2021-08-31T21:19:49.386Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "172.20.11.51"
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"dst_ref": "2",
+					"dst_port": 80
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "164.109.50.111"
+				},
+				"3": {
+					"type": "url",
+					"value": "http://www.cosmogirl.com/cm/cosmogirl/images/v01/touts/video_336/video_play_v2.gif"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "www.cosmogirl.com"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "MTYyODExMTc5MS4wMDAwMDAgNzQgMTcyLjIwLjEzLjEwNCBUQ1BfUkVGUkVTSF9ISVQvMjAwIDE3NzQgR0VUIGh0dHA6Ly93d3cuY29zbW9naXJsLmNvbS9jbS9jb3Ntb2dpcmwvaW1hZ2VzL3YwMS90b3V0cy92aWRlb18zMzYvdmlkZW9fcGxheV92Mi5naWYgInJvcnlAZGVtby5jb20iIERJUkVDVC93d3cuY29zbW9naXJsLmNvbSBpbWFnZS9naWYgREVGQVVMVF9DQVNFLURlZmF1bHRHcm91cC1EZW1vX0NsaWVudHMtTk9ORS1OT05FLU5PTkUtRGVmYXVsdFJvdXRpbmcgPElXX3NjdHksNS4wLDAsLSwtLC0sLSwwLC0sLSwtLC0sLSwtLC0sSVdfc2N0eSwtPiAtICJNb3ppbGxhLzQuMCAoY29tcGF0aWJsZTsgTVNJRSA3LjA7IFdpbmRvd3MgTlQgNS4xOyBBdmFudCBCcm93c2VyOyBBdmFudCBCcm93c2VyOyAuTkVUIENMUiAxLjAuMzcwNTsgLk5FVCBDTFIgMS4xLjQzMjI7IE1lZGlhIENlbnRlciBQQyA0LjA7IC5ORVQgQ0xSIDIuMC41MDcyNzsgLk5FVCBDTFIgMy4wLjA0NTA2LjMwKSIgaHR0cDovL3d3dy5jb3Ntb2dpcmwuY29tLyAiU29jaWV0eSBhbmQgQ3VsdHVyZSIgMTY0LjEwOS41MC4xMTEK"
+				}
+			},
+			"first_observed": "2021-08-04T17:16:31.000Z",
+			"last_observed": "2021-08-04T17:16:31.000Z",
+			"number_observed": 1
+		}
+	]
+}
