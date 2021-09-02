@@ -14,39 +14,14 @@
         {
           "id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693d",
 		  "type": "observed-data",
+		  "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa33",
           "created": "2020-09-13T14:47:36.796Z",
-          "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa33",
           "modified": "2020-09-13T14:47:36.796Z",
           "objects": {
             "0": {
               "type": "ipv4-addr",
               "value": "10.100.1.101"
-            },
-            "1": {
-              "dst_port": 0,
-              "dst_ref": "3",
-              "protocols": ["reserved"],
-              "src_port": 0,
-              "src_ref": "0",
-              "type": "network-traffic"
-            },
-            "2": {
-              "type": "mac-addr",
-              "value": "00:00:00:00:00:00"
-            },
-            "3": {
-              "resolves_to_refs": ["4"],
-              "type": "ipv4-addr",
-              "value": "10.100.1.105"
-            },
-            "4": {
-              "type": "mac-addr",
-              "value": "00:00:00:00:00:00"
-            },
-            "5": {
-              "type": "user-account",
-              "user_id": "test@example.com"
-            },
+            }
           },
 		  "first_observed": "2020-09-13T12:17:47.449Z",
           "last_observed": "2020-09-13T12:17:47.449Z",
