@@ -1,17 +1,67 @@
 {
-	"type": "bundle",
-	"id": "2a053794-8795-444d-930b-f88ff2aae9ad",
-	"spec_version": "2.0",
-	"objects": [
-	{
-			"type": "identity",
-			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-			"name": "shifter_proxy",
-			"identity_class": "events"
-		},
-        {
-            "id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693c",
-
+  "investigations": [
+    {
+      "case_id": 2111,
+      "org_id": 201,
+      "status": "Completed",
+      "start_ms": 1616583298000,
+      "stop_ms": 1616583298000,
+      "attack_metadata": {
+        "name": "Commonications with a suspicious domain",
+        "first_finding_timestamp": 1615380420000,
+        "last_finding_timestamp": 1615380429000,
+        "total_findings_count": 9,
+        "mitre_tactics": [
+          {
+            "mitre_id": "TA0001",
+            "confidence": 0.1,
+            "name": "Initial Access"
+          },
+          {
+            "mitre_id": "TA0005",
+            "confidence": 0.6,
+            "name": "Defense Evasion"
+          },
+          {
+            "mitre_id": "TA0002",
+            "confidence": 0.7,
+            "name": "Execution"
+          },
+          {
+            "mitre_id": "TA0006",
+            "confidence": 0.2,
+            "name": "Credential Access"
+          },
+          {
+            "mitre_id": "TA0007",
+            "confidence": 0.4,
+            "name": "Discovery"
+          },
+          {
+            "mitre_id": "TA0008",
+            "confidence": 0.6,
+            "name": "Lateral Movement"
+          },
+          {
+            "mitre_id": "TA0009",
+            "confidence": 0.9,
+            "name": "Collection"
+          },
+          {
+            "mitre_id": "TA00011",
+            "confidence": 0.1,
+            "name": "Command and Control"
+          },
+          {
+            "mitre_id": "TA00010",
+            "confidence": 0.7,
+            "name": "Exfiltration"
+          }
+        ],
+        "score": 0.92
+      },
+      "stix": {
+        "observed-data--8c6": {
           "created": "2020-09-13T14:47:36.796Z",
           "created_by_ref": "identity--111",
           "first_observed": "2020-09-13T12:17:47.449Z",
@@ -567,8 +617,711 @@
           },
           "type": "observed-data"
         }
-      }
-
-              ]
-
+      },
+      "attack_chain": [
+        {
+          "score": 20.5,
+          "asset_id": "1009",
+          "findings": [
+            {
+              "id": "sigma-0ba1da6d-b6ce-4366-828c-18826c9de23e",
+              "type": "symptom",
+              "name": "Highly Relevant Renamed Binary",
+              "description": "Detects the execution of a renamed binary often used by attackers or malware leveraging new Sysmon OriginalFileName datapoint.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0005",
+                  "confidence": 0.66,
+                  "name": "Defense Evasion"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0005",
+                      "confidence": 0.66,
+                      "name": "Defense Evasion"
+                    }
+                  ],
+                  "mitre_id": "T1036",
+                  "confidence": 0.66,
+                  "name": "Masquerading"
+                },
+                {
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0005",
+                      "confidence": 0.66,
+                      "name": "Defense Evasion"
+                    }
+                  ],
+                  "mitre_id": "T1036.003",
+                  "confidence": 0.66,
+                  "name": "Rename System Utilities"
+                }
+              ],
+              "sources": [
+                {
+                  "label": "Sigma",
+                  "link": "https://github.com/Neo23x0/sigma/tree/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml"
+                }
+              ],
+              "timestamp": 1615380421000,
+              "related_event_ids": ["observed-data--971"]
+            },
+            {
+              "id": "sigma-32d0d3e2-e58d-4d41-926b-18b520b2b32d",
+              "type": "symptom",
+              "name": "Credentials Dumping Tools Accessing LSASS Memory",
+              "description": "Detects process access LSASS memory which is typical for credentials dumping tools",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0006",
+                  "confidence": 0.66,
+                  "name": "Credential Access"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0006",
+                      "confidence": 0.66,
+                      "name": "Credential Access"
+                    }
+                  ],
+                  "mitre_id": "T1003",
+                  "confidence": 0.66,
+                  "name": "OS Credential Dumping"
+                },
+                {
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0006",
+                      "confidence": 0.66,
+                      "name": "Credential Access"
+                    }
+                  ],
+                  "mitre_id": "T1003.001",
+                  "confidence": 0.66,
+                  "name": "LSASS Memory"
+                }
+              ],
+              "sources": [
+                {
+                  "label": "Sigma",
+                  "link": "https://github.com/Neo23x0/sigma/tree/master/rules/windows/process_access/sysmon_cred_dump_lsass_access.yml"
+                }
+              ],
+              "timestamp": 1615380422000,
+              "related_event_ids": ["observed-data--972"]
+            },
+            {
+              "id": "55",
+              "type": "symptom",
+              "name": "Network Service Scanning",
+              "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans using tools that are brought onto a system.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0007",
+                  "confidence": 0.9,
+                  "name": "Discovery"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1046",
+                  "confidence": 0.9,
+                  "name": "Network Service Scanning",
+                  "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans using tools that are brought onto a system.",
+                  "link": "https://attack.mitre.org/techniques/T1046",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0007",
+                      "confidence": 0.9,
+                      "name": "Discovery"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                },
+                {
+                  "label": "Sigma",
+                  "link": "https://github.com/Neo23x0/sigma/tree/master/rules/windows/process_creation/win_advanced_ip_scanner.yml"
+                }
+              ],
+              "timestamp": 1615380423000,
+              "related_event_ids": ["observed-data--4eb"]
+            },
+            {
+              "id": "53",
+              "type": "symptom",
+              "name": "Evidence of Domain Generation Algorithms usage",
+              "description": "A query was made to a domain suspected to be generated by an algorithm. These domains are usually used for command and control communication by malware.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0011",
+                  "confidence": 0.2,
+                  "name": "Command And Control"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1568.002",
+                  "confidence": 0.6,
+                  "name": "Dynamic Resolution: Domain Generation Algorithms",
+                  "description": "Adversaries may make use of Domain Generation Algorithms (DGAs) to dynamically identify a destination domain for command and control traffic rather than relying on a list of static IP addresses or domains. This has the advantage of making it much harder for defenders block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions",
+                  "link": "https://attack.mitre.org/techniques/T1568/002/",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0041",
+                      "confidence": 0.2,
+                      "name": "Command And Control"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                }
+              ],
+              "timestamp": 1615380426000,
+              "related_event_ids": ["observed-data--5f7"]
+            },
+            {
+              "id": "119",
+              "type": "symptom",
+              "name": "Domain Squatting detected",
+              "description": "A query was made to a domain suspected to be disguising to a legitimate domain in order to confuse the victim, this technique is usually used for phishing",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0001",
+                  "confidence": 0.7,
+                  "name": "Initial Access"
+                },
+                {
+                  "mitre_id": "TA0002",
+                  "confidence": 0.6,
+                  "name": "Execution"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1566.002",
+                  "confidence": 0.5,
+                  "name": "Phishing: Spearphishing Link",
+                  "description": "Adversaries may send spearphishing emails with a malicious link in an attempt to elicit sensitive information and/or gain access to victim systems. Spearphishing with a link is a specific variant of spearphishing.",
+                  "link": "https://attack.mitre.org/techniques/T1566/002/",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0001",
+                      "confidence": 0.7,
+                      "name": "Initial Access"
+                    },
+                    {
+                      "mitre_id": "TA0002",
+                      "confidence": 0.6,
+                      "name": "Execution"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                }
+              ],
+              "timestamp": 1615380420000,
+              "related_event_ids": ["observed-data--78b"]
+            },
+            {
+              "id": "QRadar-10435b6a-408d-4288-b7cf-132d6e97dfbf",
+              "type": "symptom",
+              "name": "QRadar rule match: Large Outbound Data Transfer to a File Storage Host",
+              "description": "This event anomaly rule triggers when more than 1GB of data are transfered to a URL classified under the X-Force category Web Storage, within 24 hours. The rule is also configured to match on the proxy category populated in the Reference Set, File Storage Web Categories. &#xa;&#xa;Note: For more information, see the Large Outbound Data Transfer to a File Storage Host Log Activity saved search.",
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1029",
+                  "name": "Scheduled Transfer",
+                  "confidence": 0.9,
+                  "link": "https://attack.mitre.org/techniques/T1029",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0010",
+                      "name": "Exfiltration",
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "mitre_id": "T1030",
+                  "name": "Data Transfer Size Limits",
+                  "confidence": 0.9,
+                  "mitre_tactics": [
+                    {
+                      "id": "TA0010",
+                      "name": "Exfiltration",
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ],
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0010",
+                  "name": "Exfiltration",
+                  "confidence": 0.9
+                }
+              ],
+              "sources": [
+                {
+                  "label": "QRadar",
+                  "link": ""
+                }
+              ],
+              "timestamp": 1615380490000,
+              "related_event_ids": ["observed-data--eb6"]
+            }
+          ],
+          "events": [],
+          "flows": []
+        },
+        {
+          "asset_id": "1006",
+          "score": 0.8333333333333333,
+          "findings": [
+            {
+              "id": "77",
+              "type": "symptom",
+              "name": "Anomalous queries to cloud data store",
+              "description": "IBM Guardium monitoring on this data store indicates anomalous volumes of data extracted from this database.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0007",
+                  "confidence": 0.8,
+                  "name": "Discovery"
+                },
+                {
+                  "mitre_id": "TA0009",
+                  "confidence": 0.9,
+                  "name": "Collection"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1119",
+                  "confidence": 0.1,
+                  "name": "Automated Collection",
+                  "description": "Once established within a system or network, an adversary may use automated techniques for collecting internal data.",
+                  "link": "https://attack.mitre.org/techniques/T1119/",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0007",
+                      "confidence": 0.8,
+                      "name": "Discovery"
+                    },
+                    {
+                      "mitre_id": "TA0009",
+                      "confidence": 0.9,
+                      "name": "Collection"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                },
+                {
+                  "label": "Sigma",
+                  "link": "https://github.com/Neo23x0/sigma/blob/master/rules/application/app_python_sql_exceptions.yml"
+                }
+              ],
+              "timestamp": 1615380425000,
+              "related_event_ids": ["observed-data--3ee"]
+            }
+          ],
+          "events": [],
+          "flows": []
+        },
+        {
+          "asset_id": "app.example.com",
+          "score": 0.8333333333333333,
+          "findings": [
+            {
+              "id": "121",
+              "type": "symptom",
+              "name": "Execution on a container",
+              "description": "Usage of the Openshift Exec command was found. This may allow an attacker to gain access to other systems, gather information, or cause a specific effect.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0002",
+                  "confidence": 0.5,
+                  "name": "Execution"
+                },
+                {
+                  "mitre_id": "TA0008",
+                  "confidence": 0.6,
+                  "name": "Lateral Movement"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1072",
+                  "confidence": 0.5,
+                  "name": "Software Deployment Tools",
+                  "description": "Adversaries may gain access to and use third-party software suites installed within an enterprise network, such as administration, monitoring, etc.",
+                  "link": "https://attack.mitre.org/techniques/T1072/",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0002",
+                      "confidence": 0.5,
+                      "name": "Execution"
+                    },
+                    {
+                      "mitre_id": "TA0008",
+                      "confidence": 0.6,
+                      "name": "Lateral Movement"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                }
+              ],
+              "timestamp": 1615380424000,
+              "related_event_ids": ["observed-data--8c6"]
+            },
+            {
+              "id": "55",
+              "type": "symptom",
+              "name": "Network Service Scanning",
+              "description": "Within cloud environments, adversaries may attempt to discover services running on other cloud hosts. Additionally, if the cloud environment is connected to a on-premises environment, adversaries may be able to identify services running on non-cloud systems as well.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0007",
+                  "confidence": 0.9,
+                  "name": "Discovery"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1046",
+                  "confidence": 0.9,
+                  "name": "Network Service Scanning",
+                  "description": "Network traffic between this host and a suspicious IP adress was identified.",
+                  "link": "https://attack.mitre.org/techniques/T1046",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0007",
+                      "confidence": 0.9,
+                      "name": "Discovery"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                }
+              ],
+              "timestamp": 1615380424100,
+              "related_event_ids": ["observed-data--4eb"]
+            }
+          ],
+          "events": [],
+          "flows": []
+        }
+      ],
+      "assets": {
+        "internal": {
+          "1006": {
+            "hostname": "database.example.com",
+            "ipaddress": ["10.100.1.99"],
+            "type": "Data Store"
+          },
+          "1009": {
+            "hostname": "user-workstation.example.com",
+            "ipaddress": ["10.100.1.101"],
+            "type": "User Workstation"
+          },
+          "app.example.com": {
+            "hostname": "app.example.com",
+            "ipaddress": ["10.100.1.103"],
+            "type": "Pod"
+          }
+        },
+        "external": {
+          "1011": {
+            "value": "10.100.1.97",
+            "type": "IpAddress"
+          },
+          "1012": {
+            "value": "btjfkg1sfiuby1r96tuy1yz0he.net",
+            "type": "DomainName"
+          }
+        }
+      },
+      "links": [
+        {
+          "src": "1009",
+          "dst": "app.example.com",
+          "findings": [
+            {
+              "id": "121",
+              "type": "symptom",
+              "name": "Execution on a container",
+              "description": "Usage of the Openshift Exec command was found. This may allow an attacker to gain access to other systems, gather information, or cause a specific effect.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0002",
+                  "confidence": 0.5,
+                  "name": "Execution"
+                },
+                {
+                  "mitre_id": "TA0008",
+                  "confidence": 0.4,
+                  "name": "Lateral Movement"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1072",
+                  "confidence": 0.5,
+                  "name": "Software Deployment Tools",
+                  "description": "Adversaries may gain access to and use third-party software suites installed within an enterprise network, such as administration, monitoring, etc.",
+                  "link": "https://attack.mitre.org/techniques/T1072/",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0002",
+                      "confidence": 0.5,
+                      "name": "Execution"
+                    },
+                    {
+                      "mitre_id": "TA0008",
+                      "confidence": 0.4,
+                      "name": "Lateral Movement"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                }
+              ],
+              "timestamp": 1599983162000,
+              "related_event_ids": ["observed-data--8c6"]
+            }
+          ]
+        },
+        {
+          "src": "app.example.com",
+          "dst": "1006",
+          "findings": [
+            {
+              "id": "77",
+              "type": "symptom",
+              "name": "Anomalous queries detected to cloud data store",
+              "description": "IBM Guardium monitoring on this data store indicates anomalous volumes of data extracted from this database.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0007",
+                  "confidence": 0.8,
+                  "name": "Discovery"
+                },
+                {
+                  "mitre_id": "TA0009",
+                  "confidence": 0.2,
+                  "name": "Collection"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1119",
+                  "confidence": 0.1,
+                  "name": "Automated Collection",
+                  "description": "Once established within a system or network, an adversary may use automated techniques for collecting internal data.",
+                  "link": "https://attack.mitre.org/techniques/T1119/",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0007",
+                      "confidence": 0.8,
+                      "name": "Discovery"
+                    },
+                    {
+                      "mitre_id": "TA0009",
+                      "confidence": 0.2,
+                      "name": "Collection"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                },
+                {
+                  "label": "Sigma",
+                  "link": "https://github.com/Neo23x0/sigma/blob/master/rules/application/app_python_sql_exceptions.yml"
+                }
+              ],
+              "timestamp": 1599985116000,
+              "related_event_ids": ["observed-data--3ee"]
+            }
+          ]
+        },
+        {
+          "dst": "app.example.com",
+          "src": "1006",
+          "findings": [
+            {
+              "id": "55",
+              "type": "symptom",
+              "name": "Network Service Scanning",
+              "description": "Within cloud environments, adversaries may attempt to discover services running on other cloud hosts. Additionally, if the cloud environment is connected to a on-premises environment, adversaries may be able to identify services running on non-cloud systems as well.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0007",
+                  "confidence": 0.9,
+                  "name": "Discovery"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1046",
+                  "confidence": 0.9,
+                  "name": "Network Service Scanning",
+                  "description": "Network traffic between this host and a suspicious IP adress was identified.",
+                  "link": "https://attack.mitre.org/techniques/T1046",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0007",
+                      "confidence": 0.9,
+                      "name": "Discovery"
+                    }
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "IBM Knowledge Base",
+                  "link": "https://ibm.com"
+                }
+              ],
+              "timestamp": 1615380424100,
+              "related_event_ids": ["observed-data--4eb"]
+            }
+          ]
+        },
+        {
+          "src": "1009",
+          "dst": "1012",
+          "findings": [
+            {
+              "id": "55",
+              "type": "symptom",
+              "name": "Network Service Scanning",
+              "description": "Within cloud environments, adversaries may attempt to discover services running on other cloud hosts. Additionally, if the cloud environment is connected to a on-premises environment, adversaries may be able to identify services running on non-cloud systems as well.",
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0007",
+                  "confidence": 0.9,
+                  "name": "Discovery"
+                }
+              ],
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1046",
+                  "confidence": 0.9,
+                  "name": "Network Service Scanning",
+                  "description": "This host tried to resolve a suspicious domain name.",
+                  "link": "https://attack.mitre.org/techniques/T1046",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0007",
+                      "confidence": 0.9,
+                      "name": "Discovery"
+                    }
+                  ]
+                }
+              ],
+              "sources": [],
+              "timestamp": 1599982637000,
+              "related_event_ids": ["observed-data--4eb"]
+            }
+          ]
+        },
+        {
+          "src": "1009",
+          "dst": "1011",
+          "findings": [
+            {
+              "id": "QRadar-10435b6a-408d-4288-b7cf-132d6e97dfbf",
+              "type": "symptom",
+              "name": "QRadar rule match: Large Outbound Data Transfer to a File Storage Host",
+              "description": "This event anomaly rule triggers when more than 1GB of data are transfered to a URL classified under the X-Force category Web Storage, within 24 hours. The rule is also configured to match on the proxy category populated in the Reference Set, File Storage Web Categories. &#xa;&#xa;Note: For more information, see the Large Outbound Data Transfer to a File Storage Host Log Activity saved search.",
+              "mitre_techniques": [
+                {
+                  "mitre_id": "T1029",
+                  "name": "Scheduled Transfer",
+                  "confidence": 0.9,
+                  "link": "https://attack.mitre.org/techniques/T1029",
+                  "mitre_tactics": [
+                    {
+                      "mitre_id": "TA0010",
+                      "name": "Exfiltration",
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "mitre_id": "T1030",
+                  "name": "Data Transfer Size Limits",
+                  "confidence": 0.9,
+                  "mitre_tactics": [
+                    {
+                      "id": "TA0010",
+                      "name": "Exfiltration",
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ],
+              "mitre_tactics": [
+                {
+                  "mitre_id": "TA0010",
+                  "name": "Exfiltration",
+                  "confidence": 0.9
+                }
+              ],
+              "sources": [
+                {
+                  "label": "QRadar",
+                  "link": ""
+                }
+              ],
+              "timestamp": 1615380490000,
+              "related_event_ids": ["observed-data--eb6"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
