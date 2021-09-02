@@ -47,10 +47,6 @@
               "type": "user-account",
               "user_id": "test@example.com"
             },
-            "6": {
-              "payload_bin": "DUMMYPAYLOAD",
-              "type": "artifact"
-            }  
           },
 		  "first_observed": "2020-09-13T12:17:47.449Z",
           "last_observed": "2020-09-13T12:17:47.449Z",
