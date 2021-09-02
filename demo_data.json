@@ -1,0 +1,567 @@
+{
+	"type": "bundle",
+	"id": "2a053794-8795-444d-930b-f88ff2aae9ad",
+	"spec_version": "2.0",
+	"objects": [
+	{
+        "observed-data--8c6": {
+          "created": "2020-09-13T14:47:36.796Z",
+          "created_by_ref": "identity--111",
+          "first_observed": "2020-09-13T12:17:47.449Z",
+          "id": "observed-data--8c6",
+          "last_observed": "2020-09-13T12:17:47.449Z",
+          "modified": "2020-09-13T14:47:36.796Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "resolves_to_refs": ["2"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.101"
+            },
+            "1": {
+              "dst_port": 0,
+              "dst_ref": "3",
+              "protocols": ["reserved"],
+              "src_port": 0,
+              "src_ref": "0",
+              "type": "network-traffic"
+            },
+            "2": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "3": {
+              "resolves_to_refs": ["4"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.105"
+            },
+            "4": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "5": {
+              "type": "user-account",
+              "user_id": "test@example.com"
+            },
+            "6": {
+              "payload_bin": "DUMMYPAYLOAD",
+              "type": "artifact"
+            }
+          },
+          "type": "observed-data",
+          "x_com_ibm_ariel": {
+            "category_id": 19009,
+            "category_name": "Procedure/Trigger Execution",
+            "cre_event_list": ["100202", "100205", "100211", "100209", "100199"],
+            "credibility": 10,
+            "device_type": 446,
+            "device_type_name": "Kubernetes Auditing",
+            "direction": "L2L",
+            "domain_id": 0,
+            "event_name": "Execute a command in a Pod",
+            "geographic": "other",
+            "high_level_category_id": 19000,
+            "high_level_category_name": "Audit",
+            "identity_ip": "0.0.0.0",
+            "log_source_id": 1112,
+            "log_source_name": "k8s-auditing",
+            "log_source_type_name": "Device type 1112",
+            "magnitude": 6,
+            "qid": 113500870,
+            "relevance": 10,
+            "rule_names": [
+              "Destination Asset Exists",
+              "Destination Network Weight is Low",
+              "Source Network Weight is Low",
+              "Source Asset Exists",
+              "Context is Local to Local"
+            ],
+            "severity": 1,
+            "type": "x-com-ibm-ariel"
+          }
+        },
+        "observed-data--3ee": {
+          "created": "2020-09-13T06:33:02.541Z",
+          "created_by_ref": "identity--20f",
+          "first_observed": "2020-09-13T09:00:17.000Z",
+          "id": "observed-data--3ee",
+          "last_observed": "2020-09-13T09:00:17.000Z",
+          "modified": "2020-09-13T06:33:02.541Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "type": "user-account",
+              "user_id": "TESTUSER"
+            },
+            "1": {
+              "type": "ipv4-addr",
+              "value": "10.100.1.99"
+            },
+            "2": {
+              "dst_port": 3306,
+              "dst_ref": "1",
+              "src_port": 51814,
+              "src_ref": "3",
+              "type": "network-traffic"
+            },
+            "3": {
+              "type": "ipv4-addr",
+              "value": "10.100.1.107"
+            }
+          },
+          "type": "observed-data",
+          "x_com_guardium": {
+            "anomaly_score": 100,
+            "db_user": "TESTUSER",
+            "error_outlier": "false",
+            "high_volume_outlier": "true",
+            "new_outlier": "false",
+            "service_name": "10.100.1.99:5.6.27",
+            "source_program": "MYSQL CLIENT",
+            "temp_outlier": "false",
+            "type": "x-com-guardium"
+          }
+        },
+        "observed-data--4eb": {
+          "created": "2020-09-13T06:45:05.553Z",
+          "created_by_ref": "identity--129",
+          "first_observed": "2020-09-13T06:45:05.553Z",
+          "id": "observed-data--4eb",
+          "last_observed": "2020-09-13T06:45:05.553Z",
+          "modified": "2020-09-13T06:45:05.553Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "resolves_to_refs": ["2"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.103"
+            },
+            "1": {
+              "dst_port": 0,
+              "dst_ref": "3",
+              "protocols": ["reserved"],
+              "src_port": 60057,
+              "src_ref": "0",
+              "type": "network-traffic"
+            },
+            "2": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "3": {
+              "resolves_to_refs": ["4"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.97"
+            },
+            "4": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "5": {
+              "payload_bin": "DUMMYPAYLOAD",
+              "type": "artifact"
+            },
+            "6": {
+              "type": "url",
+              "value": "btjfkg1sfiuby1r96tuy1yz0he.net"
+            }
+          },
+          "type": "observed-data"
+        },
+        "observed-data--5f7": {
+          "created": "2020-09-13T14:54:17.940Z",
+          "created_by_ref": "identity--111",
+          "first_observed": "2020-09-13T12:25:03.380Z",
+          "id": "observed-data--5f7",
+          "last_observed": "2020-09-13T12:25:03.380Z",
+          "modified": "2020-09-13T14:54:17.940Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "resolves_to_refs": ["2"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.101"
+            },
+            "1": {
+              "dst_port": 0,
+              "dst_ref": "3",
+              "protocols": ["reserved"],
+              "src_port": 52327,
+              "src_ref": "0",
+              "type": "network-traffic"
+            },
+            "2": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "3": {
+              "resolves_to_refs": ["4"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.95"
+            },
+            "4": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "5": {
+              "payload_bin": "DUMMYPAYLOAD",
+              "type": "artifact"
+            },
+            "6": {
+              "type": "url",
+              "value": "btjfkg1sfiuby1r96tuy1yz0he.net"
+            },
+            "7": {
+              "type": "domain-name",
+              "value": "btjfkg1sfiuby1r96tuy1yz0he.net"
+            }
+          },
+          "type": "observed-data",
+          "x_com_ibm_ariel": {
+            "category_id": 13003,
+            "category_name": "Potential DNS Exploit",
+            "cre_event_list": [
+              "100153",
+              "100135",
+              "100107",
+              "100205",
+              "100211",
+              "100209",
+              "100199",
+              "100086",
+              "100244"
+            ],
+            "credibility": 10,
+            "device_type": 4011,
+            "device_type_name": "IBM DNS Analyzer",
+            "direction": "L2L",
+            "domain_id": 0,
+            "event_name": "DGA Domain Detected",
+            "geographic": "other",
+            "high_level_category_id": 13000,
+            "high_level_category_name": "Potential Exploit",
+            "identity_ip": "0.0.0.0",
+            "log_source_id": 762,
+            "log_source_name": "IBM DNS Analyzer",
+            "log_source_type_name": "Device type 762",
+            "magnitude": 9,
+            "qid": 1004750002,
+            "relevance": 10,
+            "rule_names": [
+              "BB:CategoryDefinition: Suspicious Event Categories",
+              "BB:CategoryDefinition: Suspicious Events",
+              "BB:CategoryDefinition: Exploits Backdoors and Trojans",
+              "Destination Network Weight is Low",
+              "Source Network Weight is Low",
+              "Source Asset Exists",
+              "Context is Local to Local",
+              "BB:BehaviorDefinition: Compromise Activities",
+              "Load Basic Building Blocks"
+            ],
+            "severity": 7,
+            "type": "x-com-ibm-ariel"
+          }
+        },
+        "observed-data--78b": {
+          "created": "2020-09-13T14:52:14.404Z",
+          "created_by_ref": "identity--111",
+          "first_observed": "2020-09-13T12:23:05.169Z",
+          "id": "observed-data--78b",
+          "last_observed": "2020-09-13T12:23:05.169Z",
+          "modified": "2020-09-13T14:52:14.404Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "resolves_to_refs": ["2"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.101"
+            },
+            "1": {
+              "dst_port": 0,
+              "dst_ref": "3",
+              "protocols": ["reserved"],
+              "src_port": 48506,
+              "src_ref": "0",
+              "type": "network-traffic"
+            },
+            "2": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "3": {
+              "resolves_to_refs": ["4"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.95"
+            },
+            "4": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "5": {
+              "payload_bin": "DUMMYPAYLOAD",
+              "type": "artifact"
+            },
+            "6": {
+              "type": "url",
+              "value": "faceb00k.com"
+            },
+            "7": {
+              "type": "domain-name",
+              "value": "faceb00k.com"
+            }
+          },
+          "type": "observed-data",
+          "x_com_ibm_ariel": {
+            "category_id": 13003,
+            "category_name": "Potential DNS Exploit",
+            "cre_event_list": [
+              "100153",
+              "100135",
+              "100107",
+              "100205",
+              "100211",
+              "100209",
+              "100199",
+              "100086",
+              "100244"
+            ],
+            "credibility": 10,
+            "device_type": 4011,
+            "device_type_name": "IBM DNS Analyzer",
+            "direction": "L2L",
+            "domain_id": 0,
+            "event_name": "Squatting Domain Detected",
+            "geographic": "other",
+            "high_level_category_id": 13000,
+            "high_level_category_name": "Potential Exploit",
+            "identity_ip": "0.0.0.0",
+            "log_source_id": 762,
+            "log_source_name": "IBM DNS Analyzer",
+            "log_source_type_name": "Device type 762",
+            "magnitude": 9,
+            "qid": 1004750003,
+            "relevance": 10,
+            "rule_names": [
+              "BB:CategoryDefinition: Suspicious Event Categories",
+              "BB:CategoryDefinition: Suspicious Events",
+              "BB:CategoryDefinition: Exploits Backdoors and Trojans",
+              "Destination Network Weight is Low",
+              "Source Network Weight is Low",
+              "Source Asset Exists",
+              "Context is Local to Local",
+              "BB:BehaviorDefinition: Compromise Activities",
+              "Load Basic Building Blocks"
+            ],
+            "severity": 7,
+            "type": "x-com-ibm-ariel"
+          }
+        },
+        "observed-data--971": {
+          "created": "2020-09-13T14:47:44.818Z",
+          "created_by_ref": "identity--f43",
+          "first_observed": "2020-09-13T12:17:43.318635Z",
+          "id": "observed-data--971",
+          "last_observed": "2020-09-13T12:17:43.318635Z",
+          "modified": "2020-09-13T14:47:44.818Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "cid": "2f1affffc",
+              "name": "app.example.com",
+              "runtime": "CT_CRIO",
+              "type": "x-ecs-container"
+            },
+            "1": {
+              "arguments": [],
+              "created": "2020-09-13T12:16:21.375628Z",
+              "creator_user_ref": "5",
+              "name": "mal_agent",
+              "parent_ref": "2",
+              "pid": 763,
+              "type": "process",
+              "x_ecs_args_count": 0,
+              "x_ecs_container_ref": "0",
+              "x_ecs_event_ref": "4",
+              "x_sf_accessed_file_refs": "3"
+            },
+            "2": {
+              "arguments": [],
+              "created": "2020-09-13T02:16:21.375561Z",
+              "creator_user_ref": "5",
+              "name": "/bin/runc",
+              "pid": 1013,
+              "type": "process",
+              "x_ecs_args_count": 0,
+              "x_ecs_container_ref": "0"
+            },
+            "3": {
+              "name": "/tmp/enc.enc",
+              "type": "file",
+              "x_ecs_type": "file",
+              "x_sf_bytes_read": 0,
+              "x_sf_bytes_written": 139810488
+            },
+            "4": {
+              "action": "open,write,close",
+              "category": "file",
+              "duration": 0,
+              "ecs_type": "access",
+              "kind": "Encrypted file created",
+              "sf_type": "FF",
+              "type": "x-ecs-event"
+            },
+            "5": {
+              "account_login": "1000520000",
+              "extensions": {
+                "unix-account-ext": {
+                  "gid": "0",
+                  "groups": ["root"]
+                }
+              },
+              "type": "user-account",
+              "user_id": "1000520000"
+            }
+          },
+          "type": "observed-data"
+        },
+        "observed-data--972": {
+          "created": "2020-09-13T14:47:44.818Z",
+          "created_by_ref": "identity--f43",
+          "first_observed": "2020-09-13T12:17:43.318635Z",
+          "id": "observed-data--972",
+          "last_observed": "2020-09-13T12:17:43.318635Z",
+          "modified": "2020-09-13T14:47:44.818Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "cid": "2f1affffc",
+              "name": "app.example.com",
+              "runtime": "CT_CRIO",
+              "type": "x-ecs-container"
+            },
+            "1": {
+              "arguments": [],
+              "created": "2020-09-13T12:16:21.375628Z",
+              "creator_user_ref": "5",
+              "name": "mal_agent",
+              "parent_ref": "2",
+              "pid": 763,
+              "type": "process",
+              "x_ecs_args_count": 0,
+              "x_ecs_container_ref": "0",
+              "x_ecs_event_ref": "4",
+              "x_sf_accessed_file_refs": "3"
+            },
+            "2": {
+              "arguments": [],
+              "created": "2020-09-13T02:16:21.375561Z",
+              "creator_user_ref": "5",
+              "name": "/bin/runc",
+              "pid": 1013,
+              "type": "process",
+              "x_ecs_args_count": 0,
+              "x_ecs_container_ref": "0"
+            },
+            "3": {
+              "name": "/tmp/enc.enc",
+              "type": "file",
+              "x_ecs_type": "file",
+              "x_sf_bytes_read": 0,
+              "x_sf_bytes_written": 139810488
+            },
+            "4": {
+              "action": "open,write,close",
+              "category": "file",
+              "duration": 0,
+              "ecs_type": "access",
+              "kind": "Encrypted file created",
+              "sf_type": "FF",
+              "type": "x-ecs-event"
+            },
+            "5": {
+              "account_login": "1000520000",
+              "extensions": {
+                "unix-account-ext": {
+                  "gid": "0",
+                  "groups": ["root"]
+                }
+              },
+              "type": "user-account",
+              "user_id": "1000520000"
+            }
+          },
+          "type": "observed-data"
+        },
+        "observed-data--eb6": {
+          "created": "2020-09-13T14:47:44.815Z",
+          "created_by_ref": "identity--f43",
+          "first_observed": "2020-09-13T12:17:38.981401Z",
+          "id": "observed-data--eb6",
+          "last_observed": "2020-09-13T12:17:38.981401Z",
+          "modified": "2020-09-13T14:47:44.815Z",
+          "number_observed": 1,
+          "objects": {
+            "0": {
+              "cid": "2f1affffc",
+              "name": "app.example.com",
+              "runtime": "CT_CRIO",
+              "type": "x-ecs-container"
+            },
+            "1": {
+              "arguments": [],
+              "created": "2020-09-13T12:16:21.375628Z",
+              "creator_user_ref": "5",
+              "name": "mal_agent",
+              "parent_ref": "2",
+              "pid": 763,
+              "type": "process",
+              "x_ecs_args_count": 0,
+              "x_ecs_container_ref": "0",
+              "x_ecs_event_ref": "4",
+              "x_sf_accessed_file_refs": "3"
+            },
+            "2": {
+              "arguments": [],
+              "created": "2020-09-13T02:16:21.375561Z",
+              "creator_user_ref": "5",
+              "name": "/bin/runc",
+              "pid": 1013,
+              "type": "process",
+              "x_ecs_args_count": 0,
+              "x_ecs_container_ref": "0"
+            },
+            "3": {
+              "name": "/etc",
+              "type": "file",
+              "x_ecs_type": "file",
+              "x_sf_bytes_read": 9999999,
+              "x_sf_bytes_written": 0
+            },
+            "4": {
+              "action": "open,read,close",
+              "category": "file",
+              "duration": 0,
+              "ecs_type": "access",
+              "kind": "Extensive file reads",
+              "sf_type": "FF",
+              "type": "x-ecs-event"
+            },
+            "5": {
+              "account_login": "1000520000",
+              "extensions": {
+                "unix-account-ext": {
+                  "gid": "0",
+                  "groups": ["root"]
+                }
+              },
+              "type": "user-account",
+              "user_id": "1000520000"
+            }
+          },
+          "type": "observed-data"
+        }
+      }
+
+              ]
+
+}
