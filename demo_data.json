@@ -86,6 +86,47 @@
 		  "first_observed": "2020-09-13T06:33:02.541Z",
           "last_observed": "2020-09-13T06:33:02.541Z",
 		  "number_observed": 1
+		},
+		{
+		   "id": "observed-data--c14de57f-f547-498a-bb62-352744f6336e",
+	       "type": "observed-data",
+		   "created_by_ref": "identity--150ff745-857a-474f-848a-96709fb97351",
+			"created": "2020-09-13T06:33:02.541Z",
+			"modified": "2020-09-13T06:33:02.541Z",
+          "x_com_ibm_ariel": {
+            "category_id": 19009,
+            "category_name": "Procedure/Trigger Execution",
+            "cre_event_list": ["100202", "100205", "100211", "100209", "100199"],
+            "credibility": 10,
+            "device_type": 446,
+            "device_type_name": "Kubernetes Auditing",
+            "direction": "L2L",
+            "domain_id": 0,
+            "event_name": "Execute a command in a Pod",
+            "geographic": "other",
+            "high_level_category_id": 19000,
+            "high_level_category_name": "Audit",
+            "identity_ip": "0.0.0.0",
+            "log_source_id": 1112,
+            "log_source_name": "k8s-auditing",
+            "log_source_type_name": "Device type 1112",
+            "magnitude": 6,
+            "qid": 113500870,
+            "relevance": 10,
+            "rule_names": [
+              "Destination Asset Exists",
+              "Destination Network Weight is Low",
+              "Source Network Weight is Low",
+              "Source Asset Exists",
+              "Context is Local to Local"
+            ],
+            "severity": 1,
+            "type": "x-com-ibm-ariel"
+          }
+        }'
+			"first_observed": "2020-09-13T06:33:02.541Z",
+			"last_observed": "2020-09-13T06:33:02.541Z",
+			"number_observed": 1
 		}
      ]
 }
