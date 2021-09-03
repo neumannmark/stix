@@ -21,10 +21,70 @@
             "0": {
               "type": "ipv4-addr",
               "value": "10.100.1.101"
+            },
+            "1": {
+              "dst_port": 0,
+              "dst_ref": "3",
+              "protocols": ["reserved"],
+              "src_port": 0,
+              "src_ref": "0",
+              "type": "network-traffic"
+            },
+            "2": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "3": {
+              "resolves_to_refs": ["4"],
+              "type": "ipv4-addr",
+              "value": "10.100.1.105"
+            },
+            "4": {
+              "type": "mac-addr",
+              "value": "00:00:00:00:00:00"
+            },
+            "5": {
+              "type": "user-account",
+              "user_id": "test@example.com"
+            },
+            "6": {
+              "payload_bin": "DUMMYPAYLOAD",
+              "type": "artifact"
             }
           },
 		  "first_observed": "2020-09-13T12:17:47.449Z",
           "last_observed": "2020-09-13T12:17:47.449Z",
+		  "number_observed": 1
+		},
+		{
+			"id": "observed-data--fb4e8af3-a35b-4b80-9986-e5a9a0e41870",
+			"type": "observed-data",
+			"created_by_ref": "identity--150ff745-857a-474f-848a-96709fb97351",
+			"created": "2020-09-13T06:33:02.541Z",
+			"modified": "2020-09-13T06:33:02.541Z",
+			"objects": {
+            "0": {
+              "type": "user-account",
+              "user_id": "TESTUSER"
+            },
+            "1": {
+              "type": "ipv4-addr",
+              "value": "10.100.1.99"
+            },
+            "2": {
+              "dst_port": 3306,
+              "dst_ref": "1",
+              "src_port": 51814,
+              "src_ref": "3",
+              "type": "network-traffic"
+            },
+            "3": {
+              "type": "ipv4-addr",
+              "value": "10.100.1.107"
+            }
+			},
+		  "first_observed": "2020-09-13T06:33:02.541Z",
+          "last_observed": "2020-09-13T06:33:02.541Z",
 		  "number_observed": 1
 		}
      ]
