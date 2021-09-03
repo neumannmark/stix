@@ -4160,7 +4160,7 @@
 				},
 				"5": {
 					"type": "user-account",
-					"account_login": "dan",
+					"account_login": "admin",
 					"user_id": "S-1-5-21-2278378498-3412194288-3958728464-1001"
 				},
 				"6": {
@@ -4178,7 +4178,7 @@
 				},
 				"8": {
 					"type": "ipv4-addr",
-					"value": "52.117.181.185"
+					"value": "10.10.9.56"
 				},
 				"9": {
 					"type": "x-oca-asset",
@@ -4186,7 +4186,7 @@
 						"8",
 						"10"
 					],
-					"hostname": "dan-pc.company.com",
+					"hostname": "oracle.company.com",
 					"mac_refs": [
 						"11"
 					],
@@ -4195,7 +4195,7 @@
 				},
 				"10": {
 					"type": "ipv4-addr",
-					"value": "172.20.13.104"
+					"value": "10.10.9.56"
 				},
 				"11": {
 					"type": "mac-addr",
