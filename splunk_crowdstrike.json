@@ -4466,7 +4466,7 @@
 				},
 				"1": {
 					"type": "file",
-					"name": "wce.exe",
+					"name": "lsass.exe",
 					"parent_directory_ref": "3",
 					"hashes": {
 						"SHA-256": "0164dc11b05124166f83da841b2cefbf91a8a1ee105820b416d9493263ebd222",
@@ -4476,15 +4476,15 @@
 				"2": {
 					"type": "process",
 					"binary_ref": "1",
-					"name": "wce.exe",
-					"command_line": "wce.exe -w",
+					"name": "lsass.exe",
+					"command_line": "lsass.exe -w",
 					"creator_user_ref": "5",
 					"pid": 614067775373,
 					"parent_ref": "7"
 				},
 				"3": {
 					"type": "directory",
-					"path": "\\Device\\HarddiskVolume2\\Users\\dan\\Downloads\\wce\\wce.exe"
+					"path": "\\Device\\HarddiskVolume2\\Users\\dan\\Downloads\\wce\\lsass.exe"
 				},
 				"4": {
 					"type": "x-crowdstrike",
