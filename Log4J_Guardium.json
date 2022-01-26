@@ -102,6 +102,21 @@
                 "6": {
                     "type": "software",
                     "name": "MYSQL"
+                },
+				"6": {
+                    "type": "x-oca-event",
+                    "action": "Data exfiltration to unsanctioned apps",
+                    "outcome": "Failure",
+                    "category": [
+                        "ThreatManagement"
+                    ],
+                    "provider": "SecurityComplianceCenter",
+                    "agent": "SecurityComplianceCenter",
+                    "created": "2022-01-25T07:53:11.750Z",
+                    "nt_ref": "2",
+                    "user_ref": "4",
+                    "host_ref": "3",
+                    "code": 1
                 }
             },
             "first_observed": "2022-01-25T21:41:36.000Z",
@@ -199,6 +214,21 @@
                 "6": {
                     "type": "software",
                     "name": "MYSQL"
+                },
+				"7": {
+                    "type": "x-oca-event",
+                    "action": "Data exfiltration to unsanctioned apps",
+                    "outcome": "Failure",
+                    "category": [
+                        "ThreatManagement"
+                    ],
+                    "provider": "SecurityComplianceCenter",
+                    "agent": "SecurityComplianceCenter",
+                    "created": "2022-01-25T07:53:11.750Z",
+                    "nt_ref": "2",
+                    "user_ref": "4",
+                    "host_ref": "3",
+                    "code": 1
                 }
             },
             "first_observed": "2022-01-25T21:41:36.000Z",
