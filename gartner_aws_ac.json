@@ -1,0 +1,186 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f561839-7ccf-40e6-9dbf-6f8747917afc",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--d4749f0a-19db-4efa-af5e-e037d4a082c9",
+            "created": "2022-02-23T15:32:37.012Z",
+            "modified": "2022-02-23T15:32:37.012Z",
+            "name": "AWS",
+            "identity_class": "events"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--6851a7be-8a4d-48ec-99fb-23f292d52168",
+            "created": "2022-02-23T15:32:37.013Z",
+            "modified": "2022-02-23T15:32:37.013Z",
+            "first_observed": "2022-02-23T09:33:29.357989Z",
+            "last_observed": "2022-02-23T09:33:29.357989Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:22:70:7d"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "45.155.205.233",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--368bb617-79a0-4fd0-84d4-8d63613773e7",
+            "created": "2022-02-23T15:32:37.015Z",
+            "modified": "2022-02-23T15:32:37.015Z",
+            "first_observed": "2022-02-23T09:34:51.358246Z",
+            "last_observed": "2022-02-23T09:34:51.358246Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:22:70:7d"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "105.139.222.58"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--a8d07967-0b5a-4f42-8895-8cd6984a387e",
+            "created": "2022-02-23T15:32:37.017Z",
+            "modified": "2022-02-23T15:32:37.017Z",
+            "first_observed": "2022-02-23T09:35:41.35806Z",
+            "last_observed": "2022-02-23T09:35:41.35806Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:22:70:7d"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 2551614464460,
+                    "name": "wget"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--3b0ebe5d-bff8-4b8d-ac50-a1a38f175682",
+            "created": "2022-02-23T15:32:37.019Z",
+            "modified": "2022-02-23T15:32:37.019Z",
+            "first_observed": "2022-02-23T09:37:11.358187Z",
+            "last_observed": "2022-02-23T09:37:11.358187Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:22:70:7d"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 2551615464481,
+                    "name": "0.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--8a1b0dd1-5363-4ab3-8915-097c06739f2c",
+            "created": "2022-02-23T15:32:37.021Z",
+            "modified": "2022-02-23T15:32:37.021Z",
+            "first_observed": "2022-02-23T09:38:03.358127Z",
+            "last_observed": "2022-02-23T09:38:03.358127Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:22:70:7d"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "hashes": {
+                        "SHA-256": "BeAc9eDbDEa25Ab4Feaa5BCB64dAAcA36B98465d456e6f7BAEC3ec28fd7dC4ad"
+                    },
+                    "name": "0.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        }
+    ]
+}
