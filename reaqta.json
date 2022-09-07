@@ -11,110 +11,138 @@
       "created": "2022-09-07T14:24:42.038Z",
       "modified": "2022-09-07T14:24:42.038Z"
     },
-    {
-      "id": "observed-data--05baca02-9154-45e3-a41d-f10366ad8dc0",
-      "type": "observed-data",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.723Z",
-      "modified": "2022-09-07T14:24:43.723Z",
-      "objects": {
+{
+    "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
+    "type": "observed-data",
+    "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
+    "created": "2022-09-07T17:18:20.890Z",
+    "modified": "2022-09-07T17:18:20.890Z",
+    "objects": {
         "0": {
-          "type": "x-oca-event",
-          "created": "2022-09-07T11:36:21Z",
-          "process_ref": "2",
-          "action": "CustomIOAWinHigh",
-          "outcome": "A process triggered a high severity custom rule.",
-          "severity": 70,
-          "parent_process_ref": "7",
-          "host_ref": "9",
-          "provider": "CrowdStrike"
+            "type": "x-oca-event",
+            "code": 900024717988069400,
+            "file_ref": "6",
+            "user_ref": "8",
+            "process_ref": "3",
+            "parent_process_ref": "4",
+            "network_ref": "10",
+            "category": "8",
+            "action": "Network Connection Established",
+            "created": "2022-08-22T15:36:54.419Z"
         },
         "1": {
-          "type": "file",
-          "name": "powershell.exe",
-          "parent_directory_ref": "3",
-          "hashes": {
-            "SHA-256": "de96a6e69944335375dc1ac238336066889d9ffc7d73628ef4fe1b1b160ab32c",
-            "MD5": "7353f60b1739074eb17c5f4dddefe239"
-          }
+            "type": "x-oca-asset",
+            "host_id": "900022840986697728",
+            "ip_refs": [
+                "11"
+            ]
         },
         "2": {
-          "type": "process",
-          "binary_ref": "1",
-          "name": "powershell.exe",
-          "command_line": "powershell.exe  Invoke-WebRequest -Uri pastebin.com",
-          "creator_user_ref": "5",
-          "pid": 25952186719,
-          "parent_ref": "7"
+            "type": "x-reaqta-event",
+            "local_id": "900024693602387969"
         },
         "3": {
-          "type": "directory",
-          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+            "type": "process",
+            "x_unique_id": "900022840986697728:6548:1661182434862",
+            "binary_ref": "6",
+            "creator_user_ref": "8",
+            "pid": 6548,
+            "created": "2022-08-22T15:33:54.862Z",
+            "parent_ref": "4",
+            "extensions": {
+                "windows-process-ext": {
+                    "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                },
+                "x-reaqta-process": {
+                    "privilege_level": "LOW",
+                    "no_gui": false,
+                    "logon_id": "0x154e77"
+                }
+            }
         },
         "4": {
-          "type": "x-reaqta",
-          "scenario": "suspicious_activity",
-          "tactic": "Custom Intelligence",
-          "tactic_id": "CSTA0005",
-          "technique": "Indicator of Attack",
-          "technique_id": "CST0004",
-          "confidence": 100,
-          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:25769826315",
-          "agent_local_time": "2022-09-07T11:30:47.357Z",
-          "agent_version": "6.24.13806.0",
-          "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
-          "last_seen": "2022-09-07T11:30:53Z",
-          "platform_id": "0"
+            "type": "process",
+            "x_unique_id": "900022840986697728:6572:1661182381981",
+            "pid": 6572
         },
         "5": {
-          "type": "user-account",
-          "account_login": "admin",
-          "user_id": "A-2-3-4-333-444-222-1001"
+            "type": "directory",
+            "path": "c:\\users\\admin\\appdata\\roaming\\bittorrent\\updates\\7.10.5_46211"
         },
         "6": {
-          "type": "file",
-          "hashes": {
-            "SHA-256": "3656f37a1c6951ec4496fabb8ee957d3a6e3c276d5a3785476b482c9c0d32ea2",
-            "MD5": "975b45b669930b0cc773eaf2b414206f"
-          }
+            "type": "file",
+            "parent_directory_ref": "5",
+            "name": "remoteie.exe",
+            "hashes": {
+                "MD5": "0eb34002d91ec0e59b90e6eb922895cb",
+                "SHA-1": "1fc53d114fbe6c2d8d56e5b375304e3986cfdf2e",
+                "SHA-256": "65f32777d56a9bc778800492a9b1db40b6dbfde54628405808c276556e7c3ab8"
+            },
+            "size": 550440,
+            "extensions": {
+                "x-reaqta-program": {
+                    "arch": "x32",
+                    "fsname": "bittorrentie.exe"
+                }
+            }
         },
         "7": {
-          "type": "process",
-          "binary_ref": "6",
-          "command_line": "\"C:\\Users\\admin\\Desktop\\dns.exe\" ",
-          "pid": 25925279935
+            "type": "x509-certificate",
+            "extensions": {
+                "x-reaqta-cert": {
+                    "signer": "BitTorrent Inc",
+                    "trusted": true,
+                    "expired": false
+                }
+            },
+            "issuer": "Symantec Class 3 SHA256 Code Signing CA"
         },
         "8": {
-          "type": "ipv4-addr",
-          "value": "12.111.222.0"
+            "type": "user-account",
+            "user_id": "DESKTOP-MAC0822\\Admin"
         },
         "9": {
-          "type": "x-oca-asset",
-          "ip_refs": [
-            "8",
-            "10"
-          ],
-          "hostname": "WIN10-1S",
-          "mac_refs": [
-            "11"
-          ],
-          "os_version": "Windows 10",
-          "os_platform": "Windows"
+            "type": "x-ibm-finding",
+            "extensions": {
+                "x-reaqta-alert": {
+                    "incidents": [
+                        "900023950459799554"
+                    ],
+                    "triggered_incidents": []
+                }
+            },
+            "src_ip_ref": "11",
+            "dst_ip_ref": "12"
         },
         "10": {
-          "type": "ipv4-addr",
-          "value": "192.168.6.242"
+            "type": "network-traffic",
+            "extensions": {
+                "x-reaqta-network": {
+                    "address_family": "IPv4",
+                    "outbound": true
+                }
+            },
+            "protocols": [
+                "tcp"
+            ],
+            "src_port": 56742,
+            "dst_port": 443,
+            "src_ref": "11",
+            "dst_ref": "12"
         },
         "11": {
-          "type": "mac-addr",
-          "value": "00:0a:11:f1:00:0x"
+            "type": "ipv4-addr",
+            "value": "192.168.6.242"
+        },
+        "12": {
+            "type": "ipv4-addr",
+            "value": "12.111.222.0"
         }
-      },
-      "first_observed": "2022-09-07T11:36:21Z",
-      "last_observed": "2022-09-07T11:36:21Z",
-      "number_observed": 1
     },
+    "first_observed": "2022-09-07T14:24:43.724Z",
+    "last_observed": "2022-09-07T14:24:43.724Z",
+    "number_observed": 1
+},
     {
       "id": "observed-data--d3e1a58a-ecd5-4cd8-bd67-8b220fc455ce",
       "type": "observed-data",
