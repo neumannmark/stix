@@ -8,15 +8,15 @@
       "id": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
       "identity_class": "system",
       "name": "reaqta",
-      "created": "2022-09-07T14:24:42.038Z",
-      "modified": "2022-09-07T14:24:42.038Z"
+      "created": "2022-09-06T14:24:42.038Z",
+      "modified": "2022-09-06T14:24:42.038Z"
     },
 {
     "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
     "type": "observed-data",
     "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
-    "created": "2022-09-07T17:18:20.890Z",
-    "modified": "2022-09-07T17:18:20.890Z",
+    "created": "2022-09-06T17:18:20.890Z",
+    "modified": "2022-09-06T17:18:20.890Z",
     "objects": {
         "0": {
             "type": "x-oca-event",
@@ -139,20 +139,20 @@
             "value": "45.155.205.233"
         }
     },
-    "first_observed": "2022-09-07T14:24:43.724Z",
-    "last_observed": "2022-09-07T14:24:43.724Z",
+    "first_observed": "2022-09-06T14:24:43.724Z",
+    "last_observed": "2022-09-06T14:24:43.724Z",
     "number_observed": 1
 },
     {
       "id": "observed-data--d3e1a58a-ecd5-4cd8-bd67-8b220fc455ce",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.724Z",
-      "modified": "2022-09-07T14:24:43.724Z",
+      "created": "2022-09-06T14:24:43.724Z",
+      "modified": "2022-09-06T14:24:43.724Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T18:45:39Z",
+          "created": "2022-09-06T18:45:39Z",
           "process_ref": "2",
           "action": "UACBypass2",
           "outcome": "A malicious process launched that's likely attempting a User Account Control (UAC) bypass. Review the process tree.",
@@ -192,11 +192,11 @@
           "technique_id": "T1548.002",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-09-07T16:53:04.627Z",
+          "agent_local_time": "2022-09-06T16:53:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
-          "last_seen": "2022-09-07T18:21:42Z",
+          "first_seen": "2022-09-06T16:45:12Z",
+          "last_seen": "2022-09-06T18:21:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -243,20 +243,20 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "first_observed": "2022-09-07T18:45:39Z",
-      "last_observed": "2022-09-07T18:45:39Z",
+      "first_observed": "2022-09-06T18:45:39Z",
+      "last_observed": "2022-09-06T18:45:39Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--5b858b41-d98a-4912-bd7d-6e8bc2a0d9a3",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.724Z",
-      "modified": "2022-09-07T14:24:43.724Z",
+      "created": "2022-09-06T14:24:43.724Z",
+      "modified": "2022-09-06T14:24:43.724Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T18:45:39Z",
+          "created": "2022-09-06T18:45:39Z",
           "process_ref": "2",
           "outcome": "This file meets the machine learning-based on-sensor AV protection's high confidence threshold for malicious files.",
           "severity": 70,
@@ -297,11 +297,11 @@
           "technique_id": "CST0007",
           "confidence": 70,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-09-07T16:53:04.627Z",
+          "agent_local_time": "2022-09-06T16:53:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
-          "last_seen": "2022-09-07T18:21:42Z",
+          "first_seen": "2022-09-06T16:45:12Z",
+          "last_seen": "2022-09-06T18:21:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -354,20 +354,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T18:45:39Z",
-      "last_observed": "2022-09-07T18:45:39Z",
+      "first_observed": "2022-09-06T18:45:39Z",
+      "last_observed": "2022-09-06T18:45:39Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--30a91c57-fc2b-4dea-986d-885088490592",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.725Z",
-      "modified": "2022-09-07T14:24:43.725Z",
+      "created": "2022-09-06T14:24:43.725Z",
+      "modified": "2022-09-06T14:24:43.725Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T18:45:49Z",
+          "created": "2022-09-06T18:45:49Z",
           "process_ref": "2",
           "action": "IntelDomainMedium",
           "outcome": "A domain lookup matched a ReaQta Intelligence indicator.",
@@ -408,11 +408,11 @@
           "technique_id": "CST0018",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-09-07T16:53:04.627Z",
+          "agent_local_time": "2022-09-06T16:53:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
-          "last_seen": "2022-09-07T18:21:42Z",
+          "first_seen": "2022-09-06T16:45:12Z",
+          "last_seen": "2022-09-06T18:21:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -467,20 +467,20 @@
           "dst_ref": "12"
         }
       },
-      "first_observed": "2022-09-07T18:45:49Z",
-      "last_observed": "2022-09-07T18:45:49Z",
+      "first_observed": "2022-09-06T18:45:49Z",
+      "last_observed": "2022-09-06T18:45:49Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--7819a74a-5f9f-499c-bf8c-eb50a6a37b32",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.727Z",
-      "modified": "2022-09-07T14:24:43.727Z",
+      "created": "2022-09-06T14:24:43.727Z",
+      "modified": "2022-09-06T14:24:43.727Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T18:45:53Z",
+          "created": "2022-09-06T18:45:53Z",
           "process_ref": "2",
           "action": "MaliciousPowershell",
           "outcome": "A PowerShell script related to this process is likely malicious or shares characteristics with known malicious scripts. Review the script.",
@@ -520,11 +520,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-09-07T16:53:04.627Z",
+          "agent_local_time": "2022-09-06T16:53:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
-          "last_seen": "2022-09-07T18:21:42Z",
+          "first_seen": "2022-09-06T16:45:12Z",
+          "last_seen": "2022-09-06T18:21:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -571,20 +571,20 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "first_observed": "2022-09-07T18:45:53Z",
-      "last_observed": "2022-09-07T18:45:53Z",
+      "first_observed": "2022-09-06T18:45:53Z",
+      "last_observed": "2022-09-06T18:45:53Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--77382665-4552-427a-a011-641f40e50e7f",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.728Z",
-      "modified": "2022-09-07T14:24:43.728Z",
+      "created": "2022-09-06T14:24:43.728Z",
+      "modified": "2022-09-06T14:24:43.728Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T18:46:24Z",
+          "created": "2022-09-06T18:46:24Z",
           "process_ref": "2",
           "action": "Destructive",
           "outcome": "A suspicious process, associated with potentially destructive malware like ransomware, launched. Review the process tree. ",
@@ -620,11 +620,11 @@
           "technique_id": "T1486",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-09-07T16:53:04.627Z",
+          "agent_local_time": "2022-09-06T16:53:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
-          "last_seen": "2022-09-07T18:21:42Z",
+          "first_seen": "2022-09-06T16:45:12Z",
+          "last_seen": "2022-09-06T18:21:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -671,20 +671,20 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "first_observed": "2022-09-07T18:46:24Z",
-      "last_observed": "2022-09-07T18:46:24Z",
+      "first_observed": "2022-09-06T18:46:24Z",
+      "last_observed": "2022-09-06T18:46:24Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--08a61c11-72b8-4d2a-bee3-5ffa43f3da88",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.729Z",
-      "modified": "2022-09-07T14:24:43.729Z",
+      "created": "2022-09-06T14:24:43.729Z",
+      "modified": "2022-09-06T14:24:43.729Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-07T12:46:14Z",
+          "created": "2022-09-06T12:46:14Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -725,11 +725,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249111658855",
-          "agent_local_time": "2021-07-07T00:29:06.083Z",
+          "agent_local_time": "2022-09-06T00:29:06.083Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-07T12:37:26Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T12:37:26Z",
           "platform_id": "0"
         },
         "5": {
@@ -782,20 +782,20 @@
           }
         }
       },
-      "first_observed": "2021-07-07T12:46:14Z",
-      "last_observed": "2021-07-07T12:46:14Z",
+      "first_observed": "2022-09-06T12:46:14Z",
+      "last_observed": "2022-09-06T12:46:14Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--57cb808e-527b-4d1c-b7c4-27cef5898dce",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.730Z",
-      "modified": "2022-09-07T14:24:43.730Z",
+      "created": "2022-09-06T14:24:43.730Z",
+      "modified": "2022-09-06T14:24:43.730Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:30:27Z",
+          "created": "2022-09-06T14:30:27Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -836,11 +836,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240554450822",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:25:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:25:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -893,20 +893,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:30:27Z",
-      "last_observed": "2022-09-07T14:30:27Z",
+      "first_observed": "2022-09-06T14:30:27Z",
+      "last_observed": "2022-09-06T14:30:27Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--7cd5a5fb-c1e5-4bf4-8da4-debcb15e15b9",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.730Z",
-      "modified": "2022-09-07T14:24:43.730Z",
+      "created": "2022-09-06T14:24:43.730Z",
+      "modified": "2022-09-06T14:24:43.730Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:02:00Z",
+          "created": "2022-09-06T15:02:00Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -947,11 +947,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240559105956",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:47:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:47:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -1004,20 +1004,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:02:00Z",
-      "last_observed": "2022-09-07T15:02:00Z",
+      "first_observed": "2022-09-06T15:02:00Z",
+      "last_observed": "2022-09-06T15:02:00Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--5786dc81-9351-4e0b-b0b6-893dad8716e4",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.731Z",
-      "modified": "2022-09-07T14:24:43.731Z",
+      "created": "2022-09-06T14:24:43.731Z",
+      "modified": "2022-09-06T14:24:43.731Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-12T13:42:39Z",
+          "created": "2022-09-06T13:42:39Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -1061,8 +1061,8 @@
           "agent_local_time": "2021-07-08T16:29:11.387Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-12T13:21:47Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:21:47Z",
           "platform_id": "0"
         },
         "5": {
@@ -1115,16 +1115,16 @@
           }
         }
       },
-      "first_observed": "2021-07-12T13:42:39Z",
-      "last_observed": "2021-07-12T13:42:39Z",
+      "first_observed": "2022-09-06T13:42:39Z",
+      "last_observed": "2022-09-06T13:42:39Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--4b9e14ac-ee2a-4364-9219-7b44468f09a6",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.732Z",
-      "modified": "2022-09-07T14:24:43.732Z",
+      "created": "2022-09-06T14:24:43.732Z",
+      "modified": "2022-09-06T14:24:43.732Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -1169,10 +1169,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:244813935428",
-          "agent_local_time": "2021-07-02T06:01:05.289Z",
+          "agent_local_time": "2022-09-06T06:01:05.289Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-06T18:33:34Z",
           "platform_id": "0"
         },
@@ -1234,12 +1234,12 @@
       "id": "observed-data--ba821a69-f2fd-4d66-afe9-c59d716e8148",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.732Z",
-      "modified": "2022-09-07T14:24:43.732Z",
+      "created": "2022-09-06T14:24:43.732Z",
+      "modified": "2022-09-06T14:24:43.732Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-12T14:00:17Z",
+          "created": "2022-09-06T14:00:17Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -1283,8 +1283,8 @@
           "agent_local_time": "2021-07-08T16:29:11.387Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-12T13:59:47Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:59:47Z",
           "platform_id": "0"
         },
         "5": {
@@ -1337,20 +1337,20 @@
           }
         }
       },
-      "first_observed": "2021-07-12T14:00:17Z",
-      "last_observed": "2021-07-12T14:00:17Z",
+      "first_observed": "2022-09-06T14:00:17Z",
+      "last_observed": "2022-09-06T14:00:17Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--7ec5f4d1-741b-4206-9a4f-f2c87169c59f",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.733Z",
-      "modified": "2022-09-07T14:24:43.733Z",
+      "created": "2022-09-06T14:24:43.733Z",
+      "modified": "2022-09-06T14:24:43.733Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:31:23Z",
+          "created": "2022-09-06T15:31:23Z",
           "process_ref": "2",
           "action": "PShellExploitKit2",
           "outcome": "A PowerShell script launched that shares characteristics with known PowerShell exploit kits. The script might connect to remote command and control. Decode and review the script.",
@@ -1390,7 +1390,7 @@
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-06-24T19:31:17Z",
-          "last_seen": "2022-09-07T15:16:01Z",
+          "last_seen": "2022-09-06T15:16:01Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -1438,20 +1438,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-09-07T15:31:23Z",
-      "last_observed": "2022-09-07T15:31:23Z",
+      "first_observed": "2022-09-06T15:31:23Z",
+      "last_observed": "2022-09-06T15:31:23Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--79d65c3a-233c-4b4d-8f0a-e2e68d78a146",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.733Z",
-      "modified": "2022-09-07T14:24:43.733Z",
+      "created": "2022-09-06T14:24:43.733Z",
+      "modified": "2022-09-06T14:24:43.733Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T12:51:16Z",
+          "created": "2022-09-06T12:51:16Z",
           "process_ref": "2",
           "action": "ProcRansomware",
           "outcome": "A process associated with a known ransomware campaign launched. Investigate the host for signs of a ransomware attack.",
@@ -1487,11 +1487,11 @@
           "technique_id": "T1486",
           "confidence": 80,
           "detection_id": "ldt:e71b6d8f42584c91babfb9f18bc8f2bf:369369061502",
-          "agent_local_time": "2022-09-07T18:14:04.106Z",
+          "agent_local_time": "2022-09-06T18:14:04.106Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-12-30T19:09:53Z",
-          "last_seen": "2022-09-07T12:45:30Z",
+          "last_seen": "2022-09-06T12:45:30Z",
           "platform_id": "0"
         },
         "5": {
@@ -1538,20 +1538,20 @@
           "value": "00:0c:29:f2:9d:5f"
         }
       },
-      "first_observed": "2022-09-07T12:51:16Z",
-      "last_observed": "2022-09-07T12:51:16Z",
+      "first_observed": "2022-09-06T12:51:16Z",
+      "last_observed": "2022-09-06T12:51:16Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--9ce3cab5-d90e-4801-ba87-e1a29fedf58c",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.734Z",
-      "modified": "2022-09-07T14:24:43.734Z",
+      "created": "2022-09-06T14:24:43.734Z",
+      "modified": "2022-09-06T14:24:43.734Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:57:03Z",
+          "created": "2022-09-06T15:57:03Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -1592,11 +1592,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240535052615",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T15:34:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T15:34:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -1649,20 +1649,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:57:03Z",
-      "last_observed": "2022-09-07T15:57:03Z",
+      "first_observed": "2022-09-06T15:57:03Z",
+      "last_observed": "2022-09-06T15:57:03Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--240ab32a-528a-4e02-8288-d1e7870b52cd",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.735Z",
-      "modified": "2022-09-07T14:24:43.735Z",
+      "created": "2022-09-06T14:24:43.735Z",
+      "modified": "2022-09-06T14:24:43.735Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T17:16:27Z",
+          "created": "2022-09-06T17:16:27Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -1703,11 +1703,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240538803203",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T17:02:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T17:02:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -1760,16 +1760,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T17:16:27Z",
-      "last_observed": "2022-09-07T17:16:27Z",
+      "first_observed": "2022-09-06T17:16:27Z",
+      "last_observed": "2022-09-06T17:16:27Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--e42b6c93-841a-4737-8bc7-1a4a12cd7a3f",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.735Z",
-      "modified": "2022-09-07T14:24:43.735Z",
+      "created": "2022-09-06T14:24:43.735Z",
+      "modified": "2022-09-06T14:24:43.735Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -1869,8 +1869,8 @@
       "id": "observed-data--a57280d3-dec4-46af-9869-0d96090cc2d1",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.736Z",
-      "modified": "2022-09-07T14:24:43.736Z",
+      "created": "2022-09-06T14:24:43.736Z",
+      "modified": "2022-09-06T14:24:43.736Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -1917,7 +1917,7 @@
           "agent_local_time": "2021-06-15T19:35:43.749Z",
           "agent_version": "6.24.13806.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
+          "first_seen": "2022-09-06T16:45:12Z",
           "last_seen": "2021-06-15T20:33:15Z",
           "platform_id": "0"
         },
@@ -1973,12 +1973,12 @@
       "id": "observed-data--e52a240e-0007-4924-bf91-ca40cf51a857",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.736Z",
-      "modified": "2022-09-07T14:24:43.736Z",
+      "created": "2022-09-06T14:24:43.736Z",
+      "modified": "2022-09-06T14:24:43.736Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-07T12:40:17Z",
+          "created": "2022-09-06T12:40:17Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2019,11 +2019,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249110090445",
-          "agent_local_time": "2021-07-07T00:29:06.083Z",
+          "agent_local_time": "2022-09-06T00:29:06.083Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-07T12:37:26Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T12:37:26Z",
           "platform_id": "0"
         },
         "5": {
@@ -2076,20 +2076,20 @@
           }
         }
       },
-      "first_observed": "2021-07-07T12:40:17Z",
-      "last_observed": "2021-07-07T12:40:17Z",
+      "first_observed": "2022-09-06T12:40:17Z",
+      "last_observed": "2022-09-06T12:40:17Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--f308cc85-69b5-44b5-9ae2-78925b4988f4",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.737Z",
-      "modified": "2022-09-07T14:24:43.737Z",
+      "created": "2022-09-06T14:24:43.737Z",
+      "modified": "2022-09-06T14:24:43.737Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:12:15Z",
+          "created": "2022-09-06T14:12:15Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2130,11 +2130,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240550940251",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T13:43:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:43:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -2187,16 +2187,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:12:15Z",
-      "last_observed": "2022-09-07T14:12:15Z",
+      "first_observed": "2022-09-06T14:12:15Z",
+      "last_observed": "2022-09-06T14:12:15Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--e14d39d5-ef40-4234-9f66-20560a8632e1",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.738Z",
-      "modified": "2022-09-07T14:24:43.738Z",
+      "created": "2022-09-06T14:24:43.738Z",
+      "modified": "2022-09-06T14:24:43.738Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -2241,10 +2241,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240544861462",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-29T12:19:08Z",
           "platform_id": "0"
         },
@@ -2306,12 +2306,12 @@
       "id": "observed-data--63a7e1b7-5cfe-46e0-b6c5-de0198066899",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.738Z",
-      "modified": "2022-09-07T14:24:43.738Z",
+      "created": "2022-09-06T14:24:43.738Z",
+      "modified": "2022-09-06T14:24:43.738Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:09:54Z",
+          "created": "2022-09-06T14:09:54Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2352,11 +2352,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240548681264",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T13:43:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:43:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -2409,20 +2409,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:09:54Z",
-      "last_observed": "2022-09-07T14:09:54Z",
+      "first_observed": "2022-09-06T14:09:54Z",
+      "last_observed": "2022-09-06T14:09:54Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--9c9e0f1f-117f-4d17-8945-361ac31c8137",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.739Z",
-      "modified": "2022-09-07T14:24:43.739Z",
+      "created": "2022-09-06T14:24:43.739Z",
+      "modified": "2022-09-06T14:24:43.739Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:34:31Z",
+          "created": "2022-09-06T14:34:31Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2463,11 +2463,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240556863858",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:25:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:25:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -2520,20 +2520,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:34:31Z",
-      "last_observed": "2022-09-07T14:34:31Z",
+      "first_observed": "2022-09-06T14:34:31Z",
+      "last_observed": "2022-09-06T14:34:31Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--d8214f5b-b2c5-45d5-b480-fb07fdf72b24",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.739Z",
-      "modified": "2022-09-07T14:24:43.739Z",
+      "created": "2022-09-06T14:24:43.739Z",
+      "modified": "2022-09-06T14:24:43.739Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T16:58:54Z",
+          "created": "2022-09-06T16:58:54Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2574,11 +2574,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240537916343",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T16:38:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T16:38:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -2631,20 +2631,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T16:58:54Z",
-      "last_observed": "2022-09-07T16:58:54Z",
+      "first_observed": "2022-09-06T16:58:54Z",
+      "last_observed": "2022-09-06T16:58:54Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--fa47cd23-fd1a-4f03-8d54-07ba6e2eb9ff",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.740Z",
-      "modified": "2022-09-07T14:24:43.740Z",
+      "created": "2022-09-06T14:24:43.740Z",
+      "modified": "2022-09-06T14:24:43.740Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-12T13:57:25Z",
+          "created": "2022-09-06T13:57:25Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2688,8 +2688,8 @@
           "agent_local_time": "2021-07-08T16:29:11.387Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-12T13:59:47Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:59:47Z",
           "platform_id": "0"
         },
         "5": {
@@ -2742,20 +2742,20 @@
           }
         }
       },
-      "first_observed": "2021-07-12T13:57:25Z",
-      "last_observed": "2021-07-12T13:57:25Z",
+      "first_observed": "2022-09-06T13:57:25Z",
+      "last_observed": "2022-09-06T13:57:25Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--4f1d093c-8fb6-4840-bd2d-b9825c8dd9d1",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.740Z",
-      "modified": "2022-09-07T14:24:43.740Z",
+      "created": "2022-09-06T14:24:43.740Z",
+      "modified": "2022-09-06T14:24:43.740Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-12T13:45:41Z",
+          "created": "2022-09-06T13:45:41Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -2799,8 +2799,8 @@
           "agent_local_time": "2021-07-08T16:29:11.387Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-12T13:21:47Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:21:47Z",
           "platform_id": "0"
         },
         "5": {
@@ -2853,16 +2853,16 @@
           }
         }
       },
-      "first_observed": "2021-07-12T13:45:41Z",
-      "last_observed": "2021-07-12T13:45:41Z",
+      "first_observed": "2022-09-06T13:45:41Z",
+      "last_observed": "2022-09-06T13:45:41Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--52cde0f6-2ecc-4a5e-8b09-edab535cdc89",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.741Z",
-      "modified": "2022-09-07T14:24:43.741Z",
+      "created": "2022-09-06T14:24:43.741Z",
+      "modified": "2022-09-06T14:24:43.741Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -2907,10 +2907,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:253406432270",
-          "agent_local_time": "2021-07-12T15:05:18.178Z",
+          "agent_local_time": "2022-09-06T15:05:18.178Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-13T12:21:25Z",
           "platform_id": "0"
         },
@@ -2972,8 +2972,8 @@
       "id": "observed-data--9001e794-becc-4249-ac0a-72e4395cb55e",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.742Z",
-      "modified": "2022-09-07T14:24:43.742Z",
+      "created": "2022-09-06T14:24:43.742Z",
+      "modified": "2022-09-06T14:24:43.742Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -3018,10 +3018,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:253405815047",
-          "agent_local_time": "2021-07-12T15:05:18.178Z",
+          "agent_local_time": "2022-09-06T15:05:18.178Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-13T12:21:25Z",
           "platform_id": "0"
         },
@@ -3083,8 +3083,8 @@
       "id": "observed-data--164fdaea-5b9f-499a-8363-8b4f8f7940b0",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.742Z",
-      "modified": "2022-09-07T14:24:43.742Z",
+      "created": "2022-09-06T14:24:43.742Z",
+      "modified": "2022-09-06T14:24:43.742Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -3132,7 +3132,7 @@
           "agent_local_time": "2021-07-13T17:35:41.399Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-15T11:32:11Z",
           "platform_id": "0"
         },
@@ -3194,8 +3194,8 @@
       "id": "observed-data--3db22b54-5569-4ce1-886d-5d9e2b20e35b",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.743Z",
-      "modified": "2022-09-07T14:24:43.743Z",
+      "created": "2022-09-06T14:24:43.743Z",
+      "modified": "2022-09-06T14:24:43.743Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -3240,10 +3240,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:253404973479",
-          "agent_local_time": "2021-07-12T15:05:18.178Z",
+          "agent_local_time": "2022-09-06T15:05:18.178Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-13T11:57:25Z",
           "platform_id": "0"
         },
@@ -3305,12 +3305,12 @@
       "id": "observed-data--fedb461b-b8a4-4efc-b952-0bdd9b9c9d9b",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.743Z",
-      "modified": "2022-09-07T14:24:43.743Z",
+      "created": "2022-09-06T14:24:43.743Z",
+      "modified": "2022-09-06T14:24:43.743Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-07T16:41:11Z",
+          "created": "2022-09-06T16:41:11Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -3351,11 +3351,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249112455404",
-          "agent_local_time": "2021-07-07T00:29:06.083Z",
+          "agent_local_time": "2022-09-06T00:29:06.083Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-07T16:17:27Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T16:17:27Z",
           "platform_id": "0"
         },
         "5": {
@@ -3408,20 +3408,20 @@
           }
         }
       },
-      "first_observed": "2021-07-07T16:41:11Z",
-      "last_observed": "2021-07-07T16:41:11Z",
+      "first_observed": "2022-09-06T16:41:11Z",
+      "last_observed": "2022-09-06T16:41:11Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--cfcae108-d233-4b72-a58a-76a2b0d216e5",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.744Z",
-      "modified": "2022-09-07T14:24:43.744Z",
+      "created": "2022-09-06T14:24:43.744Z",
+      "modified": "2022-09-06T14:24:43.744Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:53:46Z",
+          "created": "2022-09-06T14:53:46Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -3462,11 +3462,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240528118602",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:48:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:48:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -3519,20 +3519,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:53:46Z",
-      "last_observed": "2022-09-07T14:53:46Z",
+      "first_observed": "2022-09-06T14:53:46Z",
+      "last_observed": "2022-09-06T14:53:46Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--632c316d-170f-47c3-8076-aef2edb72246",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.744Z",
-      "modified": "2022-09-07T14:24:43.744Z",
+      "created": "2022-09-06T14:24:43.744Z",
+      "modified": "2022-09-06T14:24:43.744Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:04:49Z",
+          "created": "2022-09-06T15:04:49Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -3573,11 +3573,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240532714015",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:48:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:48:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -3630,20 +3630,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:04:49Z",
-      "last_observed": "2022-09-07T15:04:49Z",
+      "first_observed": "2022-09-06T15:04:49Z",
+      "last_observed": "2022-09-06T15:04:49Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--6fcbc42e-aaa1-484b-a9bb-6ec82e150fb5",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.745Z",
-      "modified": "2022-09-07T14:24:43.745Z",
+      "created": "2022-09-06T14:24:43.745Z",
+      "modified": "2022-09-06T14:24:43.745Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:01:40Z",
+          "created": "2022-09-06T15:01:40Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -3684,11 +3684,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240530805501",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:48:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:48:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -3741,16 +3741,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:01:40Z",
-      "last_observed": "2022-09-07T15:01:40Z",
+      "first_observed": "2022-09-06T15:01:40Z",
+      "last_observed": "2022-09-06T15:01:40Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--006c0f50-a7c2-44a2-855c-6d4f7c28e43c",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.746Z",
-      "modified": "2022-09-07T14:24:43.746Z",
+      "created": "2022-09-06T14:24:43.746Z",
+      "modified": "2022-09-06T14:24:43.746Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -3795,10 +3795,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240547336503",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-29T15:29:08Z",
           "platform_id": "0"
         },
@@ -3860,12 +3860,12 @@
       "id": "observed-data--7ab37da3-8aad-4972-9931-911e08299f71",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.746Z",
-      "modified": "2022-09-07T14:24:43.746Z",
+      "created": "2022-09-06T14:24:43.746Z",
+      "modified": "2022-09-06T14:24:43.746Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:11:38Z",
+          "created": "2022-09-06T14:11:38Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -3906,11 +3906,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240550587861",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T13:43:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:43:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -3963,20 +3963,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:11:38Z",
-      "last_observed": "2022-09-07T14:11:38Z",
+      "first_observed": "2022-09-06T14:11:38Z",
+      "last_observed": "2022-09-06T14:11:38Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--7bd82f51-226a-40aa-b53b-8854140c05bd",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.747Z",
-      "modified": "2022-09-07T14:24:43.747Z",
+      "created": "2022-09-06T14:24:43.747Z",
+      "modified": "2022-09-06T14:24:43.747Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:56:18Z",
+          "created": "2022-09-06T15:56:18Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -4017,11 +4017,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240534276807",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T15:34:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T15:34:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -4074,16 +4074,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:56:18Z",
-      "last_observed": "2022-09-07T15:56:18Z",
+      "first_observed": "2022-09-06T15:56:18Z",
+      "last_observed": "2022-09-06T15:56:18Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--2b6f59cd-4cec-4a57-a87b-4a0c060dc007",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.748Z",
-      "modified": "2022-09-07T14:24:43.748Z",
+      "created": "2022-09-06T14:24:43.748Z",
+      "modified": "2022-09-06T14:24:43.748Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -4128,10 +4128,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240540581370",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-25T11:28:28Z",
           "platform_id": "0"
         },
@@ -4193,8 +4193,8 @@
       "id": "observed-data--2fc34063-7d16-43b1-a81c-67fb67cd4245",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.748Z",
-      "modified": "2022-09-07T14:24:43.748Z",
+      "created": "2022-09-06T14:24:43.748Z",
+      "modified": "2022-09-06T14:24:43.748Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -4293,8 +4293,8 @@
       "id": "observed-data--589c9736-bda7-403e-9697-22d3482efe36",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.749Z",
-      "modified": "2022-09-07T14:24:43.749Z",
+      "created": "2022-09-06T14:24:43.749Z",
+      "modified": "2022-09-06T14:24:43.749Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -4342,7 +4342,7 @@
           "agent_local_time": "2021-06-11T14:31:31.127Z",
           "agent_version": "6.24.13806.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-18T18:16:25Z",
           "platform_id": "0"
         },
@@ -4404,8 +4404,8 @@
       "id": "observed-data--705246be-281a-4a47-8bea-bd2e922cab7b",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.749Z",
-      "modified": "2022-09-07T14:24:43.749Z",
+      "created": "2022-09-06T14:24:43.749Z",
+      "modified": "2022-09-06T14:24:43.749Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -4515,12 +4515,12 @@
       "id": "observed-data--ffda0fc4-d12b-4daf-b19c-75256c7304dc",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.750Z",
-      "modified": "2022-09-07T14:24:43.750Z",
+      "created": "2022-09-06T14:24:43.750Z",
+      "modified": "2022-09-06T14:24:43.750Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-12T13:47:59Z",
+          "created": "2022-09-06T13:47:59Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -4564,8 +4564,8 @@
           "agent_local_time": "2021-07-08T16:29:11.387Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-12T13:21:47Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:21:47Z",
           "platform_id": "0"
         },
         "5": {
@@ -4618,16 +4618,16 @@
           }
         }
       },
-      "first_observed": "2021-07-12T13:47:59Z",
-      "last_observed": "2021-07-12T13:47:59Z",
+      "first_observed": "2022-09-06T13:47:59Z",
+      "last_observed": "2022-09-06T13:47:59Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--171cf5ae-af16-4c4e-a430-238381ddc25a",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.751Z",
-      "modified": "2022-09-07T14:24:43.751Z",
+      "created": "2022-09-06T14:24:43.751Z",
+      "modified": "2022-09-06T14:24:43.751Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -4672,10 +4672,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240546250326",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-29T12:19:08Z",
           "platform_id": "0"
         },
@@ -4737,12 +4737,12 @@
       "id": "observed-data--4bbe5ece-3379-49ff-a32f-0d8f61a2cb5b",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.751Z",
-      "modified": "2022-09-07T14:24:43.751Z",
+      "created": "2022-09-06T14:24:43.751Z",
+      "modified": "2022-09-06T14:24:43.751Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:03:50Z",
+          "created": "2022-09-06T15:03:50Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -4783,11 +4783,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240560583980",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:47:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:47:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -4840,20 +4840,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:03:50Z",
-      "last_observed": "2022-09-07T15:03:50Z",
+      "first_observed": "2022-09-06T15:03:50Z",
+      "last_observed": "2022-09-06T15:03:50Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--4f838640-f564-4914-be9c-6be98b344af4",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.752Z",
-      "modified": "2022-09-07T14:24:43.752Z",
+      "created": "2022-09-06T14:24:43.752Z",
+      "modified": "2022-09-06T14:24:43.752Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:33:47Z",
+          "created": "2022-09-06T14:33:47Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -4894,11 +4894,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240555767587",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:25:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:25:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -4951,20 +4951,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:33:47Z",
-      "last_observed": "2022-09-07T14:33:47Z",
+      "first_observed": "2022-09-06T14:33:47Z",
+      "last_observed": "2022-09-06T14:33:47Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--3a6354c8-4c0c-4134-8432-e78a5588c294",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.753Z",
-      "modified": "2022-09-07T14:24:43.753Z",
+      "created": "2022-09-06T14:24:43.753Z",
+      "modified": "2022-09-06T14:24:43.753Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:37:51Z",
+          "created": "2022-09-06T14:37:51Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -5005,11 +5005,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240557499219",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:25:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:25:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -5062,20 +5062,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:37:51Z",
-      "last_observed": "2022-09-07T14:37:51Z",
+      "first_observed": "2022-09-06T14:37:51Z",
+      "last_observed": "2022-09-06T14:37:51Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--210c0f23-d375-428f-abda-0251433be5e8",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.753Z",
-      "modified": "2022-09-07T14:24:43.753Z",
+      "created": "2022-09-06T14:24:43.753Z",
+      "modified": "2022-09-06T14:24:43.753Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:07:02Z",
+          "created": "2022-09-06T14:07:02Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -5116,11 +5116,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240547682752",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T13:43:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:43:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -5173,16 +5173,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:07:02Z",
-      "last_observed": "2022-09-07T14:07:02Z",
+      "first_observed": "2022-09-06T14:07:02Z",
+      "last_observed": "2022-09-06T14:07:02Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--ae0050c8-6fbc-41cb-95b9-5eeb5194b02c",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.754Z",
-      "modified": "2022-09-07T14:24:43.754Z",
+      "created": "2022-09-06T14:24:43.754Z",
+      "modified": "2022-09-06T14:24:43.754Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -5230,7 +5230,7 @@
           "agent_local_time": "2021-07-13T17:35:41.399Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-15T11:32:11Z",
           "platform_id": "0"
         },
@@ -5292,8 +5292,8 @@
       "id": "observed-data--c89876c4-7358-4333-89dc-ac24f979bcc0",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.755Z",
-      "modified": "2022-09-07T14:24:43.755Z",
+      "created": "2022-09-06T14:24:43.755Z",
+      "modified": "2022-09-06T14:24:43.755Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -5341,7 +5341,7 @@
           "agent_local_time": "2021-07-13T17:35:41.399Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-15T11:32:11Z",
           "platform_id": "0"
         },
@@ -5403,12 +5403,12 @@
       "id": "observed-data--2522637e-56e0-4082-a3a1-d309949264d7",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.755Z",
-      "modified": "2022-09-07T14:24:43.755Z",
+      "created": "2022-09-06T14:24:43.755Z",
+      "modified": "2022-09-06T14:24:43.755Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:46:09Z",
+          "created": "2022-09-06T15:46:09Z",
           "process_ref": "2",
           "action": "PShellExploitKit2",
           "outcome": "A PowerShell script launched that shares characteristics with known PowerShell exploit kits. The script might connect to remote command and control. Decode and review the script.",
@@ -5448,7 +5448,7 @@
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-06-24T19:31:17Z",
-          "last_seen": "2022-09-07T15:16:01Z",
+          "last_seen": "2022-09-06T15:16:01Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -5496,20 +5496,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-09-07T15:46:09Z",
-      "last_observed": "2022-09-07T15:46:09Z",
+      "first_observed": "2022-09-06T15:46:09Z",
+      "last_observed": "2022-09-06T15:46:09Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--58799936-8e91-4f77-b9f2-5dc5411eb0e9",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.756Z",
-      "modified": "2022-09-07T14:24:43.756Z",
+      "created": "2022-09-06T14:24:43.756Z",
+      "modified": "2022-09-06T14:24:43.756Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:46:35Z",
+          "created": "2022-09-06T15:46:35Z",
           "process_ref": "2",
           "action": "PowershellReflectiveOpenLsass",
           "outcome": "A CLI containing a reflectively loaded DLL opened a handle to lsass. Adversaries often use this to steal credentials. If credentials were dumped, change your passwords and review the process tree.",
@@ -5553,7 +5553,7 @@
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-06-24T19:31:17Z",
-          "last_seen": "2022-09-07T15:16:01Z",
+          "last_seen": "2022-09-06T15:16:01Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -5601,20 +5601,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-09-07T15:46:35Z",
-      "last_observed": "2022-09-07T15:46:35Z",
+      "first_observed": "2022-09-06T15:46:35Z",
+      "last_observed": "2022-09-06T15:46:35Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--2a58ff09-4e8c-4456-93ba-ec2523881157",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.756Z",
-      "modified": "2022-09-07T14:24:43.756Z",
+      "created": "2022-09-06T14:24:43.756Z",
+      "modified": "2022-09-06T14:24:43.756Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:46:35Z",
+          "created": "2022-09-06T15:46:35Z",
           "process_ref": "2",
           "action": "PShellInjectLsass",
           "outcome": "A PowerShell script attempted to access lsass. This might indicate an attempt to dump credentials. Review the script.",
@@ -5658,7 +5658,7 @@
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-06-24T19:31:17Z",
-          "last_seen": "2022-09-07T15:16:01Z",
+          "last_seen": "2022-09-06T15:16:01Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -5706,20 +5706,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-09-07T15:46:35Z",
-      "last_observed": "2022-09-07T15:46:35Z",
+      "first_observed": "2022-09-06T15:46:35Z",
+      "last_observed": "2022-09-06T15:46:35Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--d99675a6-cac8-4e6d-a186-2af152760409",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.757Z",
-      "modified": "2022-09-07T14:24:43.757Z",
+      "created": "2022-09-06T14:24:43.757Z",
+      "modified": "2022-09-06T14:24:43.757Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:46:35Z",
+          "created": "2022-09-06T15:46:35Z",
           "process_ref": "2",
           "action": "ProcMimikatz",
           "outcome": "A process appears to be launching mimikatz, a password dumping utility. mimikatz's primary purpose is to steal passwords. If credentials were dumped, change your passwords and investigate further.",
@@ -5763,7 +5763,7 @@
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-06-24T19:31:17Z",
-          "last_seen": "2022-09-07T15:16:01Z",
+          "last_seen": "2022-09-06T15:16:01Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -5811,20 +5811,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-09-07T15:46:35Z",
-      "last_observed": "2022-09-07T15:46:35Z",
+      "first_observed": "2022-09-06T15:46:35Z",
+      "last_observed": "2022-09-06T15:46:35Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--d38d736d-59a8-4d5b-b15e-b302f5afc2a3",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.758Z",
-      "modified": "2022-09-07T14:24:43.758Z",
+      "created": "2022-09-06T14:24:43.758Z",
+      "modified": "2022-09-06T14:24:43.758Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:46:35Z",
+          "created": "2022-09-06T15:46:35Z",
           "process_ref": "2",
           "action": "LsassMemoryReadSuspicious",
           "outcome": "A suspicious process read lsass memory. Adversaries often use this to steal credentials. If credentials were dumped, change your passwords and review the process tree.",
@@ -5868,7 +5868,7 @@
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-06-24T19:31:17Z",
-          "last_seen": "2022-09-07T15:16:01Z",
+          "last_seen": "2022-09-06T15:16:01Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -5916,16 +5916,16 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-09-07T15:46:35Z",
-      "last_observed": "2022-09-07T15:46:35Z",
+      "first_observed": "2022-09-06T15:46:35Z",
+      "last_observed": "2022-09-06T15:46:35Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--67c2ff67-5bf1-4df9-9f3a-4908abc8d71f",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.759Z",
-      "modified": "2022-09-07T14:24:43.759Z",
+      "created": "2022-09-06T14:24:43.759Z",
+      "modified": "2022-09-06T14:24:43.759Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -5970,10 +5970,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240541557775",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-25T11:28:28Z",
           "platform_id": "0"
         },
@@ -6035,12 +6035,12 @@
       "id": "observed-data--11c55d75-8251-48c1-92eb-f120378c604d",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.759Z",
-      "modified": "2022-09-07T14:24:43.759Z",
+      "created": "2022-09-06T14:24:43.759Z",
+      "modified": "2022-09-06T14:24:43.759Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T16:51:50Z",
+          "created": "2022-09-06T16:51:50Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -6081,11 +6081,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240536957037",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T16:38:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T16:38:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -6138,20 +6138,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T16:51:50Z",
-      "last_observed": "2022-09-07T16:51:50Z",
+      "first_observed": "2022-09-06T16:51:50Z",
+      "last_observed": "2022-09-06T16:51:50Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--90956e3b-10d4-4874-a73c-2520e4363599",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.760Z",
-      "modified": "2022-09-07T14:24:43.760Z",
+      "created": "2022-09-06T14:24:43.760Z",
+      "modified": "2022-09-06T14:24:43.760Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:17:25Z",
+          "created": "2022-09-06T14:17:25Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -6192,11 +6192,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240552812921",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T13:43:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:43:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -6249,16 +6249,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:17:25Z",
-      "last_observed": "2022-09-07T14:17:25Z",
+      "first_observed": "2022-09-06T14:17:25Z",
+      "last_observed": "2022-09-06T14:17:25Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--232d43db-07f4-420b-a963-966c54634bff",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.760Z",
-      "modified": "2022-09-07T14:24:43.760Z",
+      "created": "2022-09-06T14:24:43.760Z",
+      "modified": "2022-09-06T14:24:43.760Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -6303,10 +6303,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:244815030588",
-          "agent_local_time": "2021-07-02T06:01:05.289Z",
+          "agent_local_time": "2022-09-06T06:01:05.289Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-06T18:33:34Z",
           "platform_id": "0"
         },
@@ -6368,12 +6368,12 @@
       "id": "observed-data--a56cb481-f51a-4be7-9f31-49e5cb2fd87b",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.761Z",
-      "modified": "2022-09-07T14:24:43.761Z",
+      "created": "2022-09-06T14:24:43.761Z",
+      "modified": "2022-09-06T14:24:43.761Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:57:47Z",
+          "created": "2022-09-06T14:57:47Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -6414,11 +6414,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240558233913",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:47:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:47:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -6471,20 +6471,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:57:47Z",
-      "last_observed": "2022-09-07T14:57:47Z",
+      "first_observed": "2022-09-06T14:57:47Z",
+      "last_observed": "2022-09-06T14:57:47Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--4f1b661c-82be-451d-887f-a014eba0cce2",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.762Z",
-      "modified": "2022-09-07T14:24:43.762Z",
+      "created": "2022-09-06T14:24:43.762Z",
+      "modified": "2022-09-06T14:24:43.762Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-07T12:40:53Z",
+          "created": "2022-09-06T12:40:53Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -6525,11 +6525,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249110539810",
-          "agent_local_time": "2021-07-07T00:29:06.083Z",
+          "agent_local_time": "2022-09-06T00:29:06.083Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-07T12:37:26Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T12:37:26Z",
           "platform_id": "0"
         },
         "5": {
@@ -6582,20 +6582,20 @@
           }
         }
       },
-      "first_observed": "2021-07-07T12:40:53Z",
-      "last_observed": "2021-07-07T12:40:53Z",
+      "first_observed": "2022-09-06T12:40:53Z",
+      "last_observed": "2022-09-06T12:40:53Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--fc5f6c5e-1f39-4a03-81ab-b693a546aa29",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.762Z",
-      "modified": "2022-09-07T14:24:43.762Z",
+      "created": "2022-09-06T14:24:43.762Z",
+      "modified": "2022-09-06T14:24:43.762Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T12:50:49Z",
+          "created": "2022-09-06T12:50:49Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -6636,11 +6636,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:e71b6d8f42584c91babfb9f18bc8f2bf:369367854554",
-          "agent_local_time": "2022-09-07T18:14:04.106Z",
+          "agent_local_time": "2022-09-06T18:14:04.106Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-12-30T19:09:53Z",
-          "last_seen": "2022-09-07T12:45:30Z",
+          "last_seen": "2022-09-06T12:45:30Z",
           "platform_id": "0"
         },
         "5": {
@@ -6693,16 +6693,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T12:50:49Z",
-      "last_observed": "2022-09-07T12:50:49Z",
+      "first_observed": "2022-09-06T12:50:49Z",
+      "last_observed": "2022-09-06T12:50:49Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--42940924-1675-4088-b784-88fc2857d10c",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.763Z",
-      "modified": "2022-09-07T14:24:43.763Z",
+      "created": "2022-09-06T14:24:43.763Z",
+      "modified": "2022-09-06T14:24:43.763Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -6750,7 +6750,7 @@
           "agent_local_time": "2021-07-13T17:35:41.399Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-15T11:32:11Z",
           "platform_id": "0"
         },
@@ -6812,8 +6812,8 @@
       "id": "observed-data--51c70097-55e7-48cd-b183-4ae46559d573",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.763Z",
-      "modified": "2022-09-07T14:24:43.763Z",
+      "created": "2022-09-06T14:24:43.763Z",
+      "modified": "2022-09-06T14:24:43.763Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -6858,10 +6858,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:253407522219",
-          "agent_local_time": "2021-07-12T15:05:18.178Z",
+          "agent_local_time": "2022-09-06T15:05:18.178Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-13T12:21:25Z",
           "platform_id": "0"
         },
@@ -6923,12 +6923,12 @@
       "id": "observed-data--7258a2c1-1ad1-4f50-a914-22e858a2b5c5",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.764Z",
-      "modified": "2022-09-07T14:24:43.764Z",
+      "created": "2022-09-06T14:24:43.764Z",
+      "modified": "2022-09-06T14:24:43.764Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:14:03Z",
+          "created": "2022-09-06T14:14:03Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -6969,11 +6969,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240552455355",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T13:43:14Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T13:43:14Z",
           "platform_id": "0"
         },
         "5": {
@@ -7026,16 +7026,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:14:03Z",
-      "last_observed": "2022-09-07T14:14:03Z",
+      "first_observed": "2022-09-06T14:14:03Z",
+      "last_observed": "2022-09-06T14:14:03Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--47c347bd-9eec-44ec-b5c5-08b85d7d82b5",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.764Z",
-      "modified": "2022-09-07T14:24:43.764Z",
+      "created": "2022-09-06T14:24:43.764Z",
+      "modified": "2022-09-06T14:24:43.764Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -7082,7 +7082,7 @@
           "agent_local_time": "2021-06-15T19:35:43.749Z",
           "agent_version": "6.24.13806.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-09-07T16:45:12Z",
+          "first_seen": "2022-09-06T16:45:12Z",
           "last_seen": "2021-06-15T21:13:15Z",
           "platform_id": "0"
         },
@@ -7138,8 +7138,8 @@
       "id": "observed-data--8e3a9136-4a9f-4b23-b072-c3d5da51ebff",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.765Z",
-      "modified": "2022-09-07T14:24:43.765Z",
+      "created": "2022-09-06T14:24:43.765Z",
+      "modified": "2022-09-06T14:24:43.765Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -7187,7 +7187,7 @@
           "agent_local_time": "2021-06-11T14:31:31.127Z",
           "agent_version": "6.24.13806.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-14T19:43:56Z",
           "platform_id": "0"
         },
@@ -7249,8 +7249,8 @@
       "id": "observed-data--c6380324-3458-4804-a83a-7f4edf2280b1",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.766Z",
-      "modified": "2022-09-07T14:24:43.766Z",
+      "created": "2022-09-06T14:24:43.766Z",
+      "modified": "2022-09-06T14:24:43.766Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -7295,10 +7295,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240543365083",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-25T11:28:28Z",
           "platform_id": "0"
         },
@@ -7360,12 +7360,12 @@
       "id": "observed-data--0d32b54f-2e6b-4407-a9b4-c82789732aa5",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.766Z",
-      "modified": "2022-09-07T14:24:43.766Z",
+      "created": "2022-09-06T14:24:43.766Z",
+      "modified": "2022-09-06T14:24:43.766Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2021-07-07T16:42:51Z",
+          "created": "2022-09-06T16:42:51Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -7406,11 +7406,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249113529425",
-          "agent_local_time": "2021-07-07T00:29:06.083Z",
+          "agent_local_time": "2022-09-06T00:29:06.083Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2021-07-07T16:17:27Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T16:17:27Z",
           "platform_id": "0"
         },
         "5": {
@@ -7463,20 +7463,20 @@
           }
         }
       },
-      "first_observed": "2021-07-07T16:42:51Z",
-      "last_observed": "2021-07-07T16:42:51Z",
+      "first_observed": "2022-09-06T16:42:51Z",
+      "last_observed": "2022-09-06T16:42:51Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--6c610eb3-37b6-4fc0-b2f3-a3d759e1dc3b",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.767Z",
-      "modified": "2022-09-07T14:24:43.767Z",
+      "created": "2022-09-06T14:24:43.767Z",
+      "modified": "2022-09-06T14:24:43.767Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T20:15:23Z",
+          "created": "2022-09-06T20:15:23Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -7517,11 +7517,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240539782621",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T19:56:24Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T19:56:24Z",
           "platform_id": "0"
         },
         "5": {
@@ -7574,16 +7574,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T20:15:23Z",
-      "last_observed": "2022-09-07T20:15:23Z",
+      "first_observed": "2022-09-06T20:15:23Z",
+      "last_observed": "2022-09-06T20:15:23Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--a989b58c-a22d-423d-9ace-0c61b5ef2c59",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.767Z",
-      "modified": "2022-09-07T14:24:43.767Z",
+      "created": "2022-09-06T14:24:43.767Z",
+      "modified": "2022-09-06T14:24:43.767Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -7628,10 +7628,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:253403808382",
-          "agent_local_time": "2021-07-12T15:05:18.178Z",
+          "agent_local_time": "2022-09-06T15:05:18.178Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-13T11:57:25Z",
           "platform_id": "0"
         },
@@ -7693,8 +7693,8 @@
       "id": "observed-data--d2f5fcb8-8d88-44fc-9498-cb99c7467c16",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.768Z",
-      "modified": "2022-09-07T14:24:43.768Z",
+      "created": "2022-09-06T14:24:43.768Z",
+      "modified": "2022-09-06T14:24:43.768Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -7739,10 +7739,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240562097925",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-01T18:59:20Z",
           "platform_id": "0"
         },
@@ -7804,12 +7804,12 @@
       "id": "observed-data--32e747f8-f33a-4031-88ed-e062cec03fb1",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.769Z",
-      "modified": "2022-09-07T14:24:43.769Z",
+      "created": "2022-09-06T14:24:43.769Z",
+      "modified": "2022-09-06T14:24:43.769Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T15:45:58Z",
+          "created": "2022-09-06T15:45:58Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -7850,11 +7850,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240532982185",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T15:34:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T15:34:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -7907,20 +7907,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T15:45:58Z",
-      "last_observed": "2022-09-07T15:45:58Z",
+      "first_observed": "2022-09-06T15:45:58Z",
+      "last_observed": "2022-09-06T15:45:58Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--a9c45ba9-f94e-49fd-b5a8-9cbedaf0938e",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.769Z",
-      "modified": "2022-09-07T14:24:43.769Z",
+      "created": "2022-09-06T14:24:43.769Z",
+      "modified": "2022-09-06T14:24:43.769Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:56:45Z",
+          "created": "2022-09-06T14:56:45Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -7961,11 +7961,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240529266321",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:48:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:48:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -8018,20 +8018,20 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:56:45Z",
-      "last_observed": "2022-09-07T14:56:45Z",
+      "first_observed": "2022-09-06T14:56:45Z",
+      "last_observed": "2022-09-06T14:56:45Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--bb4ff5e0-fa0e-4b93-ac35-5390fa90718a",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.769Z",
-      "modified": "2022-09-07T14:24:43.769Z",
+      "created": "2022-09-06T14:24:43.769Z",
+      "modified": "2022-09-06T14:24:43.769Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-09-07T14:59:22Z",
+          "created": "2022-09-06T14:59:22Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -8072,11 +8072,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240530228983",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
-          "last_seen": "2022-09-07T14:48:23Z",
+          "first_seen": "2022-09-06T16:36:49Z",
+          "last_seen": "2022-09-06T14:48:23Z",
           "platform_id": "0"
         },
         "5": {
@@ -8129,16 +8129,16 @@
           }
         }
       },
-      "first_observed": "2022-09-07T14:59:22Z",
-      "last_observed": "2022-09-07T14:59:22Z",
+      "first_observed": "2022-09-06T14:59:22Z",
+      "last_observed": "2022-09-06T14:59:22Z",
       "number_observed": 1
     },
     {
       "id": "observed-data--23abf73e-7104-45f5-8401-6ff74ac333b6",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.770Z",
-      "modified": "2022-09-07T14:24:43.770Z",
+      "created": "2022-09-06T14:24:43.770Z",
+      "modified": "2022-09-06T14:24:43.770Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -8183,10 +8183,10 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:240542886225",
-          "agent_local_time": "2021-06-21T15:19:55.731Z",
+          "agent_local_time": "2022-09-06T15:19:55.731Z",
           "agent_version": "6.25.13905.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-06-25T11:28:28Z",
           "platform_id": "0"
         },
@@ -8248,8 +8248,8 @@
       "id": "observed-data--fcd395ec-3117-42b4-ac3e-4fdf9ff3b700",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.770Z",
-      "modified": "2022-09-07T14:24:43.770Z",
+      "created": "2022-09-06T14:24:43.770Z",
+      "modified": "2022-09-06T14:24:43.770Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -8297,7 +8297,7 @@
           "agent_local_time": "2021-07-13T17:35:41.399Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-15T11:32:11Z",
           "platform_id": "0"
         },
@@ -8359,8 +8359,8 @@
       "id": "observed-data--d36d36c3-676a-4083-bc9e-1190a81647c6",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-09-07T14:24:43.771Z",
-      "modified": "2022-09-07T14:24:43.771Z",
+      "created": "2022-09-06T14:24:43.771Z",
+      "modified": "2022-09-06T14:24:43.771Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
@@ -8408,7 +8408,7 @@
           "agent_local_time": "2021-07-13T17:35:41.399Z",
           "agent_version": "6.26.14003.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2020-04-25T16:36:49Z",
+          "first_seen": "2022-09-06T16:36:49Z",
           "last_seen": "2021-07-15T11:32:11Z",
           "platform_id": "0"
         },
