@@ -275,6 +275,10 @@
 				"4": {
 					"type": "software",
 					"name": "MYSQL"
+								"tactic": "Exfiltration",
+								"tactic_id": "TA0010",
+								"technique": "Transfer Data to Cloud Account",
+								"technique_id": "T1537"
 				},
 				"5": {
 					"type": "ipv4-addr",
