@@ -258,7 +258,11 @@
 					"src_application_ref": "4",
 					"dst_ip_ref": "5",
 					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
+					"source": "collector1.gdemo.com",
+													"tactic": "Exfiltration",
+								"tactic_id": "TA0010",
+								"technique": "Transfer Data to Cloud Account",
+								"technique_id": "T1537"
 				},
 				"1": {
 					"type": "x-guardium",
@@ -274,11 +278,7 @@
 				},
 				"4": {
 					"type": "software",
-					"name": "MYSQL",
-								"tactic": "Exfiltration",
-								"tactic_id": "TA0010",
-								"technique": "Transfer Data to Cloud Account",
-								"technique_id": "T1537"
+					"name": "MYSQL"
 				},
 				"5": {
 					"type": "ipv4-addr",
