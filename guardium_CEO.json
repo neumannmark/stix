@@ -274,7 +274,7 @@
 				},
 				"4": {
 					"type": "software",
-					"name": "MYSQL"
+					"name": "MYSQL",
 								"tactic": "Exfiltration",
 								"tactic_id": "TA0010",
 								"technique": "Transfer Data to Cloud Account",
