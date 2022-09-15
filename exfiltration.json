@@ -1,0 +1,139 @@
+{
+    "type": "bundle",
+    "id": "bundle--fbb86b0f-6ba2-4cff-bf4a-32006f448f86",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--11db8153-1e60-454a-afdb-277f7db03c58",
+            "created": "2022-09-15T20:29:40.630Z",
+            "modified": "2022-09-15T20:29:40.630Z",
+            "name": "AWS",
+            "identity_class": "events"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--17185c07-ac79-4e18-9767-d0ecb8f8b5d5",
+            "created": "2022-09-15T20:29:40.636Z",
+            "modified": "2022-09-15T20:29:40.636Z",
+            "first_observed": "2022-09-15T15:29:35.039247Z",
+            "last_observed": "2022-09-15T15:29:35.039247Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.17",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 31339,
+                    "name": "plink.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--00146b6b-c1b9-43fa-a790-ecb827b0006f",
+            "created": "2022-09-15T20:29:40.638Z",
+            "modified": "2022-09-15T20:29:40.638Z",
+            "first_observed": "2022-09-15T15:30:40.039279Z",
+            "last_observed": "2022-09-15T15:30:40.039279Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.17",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 31205,
+                    "name": "socat.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "john"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--b10bea22-63a7-4315-bf1f-4464889cfef2",
+            "created": "2022-09-15T20:29:40.640Z",
+            "modified": "2022-09-15T20:29:40.640Z",
+            "first_observed": "2022-09-15T15:31:55.039283Z",
+            "last_observed": "2022-09-15T15:31:55.039283Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.17",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 31944,
+                    "name": "stunnel.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--b147b96e-2299-4d27-acb5-4647e59e3791",
+            "created": "2022-09-15T20:29:40.642Z",
+            "modified": "2022-09-15T20:29:40.642Z",
+            "first_observed": "2022-09-15T15:32:52.039287Z",
+            "last_observed": "2022-09-15T15:32:52.039287Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.17",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 31013,
+                    "name": "httptunnel.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "fadams"
+                }
+            }
+        }
+    ]
+}
