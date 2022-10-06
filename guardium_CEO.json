@@ -115,7 +115,7 @@
 				},
 				"1": {
 					"type": "x-guardium",
-					"severity": "Low"
+					"severity": "High"
 				},
 				"2": {
 					"type": "user-account",
