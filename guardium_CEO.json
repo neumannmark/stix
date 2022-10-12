@@ -8,15 +8,15 @@
 			"id": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
 			"identity_class": "system",
 			"name": "guardium",
-			"created": "2022-09-14T11:48:31.705Z",
-			"modified": "2022-09-14T11:48:31.705Z"
+			"created": "2022-10-03T16:20:31.705Z",
+			"modified": "2022-10-03T16:20:31.705Z"
 		},
 		{
 			"id": "observed-data--f4d4e516-35e4-4487-a08b-18b9594ac3fb",
 			"type": "observed-data",
 			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T11:48:31.708Z",
-			"modified": "2022-09-14T11:48:31.708Z",
+			"created": "2022-10-03T16:20:31.708Z",
+			"modified": "2022-10-03T16:20:31.708Z",
 			"objects": {
 				"0": {
 					"type": "x-guardium",
@@ -40,358 +40,16 @@
 					"user_id": "fadams"
 				}
 			},
-			"first_observed": "2022-09-14T14:02:25.000Z",
-			"last_observed": "2022-09-14T14:02:25.000Z",
-			"number_observed": 1
-		},
-		{
-			"id": "observed-data--9eca202e-76a6-4458-88ee-7d9102686b3b",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.252Z",
-			"modified": "2022-09-14T20:48:33.252Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "ORACLEXE",
-					"details": "create table CREDITCARD_CLONE ",
-					"name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Low"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "SQLPLUS"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "ORACLE"
-				}
-			},
-			"first_observed": "2022-09-14T14:00:08.000Z",
-			"last_observed": "2022-09-14T14:00:08.000Z",
-			"number_observed": 1
-		},
-		{
-			"id": "observed-data--9fddfb09-5ea7-4424-95d3-82030b89a959",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.253Z",
-			"modified": "2022-09-14T20:48:33.253Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "ORACLEXE",
-					"details": "drop table CREDITCARD_CLONE",
-					"name": "GDPR Personal Data Unauthorized User - Alert per match (violation)",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Low"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "SQLPLUS"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "ORACLE"
-				}
-			},
-			"first_observed": "2022-09-14T14:00:08.000Z",
-			"last_observed": "2022-09-14T14:00:08.000Z",
-			"number_observed": 1
-		},
-				{
-			"id": "observed-data--50fe244e-6ea2-4cb1-8e24-d05abdfeced7",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.253Z",
-			"modified": "2022-09-14T20:48:33.253Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "ORACLEXE",
-					"details": "drop table CREDITCARD_CLONE",
-					"name": "Unauthorized Clients access to Personal Data Sensitive Objects - Alert Per Match",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Medium"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "SQLPLUS"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "ORACLE"
-				}
-			},
-			"first_observed": "2022-09-14T14:00:08.000Z",
-			"last_observed": "2022-09-14T14:00:08.000Z",
-			"number_observed": 1
-		},
-				{
-			"id": "observed-data--78d27c50-381d-4689-9840-80f5dbbc33ed",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.253Z",
-			"modified": "2022-09-14T20:48:33.253Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "ORACLEXE",
-					"details": "create table CREDITCARD_CLONE ",
-					"name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Low"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "SQLPLUS"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "ORACLE"
-				}
-			},
-			"first_observed": "2022-09-14T14:00:09.000Z",
-			"last_observed": "2022-09-14T14:00:09.000Z",
-			"number_observed": 1
-		},
-		{
-			"id": "observed-data--5a8f1275-f5b2-4971-8e50-39ae13be062a",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.389Z",
-			"modified": "2022-09-14T20:48:33.389Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "192.168.56.101:5.6.43",
-					"details": "select * from creditcard",
-					"name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Low"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "MYSQL"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "MYSQL"
-				}
-			},
-			"first_observed": "2022-09-14T14:05:02.000Z",
-			"last_observed": "2022-09-14T14:05:02.000Z",
-			"number_observed": 1
-		},
-				{
-			"id": "observed-data--0bcac4e9-1368-426d-a705-3ff80b184575",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.389Z",
-			"modified": "2022-09-14T20:48:33.389Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "192.168.56.101:5.6.43",
-					"name": "Failed Login - GDPR Personal Data - Log Violation by Admin Users",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Low"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "MYSQL CLIENT"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "MYSQL"
-				}
-			},
-			"first_observed": "2022-09-14T23:00:02.000Z",
-			"last_observed": "2022-09-14T23:00:02.000Z",
-			"number_observed": 1
-		},
-		{
-			"id": "observed-data--8bf33f0e-5056-4c3b-952e-458e8844e9d8",
-			"type": "observed-data",
-			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.391Z",
-			"modified": "2022-09-14T20:48:33.391Z",
-			"objects": {
-				"0": {
-					"type": "x-ibm-finding",
-					"dst_device": "ORACLEXE",
-					"details": "grant select,insert,delete,upd",
-					"name": "Grant Commands, GDPR Personal Sensitive Data Objects - Log full details and alert",
-					"finding_type": "Policy Violation",
-					"src_database_user_ref": "2",
-					"src_ip_ref": "3",
-					"src_application_ref": "4",
-					"dst_ip_ref": "5",
-					"dst_application_ref": "6",
-					"source": "collector1.gdemo.com"
-				},
-				"1": {
-					"type": "x-guardium",
-					"severity": "Low"
-				},
-				"2": {
-					"type": "user-account",
-					"user_id": "fadams"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "45.155.205.233"
-				},
-				"4": {
-					"type": "software",
-					"name": "SQLPLUS"
-				},
-				"5": {
-					"type": "ipv4-addr",
-					"value": "192.168.56.101"
-				},
-				"6": {
-					"type": "software",
-					"name": "ORACLE"
-				}
-			},
-			"first_observed": "2022-09-14T19:00:11.000Z",
-			"last_observed": "2022-09-14T19:00:11.000Z",
+			"first_observed": "2022-10-03T16:20:25.000Z",
+			"last_observed": "2022-10-03T16:20:25.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--a363524e-8fe0-4dcf-ba2c-71e34d931f7e",
 			"type": "observed-data",
 			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.391Z",
-			"modified": "2022-09-14T20:48:33.391Z",
+			"created": "2022-10-03T16:20:33.391Z",
+			"modified": "2022-10-03T16:20:33.391Z",
 			"objects": {
 				"0": {
 					"type": "x-ibm-finding",
@@ -431,16 +89,16 @@
 					"name": "ORACLE"
 				}
 			},
-			"first_observed": "2022-09-14T14:00:11.000Z",
-			"last_observed": "2022-09-14T14:00:11.000Z",
+			"first_observed": "2022-10-03T16:20:11.000Z",
+			"last_observed": "2022-10-03T16:20:11.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--47b55667-ea5f-4e62-8d38-b058cb6a13e2",
 			"type": "observed-data",
 			"created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
-			"created": "2022-09-14T20:48:33.391Z",
-			"modified": "2022-09-14T20:48:33.391Z",
+			"created": "2022-10-03T16:20:33.391Z",
+			"modified": "2022-10-03T16:20:33.391Z",
 			"objects": {
 				"0": {
 					"type": "x-ibm-finding",
@@ -457,7 +115,7 @@
 				},
 				"1": {
 					"type": "x-guardium",
-					"severity": "Low"
+					"severity": "High"
 				},
 				"2": {
 					"type": "user-account",
@@ -480,8 +138,8 @@
 					"name": "ORACLE"
 				}
 			},
-			"first_observed": "2022-09-14T14:00:11.000Z",
-			"last_observed": "2022-09-14T14:00:11.000Z",
+			"first_observed": "2022-10-03T16:20:11.000Z",
+			"last_observed": "2022-10-03T16:20:11.000Z",
 			"number_observed": 1
 		}
 			]
