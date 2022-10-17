@@ -1,0 +1,317 @@
+{
+    "type": "bundle",
+    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "name": "AWS CloudWatch",
+            "identity_class": "events"
+        },            
+            {
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2022-10-15T15:50:32.138Z",
+            "modified": "2022-10-15T15:50:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "45.83.65.162",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.56.101",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "mark"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "CustomerData"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA=="
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object Downloaded",
+                "category_name": "AWS CloudWatch Message",
+                "log_source_name": "AWS CloudWatch"
+            },
+            "first_observed": "2022-10-15T16:42:58.140Z",
+            "last_observed": "2022-10-15T16:42:58.140Z",
+            "number_observed": 1
+        },
+		{
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea4",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2022-10-15T15:50:32.138Z",
+            "modified": "2022-10-15T15:50:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "45.83.65.162",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.56.101",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "mark"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "CustomerData"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA=="
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object Downloaded",
+                "category_name": "AWS CloudWatch Message",
+                "log_source_name": "AWS CloudWatch"
+            },
+            "first_observed": "2022-10-15T16:42:58.140Z",
+            "last_observed": "2022-10-15T16:42:58.140Z",
+            "number_observed": 1
+        },
+		{
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2022-10-15T15:50:32.138Z",
+            "modified": "2022-10-15T15:50:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "45.155.205.233",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.17",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "mark"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "CustomerData"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA=="
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object Downloaded",
+                "category_name": "AWS CloudWatch Message",
+                "log_source_name": "AWS CloudWatch"
+            },
+            "first_observed": "2022-10-15T16:42:58.140Z",
+            "last_observed": "2022-10-15T16:42:58.140Z",
+            "number_observed": 1
+        },
+		{
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea3",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2022-10-15T15:50:32.138Z",
+            "modified": "2022-10-15T15:50:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "89.223.26.52",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.17",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "mark"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "CustomerData"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA=="
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object Downloaded",
+                "category_name": "AWS CloudWatch Message",
+                "log_source_name": "AWS CloudWatch"
+            },
+            "first_observed": "2022-10-15T16:42:58.140Z",
+            "last_observed": "2022-10-15T16:42:58.140Z",
+            "number_observed": 1
+        },
+		{
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea2",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2022-10-15T15:50:32.138Z",
+            "modified": "2022-10-15T15:50:32.138Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "45.155.205.233",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.17",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "user-account",
+                    "user_id": "mark"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "CustomerData"
+                },
+                "9": {
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA=="
+                }
+            },
+            "x_com_ibm_ariel": {
+                "qid_name": "Object Downloaded",
+                "category_name": "AWS CloudWatch Message",
+                "log_source_name": "AWS CloudWatch"
+            },
+            "first_observed": "2022-10-15T16:42:58.140Z",
+            "last_observed": "2022-10-15T16:42:58.140Z",
+            "number_observed": 1
+        }
+    ]
+}
