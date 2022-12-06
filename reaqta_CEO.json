@@ -8,15 +8,15 @@
       "id": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
       "identity_class": "system",
       "name": "reaqta",
-      "created": "2022-11-17T14:02:42.038Z",
-      "modified": "2022-11-17T14:02:42.038Z"
+      "created": "2022-12-06T17:02:42.038Z",
+      "modified": "2022-12-06T17:02:42.038Z"
     },
 	{
     "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
     "type": "observed-data",
     "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
-    "created": "2022-11-17T14:02:20.890Z",
-    "modified": "2022-11-17T14:02:20.890Z",
+    "created": "2022-12-06T17:02:20.890Z",
+    "modified": "2022-12-06T17:02:20.890Z",
     "objects": {
         "0": {
             "type": "x-oca-event",
@@ -28,7 +28,7 @@
             "network_ref": "10",
             "category": "8",
             "action": "Network Connection Established",
-            "created": "2022-11-17T14:02:54.419Z"
+            "created": "2022-12-06T17:02:54.419Z"
         },
         "1": {
             "type": "x-oca-asset",
@@ -47,7 +47,7 @@
             "binary_ref": "6",
             "creator_user_ref": "8",
             "pid": 6548,
-            "created": "2022-11-17T14:02:54.862Z",
+            "created": "2022-12-06T17:02:54.862Z",
             "parent_ref": "4",
             "extensions": {
                 "windows-process-ext": {
@@ -139,20 +139,20 @@
             "value": "45.155.205.233"
         }
     },
-    "first_observed": "2022-11-17T14:02:43.724Z",
-    "last_observed": "2022-11-17T14:02:43.724Z",
+    "first_observed": "2022-12-06T17:02:43.724Z",
+    "last_observed": "2022-12-06T17:02:43.724Z",
     "number_observed": 1
 },
     {
       "id": "observed-data--d3e1a58a-ecd5-4cd8-bd67-8b220fc455ce",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:03:43.724Z",
-      "modified": "2022-11-17T14:03:43.724Z",
+      "created": "2022-12-06T17:03:43.724Z",
+      "modified": "2022-12-06T17:03:43.724Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:03:39Z",
+          "created": "2022-12-06T17:03:39Z",
           "process_ref": "2",
           "action": "UACBypass2",
           "outcome": "A malicious process launched that's likely attempting a User Account Control (UAC) bypass. Review the process tree.",
@@ -192,11 +192,11 @@
           "technique_id": "T1548.002",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-11-17T14:03:04.627Z",
+          "agent_local_time": "2022-12-06T17:03:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-11-17T14:03:12Z",
-          "last_seen": "2022-11-17T14:03:42Z",
+          "first_seen": "2022-12-06T17:03:12Z",
+          "last_seen": "2022-12-06T17:03:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -243,20 +243,20 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "first_observed": "2022-11-17T14:03:39Z",
-      "last_observed": "2022-11-17T14:03:39Z",
+      "first_observed": "2022-12-06T17:03:39Z",
+      "last_observed": "2022-12-06T17:03:39Z",
       "number_observed": 1
     },
 	    {
       "id": "observed-data--5b858b41-d98a-4912-bd7d-6e8bc2a0d9a3",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:04:43.724Z",
-      "modified": "2022-11-17T14:04:43.724Z",
+      "created": "2022-12-06T17:04:43.724Z",
+      "modified": "2022-12-06T17:04:43.724Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:04:39Z",
+          "created": "2022-12-06T17:04:39Z",
           "process_ref": "2",
           "outcome": "This file meets the machine learning-based on-sensor AV protection's high confidence threshold for malicious files.",
           "severity": 70,
@@ -297,11 +297,11 @@
           "technique_id": "CST0007",
           "confidence": 70,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-11-17T14:04:04.627Z",
+          "agent_local_time": "2022-12-06T17:04:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-11-17T14:04:12Z",
-          "last_seen": "2022-11-17T14:04:42Z",
+          "first_seen": "2022-12-06T17:04:12Z",
+          "last_seen": "2022-12-06T17:04:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -354,20 +354,20 @@
           }
         }
       },
-      "first_observed": "2022-11-17T14:04:39Z",
-      "last_observed": "2022-11-17T14:04:39Z",
+      "first_observed": "2022-12-06T17:04:39Z",
+      "last_observed": "2022-12-06T17:04:39Z",
       "number_observed": 1
     },
 	   {
       "id": "observed-data--30a91c57-fc2b-4dea-986d-885088490592",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:05:43.725Z",
-      "modified": "2022-11-17T14:05:43.725Z",
+      "created": "2022-12-06T17:05:43.725Z",
+      "modified": "2022-12-06T17:05:43.725Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:05:49Z",
+          "created": "2022-12-06T17:05:49Z",
           "process_ref": "2",
           "action": "IntelDomainMedium",
           "outcome": "A domain lookup matched a ReaQta Intelligence indicator.",
@@ -408,11 +408,11 @@
           "technique_id": "CST0018",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-11-17T14:05:04.627Z",
+          "agent_local_time": "2022-12-06T17:05:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-11-17T14:05:12Z",
-          "last_seen": "2022-11-17T14:05:42Z",
+          "first_seen": "2022-12-06T17:05:12Z",
+          "last_seen": "2022-12-06T17:05:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -467,20 +467,20 @@
           "dst_ref": "12"
         }
       },
-      "first_observed": "2022-11-17T14:05:49Z",
-      "last_observed": "2022-11-17T14:05:49Z",
+      "first_observed": "2022-12-06T17:05:49Z",
+      "last_observed": "2022-12-06T17:05:49Z",
       "number_observed": 1
     },
 	    {
       "id": "observed-data--7819a74a-5f9f-499c-bf8c-eb50a6a37b32",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:06:43.727Z",
-      "modified": "2022-11-17T14:06:43.727Z",
+      "created": "2022-12-06T17:06:43.727Z",
+      "modified": "2022-12-06T17:06:43.727Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:06:53Z",
+          "created": "2022-12-06T17:06:53Z",
           "process_ref": "2",
           "action": "MaliciousPowershell",
           "outcome": "A PowerShell script related to this process is likely malicious or shares characteristics with known malicious scripts. Review the script.",
@@ -520,11 +520,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-11-17T14:06:04.627Z",
+          "agent_local_time": "2022-12-06T17:06:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-11-17T14:06:12Z",
-          "last_seen": "2022-11-17T14:06:42Z",
+          "first_seen": "2022-12-06T17:06:12Z",
+          "last_seen": "2022-12-06T17:06:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -571,20 +571,20 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "first_observed": "2022-11-17T14:06:53Z",
-      "last_observed": "2022-11-17T14:06:53Z",
+      "first_observed": "2022-12-06T17:06:53Z",
+      "last_observed": "2022-12-06T17:06:53Z",
       "number_observed": 1
     },
 	    {
       "id": "observed-data--77382665-4552-427a-a011-641f40e50e7f",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:07:43.728Z",
-      "modified": "2022-11-17T14:07:43.728Z",
+      "created": "2022-12-06T17:07:43.728Z",
+      "modified": "2022-12-06T17:07:43.728Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:07:24Z",
+          "created": "2022-12-06T17:07:24Z",
           "process_ref": "2",
           "action": "Destructive",
           "outcome": "A suspicious process, associated with potentially destructive malware like ransomware, launched. Review the process tree. ",
@@ -620,11 +620,11 @@
           "technique_id": "T1486",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "agent_local_time": "2022-11-17T14:07:04.627Z",
+          "agent_local_time": "2022-12-06T17:07:04.627Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-11-17T14:07:12Z",
-          "last_seen": "2022-11-17T14:07:42Z",
+          "first_seen": "2022-12-06T17:07:12Z",
+          "last_seen": "2022-12-06T17:07:42Z",
           "platform_id": "0"
         },
         "5": {
@@ -671,20 +671,20 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "first_observed": "2022-11-17T14:07:24Z",
-      "last_observed": "2022-11-17T14:07:24Z",
+      "first_observed": "2022-12-06T17:07:24Z",
+      "last_observed": "2022-12-06T17:07:24Z",
       "number_observed": 1
     },
 	    {
       "id": "observed-data--08a61c11-72b8-4d2a-bee3-5ffa43f3da88",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:08:43.729Z",
-      "modified": "2022-11-17T14:08:43.729Z",
+      "created": "2022-12-06T17:08:43.729Z",
+      "modified": "2022-12-06T17:08:43.729Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:08:14Z",
+          "created": "2022-12-06T17:08:14Z",
           "process_ref": "2",
           "action": "library load",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -725,11 +725,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249111658855",
-          "agent_local_time": "2022-11-17T14:08:06.083Z",
+          "agent_local_time": "2022-12-06T17:08:06.083Z",
           "agent_version": "6.25.13909.0",
           "ioc_value": "Phoenix Technologies LTD",
-          "first_seen": "2022-11-17T14:08:49Z",
-          "last_seen": "2022-11-17T14:08:56Z",
+          "first_seen": "2022-12-06T17:08:49Z",
+          "last_seen": "2022-12-06T17:08:56Z",
           "platform_id": "0"
         },
         "5": {
@@ -782,20 +782,20 @@
           }
         }
       },
-      "first_observed": "2022-11-17T14:08:14Z",
-      "last_observed": "2022-11-17T14:08:14Z",
+      "first_observed": "2022-12-06T17:08:14Z",
+      "last_observed": "2022-12-06T17:08:14Z",
       "number_observed": 1
     },
 	{
       "id": "observed-data--7ec5f4d1-741b-4206-9a4f-f2c87169c59f",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:10:43.733Z",
-      "modified": "2022-11-17T14:10:43.733Z",
+      "created": "2022-12-06T17:10:43.733Z",
+      "modified": "2022-12-06T17:10:43.733Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:10:23Z",
+          "created": "2022-12-06T17:10:23Z",
           "process_ref": "2",
           "action": "PShellExploitKit2",
           "outcome": "A PowerShell script launched that shares characteristics with known PowerShell exploit kits. The script might connect to remote command and control. Decode and review the script.",
@@ -831,11 +831,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:7c26832416cc4c4abb58aac1f2651009:47245593083",
-          "agent_local_time": "2022-11-17T14:10:59.721Z",
+          "agent_local_time": "2022-12-06T17:10:59.721Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-11-17T15:10:17Z",
-          "last_seen": "2022-11-17T14:10:18Z",
+          "last_seen": "2022-12-06T17:10:18Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -883,20 +883,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-11-17T14:10:23Z",
-      "last_observed": "2022-11-17T14:10:23Z",
+      "first_observed": "2022-12-06T17:10:23Z",
+      "last_observed": "2022-12-06T17:10:23Z",
       "number_observed": 1
     },
 	    {
       "id": "observed-data--79d65c3a-233c-4b4d-8f0a-e2e68d78a146",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-11-17T14:11:43.733Z",
-      "modified": "2022-11-17T14:11:43.733Z",
+      "created": "2022-12-06T17:11:43.733Z",
+      "modified": "2022-12-06T17:11:43.733Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-11-17T14:11:16Z",
+          "created": "2022-12-06T17:11:16Z",
           "process_ref": "2",
           "action": "ProcRansomware",
           "outcome": "A process associated with a known ransomware campaign launched. Investigate the host for signs of a ransomware attack.",
@@ -932,11 +932,11 @@
           "technique_id": "T1486",
           "confidence": 80,
           "detection_id": "ldt:e71b6d8f42584c91babfb9f18bc8f2bf:369369061502",
-          "agent_local_time": "2022-11-17T14:11:04.106Z",
+          "agent_local_time": "2022-12-06T17:11:04.106Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-11-17T14:11:53Z",
-          "last_seen": "2022-11-17T14:11:30Z",
+          "first_seen": "2022-12-06T17:11:53Z",
+          "last_seen": "2022-12-06T17:11:30Z",
           "platform_id": "0"
         },
         "5": {
@@ -983,8 +983,8 @@
           "value": "00:0c:29:f2:9d:5f"
         }
       },
-      "first_observed": "2022-11-17T14:11:16Z",
-      "last_observed": "2022-11-17T14:11:16Z",
+      "first_observed": "2022-12-06T17:11:16Z",
+      "last_observed": "2022-12-06T17:11:16Z",
       "number_observed": 1
     }
 	  ]
