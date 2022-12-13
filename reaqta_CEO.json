@@ -831,11 +831,11 @@
           "technique_id": "T1059.001",
           "confidence": 80,
           "detection_id": "ldt:7c26832416cc4c4abb58aac1f2651009:47245593083",
-          "agent_local_time": "2022-12-14T14:59:59.721Z",
+          "agent_local_time": "2022-12-13T14:59:59.721Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
           "first_seen": "2020-12-14T14:59:17Z",
-          "last_seen": "2022-12-14T14:59:18Z",
+          "last_seen": "2022-12-13T14:59:18Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0"
         },
@@ -883,20 +883,20 @@
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "first_observed": "2022-12-14T14:59:23Z",
-      "last_observed": "2022-12-14T14:59:23Z",
+      "first_observed": "2022-12-13T14:59:23Z",
+      "last_observed": "2022-12-13T14:59:23Z",
       "number_observed": 1
     },
 	    {
       "id": "observed-data--79d65c3a-233c-4b4d-8f0a-e2e68d78a146",
       "type": "observed-data",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "created": "2022-12-14T14:59:43.733Z",
-      "modified": "2022-12-14T14:59:43.733Z",
+      "created": "2022-12-13T14:59:43.733Z",
+      "modified": "2022-12-13T14:59:43.733Z",
       "objects": {
         "0": {
           "type": "x-oca-event",
-          "created": "2022-12-14T14:59:16Z",
+          "created": "2022-12-13T14:59:16Z",
           "process_ref": "2",
           "action": "ProcRansomware",
           "outcome": "A process associated with a known ransomware campaign launched. Investigate the host for signs of a ransomware attack.",
@@ -935,8 +935,8 @@
           "agent_local_time": "2022-12-06T17:11:04.106Z",
           "agent_version": "6.22.13607.0",
           "ioc_value": "VMware, Inc.",
-          "first_seen": "2022-12-14T14:59:53Z",
-          "last_seen": "2022-12-14T14:59:30Z",
+          "first_seen": "2022-12-13T14:59:53Z",
+          "last_seen": "2022-12-13T14:59:30Z",
           "platform_id": "0"
         },
         "5": {
@@ -983,8 +983,8 @@
           "value": "00:0c:29:f2:9d:5f"
         }
       },
-      "first_observed": "2022-12-14T14:59:16Z",
-      "last_observed": "2022-12-14T14:59:16Z",
+      "first_observed": "2022-12-13T14:59:16Z",
+      "last_observed": "2022-12-13T14:59:16Z",
       "number_observed": 1
     }
 	  ]
