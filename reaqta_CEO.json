@@ -769,7 +769,7 @@
         },
         "10": {
           "type": "ipv4-addr",
-          "value": "192.167.1.30"
+          "value": "192.168.6.242"
         },
         "11": {
           "type": "mac-addr",
@@ -867,7 +867,7 @@
             "8",
             "10"
           ],
-          "hostname": "RL-BJO-WIN10FL-",
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
@@ -876,7 +876,7 @@
         },
         "10": {
           "type": "ipv4-addr",
-          "value": "10.0.0.226"
+          "value": "192.168.6.242"
         },
         "11": {
           "type": "mac-addr",
@@ -941,7 +941,7 @@
         },
         "5": {
           "type": "user-account",
-          "account_login": "reaqta",
+          "account_login": "fadams",
           "user_id": "S-1-5-21-4124038817-4173282017-4184401995-1001"
         },
         "6": {
@@ -959,7 +959,7 @@
         },
         "8": {
           "type": "ipv4-addr",
-          "value": "49.206.231.58"
+          "value": "45.155.205.233"
         },
         "9": {
           "type": "x-oca-asset",
@@ -967,7 +967,7 @@
             "8",
             "10"
           ],
-          "hostname": "XFESS-LAB3",
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
@@ -976,7 +976,7 @@
         },
         "10": {
           "type": "ipv4-addr",
-          "value": "192.168.58.130"
+          "value": "192.168.6.242"
         },
         "11": {
           "type": "mac-addr",
