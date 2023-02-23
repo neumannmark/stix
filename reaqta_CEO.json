@@ -130,6 +130,7 @@
           ],
           "src_port": 56742,
           "src_ref": "11",
+          "dst_ref": "12",
           "type": "network-traffic"
         },
         "11": {
@@ -226,7 +227,6 @@
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -331,7 +331,6 @@
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -437,12 +436,14 @@
         },
         "8": {
           "type": "ipv4-addr",
-          "value": "45.155.205.233"
+          "value": "45.155.205.233",
+          "resolves_to_refs": [
+              "12"
+          ]
         },
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -465,7 +466,14 @@
           "value": "catsdegree.com"
         },
         "13": {
-          "dst_ref": "12",
+          "dst_ref": "8",
+          "src_ref": "10",
+          "src_port": 12458,
+          "dst_port": 443,
+          "protocols": [
+            "tcp",
+            "https"
+          ],
           "type": "network-traffic"
         }
       },
@@ -554,7 +562,6 @@
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -654,7 +661,6 @@
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -759,7 +765,6 @@
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -861,12 +866,11 @@
         },
         "8": {
           "type": "ipv4-addr",
-          "value": "45.155.205.233"
+          "value": "37.120.215.227"
         },
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
@@ -966,7 +970,6 @@
         "9": {
           "hostname": "Frank-PC",
           "ip_refs": [
-            "8",
             "10"
           ],
           "mac_refs": [
