@@ -30,10 +30,12 @@
           "parent_process_ref": "4",
           "process_ref": "3",
           "type": "x-oca-event",
-          "user_ref": "8"
+          "user_ref": "8",
+          "host_ref": "1"
         },
         "1": {
           "host_id": "900022840986697728",
+          "hostname": "Frank-PC",
           "ip_refs": [
             "11"
           ],
@@ -118,7 +120,6 @@
         },
         "10": {
           "dst_port": 443,
-          "dst_ref": "12",
           "extensions": {
             "x-reaqta-network": {
               "address_family": "IPv4",
@@ -225,6 +226,7 @@
           "value": "45.155.205.233"
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
@@ -330,6 +332,7 @@
         },
         "9": {
           "hostname": "Frank-PC",
+          "host_id": "900022840986697728",
           "ip_refs": [
             "10"
           ],
@@ -442,6 +445,7 @@
           ]
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
@@ -560,6 +564,7 @@
           "value": "45.155.205.233"
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
@@ -659,6 +664,7 @@
           "value": "45.155.205.233"
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
@@ -763,6 +769,7 @@
           "value": "45.155.205.233"
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
@@ -866,9 +873,10 @@
         },
         "8": {
           "type": "ipv4-addr",
-          "value": "45.155.205.233"
+          "value": "37.120.215.227"
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
@@ -968,6 +976,7 @@
           "value": "45.155.205.233"
         },
         "9": {
+          "host_id": "900022840986697728",
           "hostname": "Frank-PC",
           "ip_refs": [
             "10"
