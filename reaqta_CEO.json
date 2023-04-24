@@ -2,36 +2,36 @@
   "id": "6fb563a5-3f3b-4886-90a8-a93d211487a4",
   "objects": [
     {
-      "created": "2023-02-22T20:20:42.038000Z",
-      "first_observed": "2023-02-22T20:20:42.038000Z",
+      "created": "2023-04-18T01:19:05.038000Z",
+      "first_observed": "2023-04-18T01:19:05.038000Z",
       "id": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
       "identity_class": "system",
-      "last_observed": "2023-02-22T20:20:42.038000Z",
-      "modified": "2023-02-22T20:20:42.038000Z",
+      "last_observed": "2023-04-18T01:19:05.038000Z",
+      "modified": "2023-04-18T01:19:05.038000Z",
       "name": "reaqta",
       "type": "identity"
     },
     {
-      "created": "2023-02-22T20:21:42.038000Z",
+      "created": "2023-04-18T01:20:05.038000Z",
       "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
-      "first_observed": "2023-02-22T20:21:42.038000Z",
+      "first_observed": "2023-04-18T01:20:05.038000Z",
       "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
-      "last_observed": "2023-02-22T20:21:42.038000Z",
-      "modified": "2023-02-22T20:21:42.038000Z",
+      "last_observed": "2023-04-18T01:20:05.038000Z",
+      "modified": "2023-04-18T01:20:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "Network Connection Established",
           "category": "8",
           "code": 900024717988069400,
-          "created": "2023-02-22T20:21:42.038000Z",
+          "created": "2023-04-18T01:20:05.038000Z",
           "file_ref": "6",
+          "host_ref": "1",
           "network_ref": "10",
           "parent_process_ref": "4",
           "process_ref": "3",
           "type": "x-oca-event",
-          "user_ref": "8",
-          "host_ref": "1"
+          "user_ref": "8"
         },
         "1": {
           "host_id": "900022840986697728",
@@ -47,7 +47,7 @@
         },
         "3": {
           "binary_ref": "6",
-          "created": "2023-02-22T20:21:42.038000Z",
+          "created": "2023-04-18T01:20:05.038000Z",
           "creator_user_ref": "8",
           "extensions": {
             "windows-process-ext": {
@@ -120,6 +120,7 @@
         },
         "10": {
           "dst_port": 443,
+          "dst_ref": "12",
           "extensions": {
             "x-reaqta-network": {
               "address_family": "IPv4",
@@ -131,7 +132,6 @@
           ],
           "src_port": 56742,
           "src_ref": "11",
-          "dst_ref": "12",
           "type": "network-traffic"
         },
         "11": {
@@ -146,17 +146,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:22:42.038000Z",
+      "created": "2023-04-18T01:21:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:22:42.038000Z",
+      "first_observed": "2023-04-18T01:21:05.038000Z",
       "id": "observed-data--d3e1a58a-ecd5-4cd8-bd67-8b220fc455ce",
-      "last_observed": "2023-02-22T20:22:42.038000Z",
-      "modified": "2023-02-22T20:22:42.038000Z",
+      "last_observed": "2023-04-18T01:21:05.038000Z",
+      "modified": "2023-04-18T01:21:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "UACBypass2",
-          "created": "2023-02-22T20:22:42.038000Z",
+          "created": "2023-04-18T01:21:05.038000Z",
           "host_ref": "9",
           "outcome": "A malicious process launched that's likely attempting a User Account Control (UAC) bypass. Review the process tree.",
           "parent_process_ref": "7",
@@ -188,13 +188,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:22:42.038000Z",
+          "agent_local_time": "2023-04-18T01:21:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-02-22T20:22:42.038000Z",
+          "first_seen": "2023-04-18T01:21:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:22:42.038000Z",
+          "last_seen": "2023-04-18T01:21:05.038000Z",
           "platform_id": "0",
           "scenario": "privilege_escalation",
           "tactic": "Privilege Escalation",
@@ -250,17 +250,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:23:42.038000Z",
+      "created": "2023-04-18T01:22:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:23:42.038000Z",
+      "first_observed": "2023-04-18T01:22:05.038000Z",
       "id": "observed-data--5b858b41-d98a-4912-bd7d-6e8bc2a0d9a3",
-      "last_observed": "2023-02-22T20:23:42.038000Z",
-      "modified": "2023-02-22T20:23:42.038000Z",
+      "last_observed": "2023-04-18T01:22:05.038000Z",
+      "modified": "2023-04-18T01:22:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "library load",
-          "created": "2023-02-22T20:23:42.038000Z",
+          "created": "2023-04-18T01:22:05.038000Z",
           "file_ref": "12",
           "host_ref": "9",
           "outcome": "This file meets the machine learning-based on-sensor AV protection's high confidence threshold for malicious files.",
@@ -293,13 +293,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:23:42.038000Z",
+          "agent_local_time": "2023-04-18T01:22:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 70,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-02-22T20:23:42.038000Z",
+          "first_seen": "2023-04-18T01:22:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:23:42.038000Z",
+          "last_seen": "2023-04-18T01:22:05.038000Z",
           "platform_id": "0",
           "scenario": "NGAV",
           "tactic": "Machine Learning",
@@ -331,8 +331,8 @@
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
           "host_id": "900022840986697728",
+          "hostname": "Frank-PC",
           "ip_refs": [
             "10"
           ],
@@ -361,17 +361,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:24:42.038000Z",
+      "created": "2023-04-18T01:23:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:24:42.038000Z",
+      "first_observed": "2023-04-18T01:23:05.038000Z",
       "id": "observed-data--30a91c57-fc2b-4dea-986d-885088490592",
-      "last_observed": "2023-02-22T20:24:42.038000Z",
-      "modified": "2023-02-22T20:24:42.038000Z",
+      "last_observed": "2023-04-18T01:23:05.038000Z",
+      "modified": "2023-04-18T01:23:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "IntelDomainMedium",
-          "created": "2023-02-22T20:24:42.038000Z",
+          "created": "2023-04-18T01:23:05.038000Z",
           "host_ref": "9",
           "network_ref": "13",
           "outcome": "A domain lookup matched a ReaQta Intelligence indicator.",
@@ -404,13 +404,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:24:42.038000Z",
+          "agent_local_time": "2023-04-18T01:23:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-02-22T20:24:42.038000Z",
+          "first_seen": "2023-04-18T01:23:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:24:42.038000Z",
+          "last_seen": "2023-04-18T01:23:05.038000Z",
           "platform_id": "0",
           "scenario": "intel_detection",
           "tactic": "Falcon Intel",
@@ -438,11 +438,11 @@
           "type": "process"
         },
         "8": {
-          "type": "ipv4-addr",
-          "value": "45.155.205.233",
           "resolves_to_refs": [
-              "12"
-          ]
+            "12"
+          ],
+          "type": "ipv4-addr",
+          "value": "45.155.205.233"
         },
         "9": {
           "host_id": "900022840986697728",
@@ -470,31 +470,31 @@
           "value": "catsdegree.com"
         },
         "13": {
-          "dst_ref": "8",
-          "src_ref": "10",
-          "src_port": 12458,
           "dst_port": 443,
+          "dst_ref": "8",
           "protocols": [
             "tcp",
             "https"
           ],
+          "src_port": 12458,
+          "src_ref": "10",
           "type": "network-traffic"
         }
       },
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:25:42.038000Z",
+      "created": "2023-04-18T01:24:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:25:42.038000Z",
+      "first_observed": "2023-04-18T01:24:05.038000Z",
       "id": "observed-data--7819a74a-5f9f-499c-bf8c-eb50a6a37b32",
-      "last_observed": "2023-02-22T20:25:42.038000Z",
-      "modified": "2023-02-22T20:25:42.038000Z",
+      "last_observed": "2023-04-18T01:24:05.038000Z",
+      "modified": "2023-04-18T01:24:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "MaliciousPowershell",
-          "created": "2023-02-22T20:25:42.038000Z",
+          "created": "2023-04-18T01:24:05.038000Z",
           "host_ref": "9",
           "outcome": "A PowerShell script related to this process is likely malicious or shares characteristics with known malicious scripts. Review the script.",
           "parent_process_ref": "7",
@@ -526,13 +526,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:25:42.038000Z",
+          "agent_local_time": "2023-04-18T01:24:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-02-22T20:25:42.038000Z",
+          "first_seen": "2023-04-18T01:24:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:25:42.038000Z",
+          "last_seen": "2023-04-18T01:24:05.038000Z",
           "platform_id": "0",
           "scenario": "suspicious_activity",
           "tactic": "Execution",
@@ -588,17 +588,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:26:42.038000Z",
+      "created": "2023-04-18T01:25:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:26:42.038000Z",
+      "first_observed": "2023-04-18T01:25:05.038000Z",
       "id": "observed-data--77382665-4552-427a-a011-641f40e50e7f",
-      "last_observed": "2023-02-22T20:26:42.038000Z",
-      "modified": "2023-02-22T20:26:42.038000Z",
+      "last_observed": "2023-04-18T01:25:05.038000Z",
+      "modified": "2023-04-18T01:25:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "Destructive",
-          "created": "2023-02-22T20:26:42.038000Z",
+          "created": "2023-04-18T01:25:05.038000Z",
           "host_ref": "9",
           "outcome": "A suspicious process, associated with potentially destructive malware like ransomware, launched. Review the process tree. ",
           "parent_process_ref": "7",
@@ -626,13 +626,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:26:42.038000Z",
+          "agent_local_time": "2023-04-18T01:25:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-02-22T20:26:42.038000Z",
+          "first_seen": "2023-04-18T01:25:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:26:42.038000Z",
+          "last_seen": "2023-04-18T01:25:05.038000Z",
           "platform_id": "0",
           "scenario": "data_loss",
           "tactic": "Impact",
@@ -688,17 +688,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:27:42.038000Z",
+      "created": "2023-04-18T01:26:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:27:42.038000Z",
+      "first_observed": "2023-04-18T01:26:05.038000Z",
       "id": "observed-data--08a61c11-72b8-4d2a-bee3-5ffa43f3da88",
-      "last_observed": "2023-02-22T20:27:42.038000Z",
-      "modified": "2023-02-22T20:27:42.038000Z",
+      "last_observed": "2023-04-18T01:26:05.038000Z",
+      "modified": "2023-04-18T01:26:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "library load",
-          "created": "2023-02-22T20:27:42.038000Z",
+          "created": "2023-04-18T01:26:05.038000Z",
           "file_ref": "12",
           "host_ref": "9",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -731,13 +731,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:27:42.038000Z",
+          "agent_local_time": "2023-04-18T01:26:05.038000Z",
           "agent_version": "6.25.13909.0",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249111658855",
-          "first_seen": "2023-02-22T20:27:42.038000Z",
+          "first_seen": "2023-04-18T01:26:05.038000Z",
           "ioc_value": "Phoenix Technologies LTD",
-          "last_seen": "2023-02-22T20:27:42.038000Z",
+          "last_seen": "2023-04-18T01:26:05.038000Z",
           "platform_id": "0",
           "scenario": "attacker_methodology",
           "tactic": "Execution",
@@ -799,17 +799,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:28:42.038000Z",
+      "created": "2023-04-18T01:27:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:28:42.038000Z",
+      "first_observed": "2023-04-18T01:27:05.038000Z",
       "id": "observed-data--7ec5f4d1-741b-4206-9a4f-f2c87169c59f",
-      "last_observed": "2023-02-22T20:28:42.038000Z",
-      "modified": "2023-02-22T20:28:42.038000Z",
+      "last_observed": "2023-04-18T01:27:05.038000Z",
+      "modified": "2023-04-18T01:27:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "PShellExploitKit2",
-          "created": "2023-02-22T20:28:42.038000Z",
+          "created": "2023-04-18T01:27:05.038000Z",
           "host_ref": "9",
           "outcome": "A PowerShell script launched that shares characteristics with known PowerShell exploit kits. The script might connect to remote command and control. Decode and review the script.",
           "parent_process_ref": "7",
@@ -837,13 +837,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:28:42.038000Z",
+          "agent_local_time": "2023-04-18T01:27:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:7c26832416cc4c4abb58aac1f2651009:47245593083",
-          "first_seen": "2023-02-22T20:28:42.038000Z",
+          "first_seen": "2023-04-18T01:27:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:28:42.038000Z",
+          "last_seen": "2023-04-18T01:27:05.038000Z",
           "machine_domain": "bigcorp.local",
           "platform_id": "0",
           "scenario": "attacker_methodology",
@@ -900,17 +900,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-02-22T20:29:42.038000Z",
+      "created": "2023-04-18T01:28:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-02-22T20:29:42.038000Z",
+      "first_observed": "2023-04-18T01:28:05.038000Z",
       "id": "observed-data--79d65c3a-233c-4b4d-8f0a-e2e68d78a146",
-      "last_observed": "2023-02-22T20:29:42.038000Z",
-      "modified": "2023-02-22T20:29:42.038000Z",
+      "last_observed": "2023-04-18T01:28:05.038000Z",
+      "modified": "2023-04-18T01:28:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "ProcRansomware",
-          "created": "2023-02-22T20:29:42.038000Z",
+          "created": "2023-04-18T01:28:05.038000Z",
           "host_ref": "9",
           "outcome": "A process associated with a known ransomware campaign launched. Investigate the host for signs of a ransomware attack.",
           "parent_process_ref": "7",
@@ -938,13 +938,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-02-22T20:29:42.038000Z",
+          "agent_local_time": "2023-04-18T01:28:05.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:e71b6d8f42584c91babfb9f18bc8f2bf:369369061502",
-          "first_seen": "2023-02-22T20:29:42.038000Z",
+          "first_seen": "2023-04-18T01:28:05.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-02-22T20:29:42.038000Z",
+          "last_seen": "2023-04-18T01:28:05.038000Z",
           "platform_id": "0",
           "scenario": "ransomware",
           "tactic": "Impact",
