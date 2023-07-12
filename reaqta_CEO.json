@@ -688,17 +688,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-07-11T54:26:05.038000Z",
+      "created": "2023-07-11T21:54:05.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-07-11T54:26:05.038000Z",
+      "first_observed": "2023-07-11T21:54:05.038000Z",
       "id": "observed-data--08a61c11-72b8-4d2a-bee3-5ffa43f3da88",
-      "last_observed": "2023-07-11T54:26:05.038000Z",
-      "modified": "2023-07-11T54:26:05.038000Z",
+      "last_observed": "2023-07-11T21:54:05.038000Z",
+      "modified": "2023-07-11T21:54:05.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "library load",
-          "created": "2023-07-11T54:26:05.038000Z",
+          "created": "2023-07-11T21:54:05.038000Z",
           "file_ref": "12",
           "host_ref": "9",
           "outcome": "A PowerShell process downloaded and launched a remote file. This is often the result of a malicious macro designed to drop a variety of second stage payloads. Review the command line.",
@@ -731,13 +731,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-07-11T54:26:05.038000Z",
+          "agent_local_time": "2023-07-11T21:54:05.038000Z",
           "agent_version": "6.25.13909.0",
           "confidence": 80,
           "detection_id": "ldt:0d6ca15ba400411eafe2e6b38245df9e:249111658855",
-          "first_seen": "2023-07-11T54:26:05.038000Z",
+          "first_seen": "2023-07-11T21:54:05.038000Z",
           "ioc_value": "Phoenix Technologies LTD",
-          "last_seen": "2023-07-11T54:26:05.038000Z",
+          "last_seen": "2023-07-11T21:54:05.038000Z",
           "platform_id": "0",
           "scenario": "attacker_methodology",
           "tactic": "Execution",
