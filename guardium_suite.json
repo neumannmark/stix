@@ -1,0 +1,148 @@
+{
+  "id": "2a053794-8795-444d-930b-f88ff2aae9ad",
+  "objects": [
+    {
+      "created": "2023-10-09T15:47:25.038000Z",
+      "first_observed": "2023-10-09T15:47:25.038000Z",
+      "id": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+      "identity_class": "system",
+      "last_observed": "2023-10-09T15:47:25.038000Z",
+      "modified": "2023-10-09T15:47:25.038000Z",
+      "name": "guardium",
+      "type": "identity"
+    },
+    {
+      "created": "2023-10-09T15:47:25.038000Z",
+      "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+      "first_observed": "2023-10-09T15:47:25.038000Z",
+      "id": "observed-data--f4d4e516-35e4-4487-a08b-18b9594ac3fb",
+      "last_observed": "2023-10-09T15:47:25.038000Z",
+      "modified": "2023-10-09T15:47:25.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "severity": "Low",
+          "type": "x-guardium"
+        },
+        "1": {
+          "dst_device": "ORACLEXE",
+          "dst_ip_ref": "2",
+          "finding_type": "Threat Case",
+          "name": "Insider Threat: Possible data leak",
+          "source": "collector1.gdemo.com",
+          "src_database_user_ref": "3",
+          "type": "x-ibm-finding"
+        },
+        "2": {
+          "type": "ipv4-addr",
+          "value": "34.149.126.94"
+        },
+        "3": {
+          "type": "user-account",
+          "user_id": "fadams"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-09T15:47:25.038000Z",
+      "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+      "first_observed": "2023-10-09T15:47:25.038000Z",
+      "id": "observed-data--a363524e-8fe0-4dcf-ba2c-71e34d931f7e",
+      "last_observed": "2023-10-09T15:47:25.038000Z",
+      "modified": "2023-10-09T15:47:25.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "details": "DECLARE\\n\\n-- Now add CreditCard",
+          "dst_application_ref": "6",
+          "dst_device": "ORACLEXE",
+          "dst_ip_ref": "5",
+          "finding_type": "Policy Violation",
+          "name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
+          "source": "collector1.gdemo.com",
+          "src_application_ref": "4",
+          "src_database_user_ref": "2",
+          "src_ip_ref": "3",
+          "type": "x-ibm-finding"
+        },
+        "1": {
+          "severity": "Low",
+          "type": "x-guardium"
+        },
+        "2": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "3": {
+          "type": "ipv4-addr",
+          "value": "45.155.205.233"
+        },
+        "4": {
+          "name": "SQLPLUS",
+          "type": "software"
+        },
+        "5": {
+          "type": "ipv4-addr",
+          "value": "34.149.126.94"
+        },
+        "6": {
+          "name": "ORACLE",
+          "type": "software"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-09T15:47:25.038000Z",
+      "created_by_ref": "identity--957d627b-8c5b-4ae5-ba50-6687ece5aa19",
+      "first_observed": "2023-10-09T15:47:25.038000Z",
+      "id": "observed-data--47b55667-ea5f-4e62-8d38-b058cb6a13e2",
+      "last_observed": "2023-10-09T15:47:25.038000Z",
+      "modified": "2023-10-09T15:47:25.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "details": "Select * from Creditcards",
+          "dst_application_ref": "6",
+          "dst_device": "ORACLEXE",
+          "dst_ip_ref": "5",
+          "finding_type": "Policy Violation",
+          "name": "GDPR Personal Data Admin User - Alert per match (violation) on DML and Select Commands",
+          "source": "collector1.gdemo.com",
+          "src_application_ref": "4",
+          "src_database_user_ref": "2",
+          "src_ip_ref": "3",
+          "type": "x-ibm-finding"
+        },
+        "1": {
+          "severity": "High",
+          "type": "x-guardium"
+        },
+        "2": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "3": {
+          "type": "ipv4-addr",
+          "value": "45.155.205.233"
+        },
+        "4": {
+          "name": "SQLPLUS",
+          "type": "software"
+        },
+        "5": {
+          "type": "ipv4-addr",
+          "value": "34.149.126.94"
+        },
+        "6": {
+          "name": "ORACLE",
+          "type": "software"
+        }
+      },
+      "type": "observed-data"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
