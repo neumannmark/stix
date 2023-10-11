@@ -2,29 +2,29 @@
   "id": "6fb563a5-3f3b-4886-90a8-a93d211487a4",
   "objects": [
     {
-      "created": "2023-10-09T15:05:25.038000Z",
-      "first_observed": "2023-10-09T15:05:25.038000Z",
+      "created": "2023-10-11T18:05:25.038000Z",
+      "first_observed": "2023-10-11T18:05:25.038000Z",
       "id": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
       "identity_class": "system",
-      "last_observed": "2023-10-09T15:05:25.038000Z",
-      "modified": "2023-10-09T15:05:25.038000Z",
+      "last_observed": "2023-10-11T18:05:25.038000Z",
+      "modified": "2023-10-11T18:05:25.038000Z",
       "name": "reaqta",
       "type": "identity"
     },
     {
-      "created": "2023-10-09T15:06:25.038000Z",
+      "created": "2023-10-11T18:06:25.038000Z",
       "created_by_ref": "identity--676051e7-3b63-419e-8180-ef0fa497d73b",
-      "first_observed": "2023-10-09T15:06:25.038000Z",
+      "first_observed": "2023-10-11T18:06:25.038000Z",
       "id": "observed-data--32d5272c-5b44-48e9-a22c-4bb1d6f0992e",
-      "last_observed": "2023-10-09T15:06:25.038000Z",
-      "modified": "2023-10-09T15:06:25.038000Z",
+      "last_observed": "2023-10-11T18:06:25.038000Z",
+      "modified": "2023-10-11T18:06:25.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "Network Connection Established",
           "category": "8",
           "code": 900024717988069400,
-          "created": "2023-10-09T15:06:25.038000Z",
+          "created": "2023-10-11T18:06:25.038000Z",
           "file_ref": "6",
           "network_ref": "10",
           "parent_process_ref": "4",
@@ -45,7 +45,7 @@
         },
         "3": {
           "binary_ref": "6",
-          "created": "2023-10-09T15:06:25.038000Z",
+          "created": "2023-10-11T18:06:25.038000Z",
           "creator_user_ref": "8",
           "extensions": {
             "windows-process-ext": {
@@ -144,17 +144,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-10-09T15:07:25.038000Z",
+      "created": "2023-10-11T18:07:25.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-10-09T15:07:25.038000Z",
+      "first_observed": "2023-10-11T18:07:25.038000Z",
       "id": "observed-data--d3e1a58a-ecd5-4cd8-bd67-8b220fc455ce",
-      "last_observed": "2023-10-09T15:07:25.038000Z",
-      "modified": "2023-10-09T15:07:25.038000Z",
+      "last_observed": "2023-10-11T18:07:25.038000Z",
+      "modified": "2023-10-11T18:07:25.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "UACBypass2",
-          "created": "2023-10-09T15:07:25.038000Z",
+          "created": "2023-10-11T18:07:25.038000Z",
           "host_ref": "9",
           "outcome": "A malicious process launched that's likely attempting a User Account Control (UAC) bypass. Review the process tree.",
           "parent_process_ref": "7",
@@ -186,13 +186,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-10-09T15:07:25.038000Z",
+          "agent_local_time": "2023-10-11T18:07:25.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-10-09T15:07:25.038000Z",
+          "first_seen": "2023-10-11T18:07:25.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-10-09T15:07:25.038000Z",
+          "last_seen": "2023-10-11T18:07:25.038000Z",
           "platform_id": "0",
           "scenario": "privilege_escalation",
           "tactic": "Privilege Escalation",
@@ -248,17 +248,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-10-09T15:08:25.038000Z",
+      "created": "2023-10-11T18:08:25.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-10-09T15:08:25.038000Z",
+      "first_observed": "2023-10-11T18:08:25.038000Z",
       "id": "observed-data--5b858b41-d98a-4912-bd7d-6e8bc2a0d9a3",
-      "last_observed": "2023-10-09T15:08:25.038000Z",
-      "modified": "2023-10-09T15:08:25.038000Z",
+      "last_observed": "2023-10-11T18:08:25.038000Z",
+      "modified": "2023-10-11T18:08:25.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "library load",
-          "created": "2023-10-09T15:08:25.038000Z",
+          "created": "2023-10-11T18:08:25.038000Z",
           "file_ref": "12",
           "host_ref": "9",
           "outcome": "This file meets the machine learning-based on-sensor AV protection's high confidence threshold for malicious files.",
@@ -291,13 +291,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-10-09T15:08:25.038000Z",
+          "agent_local_time": "2023-10-11T18:08:25.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 70,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-10-09T15:08:25.038000Z",
+          "first_seen": "2023-10-11T18:08:25.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-10-09T15:08:25.038000Z",
+          "last_seen": "2023-10-11T18:08:25.038000Z",
           "platform_id": "0",
           "scenario": "NGAV",
           "tactic": "Machine Learning",
@@ -359,17 +359,17 @@
       "type": "observed-data"
     },
     {
-      "created": "2023-10-09T15:09:25.038000Z",
+      "created": "2023-10-11T18:09:25.038000Z",
       "created_by_ref": "identity--fa188421-a904-4e95-a3a4-309a558b9295",
-      "first_observed": "2023-10-09T15:09:25.038000Z",
+      "first_observed": "2023-10-11T18:09:25.038000Z",
       "id": "observed-data--30a91c57-fc2b-4dea-986d-885088490592",
-      "last_observed": "2023-10-09T15:09:25.038000Z",
-      "modified": "2023-10-09T15:09:25.038000Z",
+      "last_observed": "2023-10-11T18:09:25.038000Z",
+      "modified": "2023-10-11T18:09:25.038000Z",
       "number_observed": 1,
       "objects": {
         "0": {
           "action": "IntelDomainMedium",
-          "created": "2023-10-09T15:09:25.038000Z",
+          "created": "2023-10-11T18:09:25.038000Z",
           "host_ref": "9",
           "network_ref": "13",
           "outcome": "A domain lookup matched a ReaQta Intelligence indicator.",
@@ -402,13 +402,13 @@
           "type": "directory"
         },
         "4": {
-          "agent_local_time": "2023-10-09T15:09:25.038000Z",
+          "agent_local_time": "2023-10-11T18:09:25.038000Z",
           "agent_version": "6.22.13607.0",
           "confidence": 80,
           "detection_id": "ldt:0a3e7f1d15874c09ad37dae363774e50:21477405166",
-          "first_seen": "2023-10-09T15:09:25.038000Z",
+          "first_seen": "2023-10-11T18:09:25.038000Z",
           "ioc_value": "VMware, Inc.",
-          "last_seen": "2023-10-09T15:09:25.038000Z",
+          "last_seen": "2023-10-11T18:09:25.038000Z",
           "platform_id": "0",
           "scenario": "intel_detection",
           "tactic": "Falcon Intel",
