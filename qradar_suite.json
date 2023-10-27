@@ -1,114 +1,777 @@
 {
-  "type": "bundle",
-  "id": "observed-data--2c2a19e2-49c9-4c92-9a30-0fa014ecf049",
-  "type": "observed-data",
-  "created": "2023-10-27T22:16:26.168Z",
-  "objects": {
-    "0": {
-      "type": "x-oca-event",
-      "agent": "Custom Rule Engine-8 :: qradar",
-      "action": "Potential Log4Shell Evasion detected",
-      "created": "2023-10-27T21:39:23.580Z",
-      "outcome": "Potential Web Exploit",
-      "category": [
-        "Potential Exploit"
-      ],
-      "provider": "Custom Rule Engine",
-      "network_ref": "4",
-      "original_ref": "7"
+  "id": "bundle--60d4e4cd-d80b-40a8-88b3-c6d47252c0b2",
+  "objects": [
+    {
+      "created": "2023-10-27T21:08:42.038000Z",
+      "first_observed": "2023-10-27T21:08:42.038000Z",
+      "id": "identity--01e94973-d2e5-4aad-bb2a-0755eda182e2",
+      "identity_class": "events",
+      "last_observed": "2023-10-27T21:08:42.038000Z",
+      "modified": "2023-10-27T21:08:42.038000Z",
+      "name": "QRadar",
+      "type": "identity"
     },
-    "1": {
-      "qid": 67502391,
-      "type": "x-qradar",
-      "direction": "L2R",
-      "domain_id": 0,
-      "relevance": 10,
-      "category_id": 13011,
-      "credibility": 10,
-      "device_type": 18,
-      "domain_name": "Default Domain",
-      "has_offense": "true",
-      "log_source_id": 63,
-      "cre_event_list": [
-        "100719",
-        "100164",
-        "100146",
-        "100221",
-        "100216",
-        "100726",
-        "100716",
-        "100337",
-        "100075",
-        "100674",
-        "103575",
-        "100279",
-        "100097",
-        "100272",
-        "100227",
-        "100225"
-      ],
-      "high_level_category_id": 13000
+    {
+      "created": "2023-10-27T21:09:42.038000Z",
+      "first_observed": "2023-10-27T21:09:42.038000Z",
+      "id": "observed-data--5d628e0f-bbf1-4648-9643-3c28546afee0",
+      "last_observed": "2023-10-27T21:09:42.038000Z",
+      "modified": "2023-10-27T21:09:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "uperintendenc-drunkard.cleaning"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:5e:a2:c4"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://62.210.130.250/web/admin/x86_64;chmod"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-256": "C72dEb6c9B7eE68D01D29AFcD0599273eE925Fd21d9Dd68acb485cD1091acf40"
+          },
+          "name": "eighbou-reconstruc.cvt",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
     },
-    "2": {
-      "end": "2023-10-27T21:39:23.580Z",
-      "name": "Potential Log4Shell Evasion detected",
-      "type": "x-ibm-finding",
-      "start": "2023-10-27T21:39:23.580Z",
-      "severity": 10,
-      "magnitude": 10,
-      "dst_ip_ref": "6",
-      "rule_names": [
-        "Log4Shell Evasion Pattern",
-        "BB:CategoryDefinition: Suspicious Event Categories",
-        "BB:CategoryDefinition: Suspicious Events",
-        "Destination Asset Weight is Low",
-        "Context is Local to Remote",
-        "X-Force: Internal Host Communicating with Host Categorized as Anonymizer",
-        "X-Force Risky IP, Anonymization",
-        "BB:CategoryDefinition: Medium Magnitude Events",
-        "BB:CategoryDefinition: High Magnitude Events",
-        "BB:UBA : Excluded Geographic Locations",
-        "BB:NetworkDefinition: Trusted Source Network Segment",
-        "BB:NetworkDefinition: Server Networks",
-        "BB:BehaviorDefinition: Compromise Activities",
-        "Load Basic Building Blocks",
-        "Source Asset Weight is Low",
-        "Source Asset Exists"
-      ],
-      "src_ip_ref": "3",
-      "description": "An event was found that could be associated with Log4Shell CVE-2021-44228",
-      "event_count": 1,
-      "finding_type": "event",
-      "dst_geolocation": "Europe.Sweden",
-      "src_geolocation": "NorthAmerica.UnitedStates"
+    {
+      "created": "2023-10-27T21:10:42.038000Z",
+      "first_observed": "2023-10-27T21:10:42.038000Z",
+      "id": "observed-data--707a4be1-07aa-4316-b0a1-62591302c244",
+      "last_observed": "2023-10-27T21:10:42.038000Z",
+      "modified": "2023-10-27T21:10:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "iercer-heckler-moralis.xn--qxam"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:81:a2:e4"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://45.137.155.55/ex.sh"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "ssdeep": "S8gD1EaxJJ+pdNwyJWrjRZ/ieW5VVG5N8DeiPxJeDPTAGf"
+          },
+          "name": "aa-dedication.v",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
     },
-    "3": {
-      "type": "ipv4-addr",
-      "value": "35.201.103.45"
+    {
+      "created": "2023-10-27T21:11:42.038000Z",
+      "first_observed": "2023-10-27T21:11:42.038000Z",
+      "id": "observed-data--55adc399-c681-4f33-96c4-fa3c1d5d1978",
+      "last_observed": "2023-10-27T21:11:42.038000Z",
+      "modified": "2023-10-27T21:11:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "umul-wizardr-deferrin.trade"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:d2:72:47"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://80.71.158.12/Exploit69ogQNSQYz.class"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "TLSH": "fbB60dcd40FC26eFED88Cf1BE5779Db1E36BE71d2b6da49ad4377D9F29A7D650dd6e9C"
+          },
+          "name": "ush-footballin-splotche.hdx",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
     },
-    "4": {
-      "type": "network-traffic",
-      "dst_ref": "6",
-      "src_ref": "3",
-      "dst_port": 0,
-      "src_port": 0,
-      "protocols": [
-        "tcp"
-      ]
+    {
+      "created": "2023-10-27T21:12:42.038000Z",
+      "first_observed": "2023-10-27T21:12:42.038000Z",
+      "id": "observed-data--1664c766-063d-471e-ba00-ddb79ac3da2b",
+      "last_observed": "2023-10-27T21:12:42.038000Z",
+      "modified": "2023-10-27T21:12:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "erb-glow-idolatrou.bj"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:d1:76:84"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://nquirie.shopping/yDb6K6XbTK0/3D0E7If38tpKMC0MB7/eomagneticall-jauntie.ifd"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-224": "6BD540E07EBCf160E8fABFF483fBAFF7E32bEebda3C2e5B31b3BE093"
+          },
+          "name": "nefficienc-sistersinla-scyth.isr",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
     },
-    "6": {
-      "type": "ipv4-addr",
-      "value": "171.25.193.25"
+    {
+      "created": "2023-10-27T21:13:42.038000Z",
+      "first_observed": "2023-10-27T21:13:42.038000Z",
+      "id": "observed-data--ae15ade6-4ffe-4c0f-8893-ede0b013ac2c",
+      "last_observed": "2023-10-27T21:13:42.038000Z",
+      "modified": "2023-10-27T21:13:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "araf.pg"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:ca:65:2e"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://irme-tollin-itinerarie.ipiranga/E4IVzA9rHG/k0Uacm/hurchwarde-molester.#sc"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "MD5": "5ac0f050f93f86e69026faea1fbb4450"
+          },
+          "name": "ryuk-bin.exe",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
     },
-    "7": {
-      "type": "artifact",
-      "mime_type": "text/plain",
-      "payload_bin": "UG90ZW50aWFsIExvZzRTaGVsbCBFdmFzaW9uIGRldGVjdGVkCUFuIGV2ZW50IHdhcyBmb3VuZCB0aGF0IGNvdWxkIGJlIGFzc29jaWF0ZWQgd2l0aCBMb2c0U2hlbGwgQ1ZFLTIwMjEtNDQyMjg="
+    {
+      "created": "2023-10-27T21:14:42.038000Z",
+      "first_observed": "2023-10-27T21:14:42.038000Z",
+      "id": "observed-data--2c3e77d1-82ed-401e-89d1-fc3ad3fb49ee",
+      "last_observed": "2023-10-27T21:14:42.038000Z",
+      "modified": "2023-10-27T21:14:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "renche.abbott"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:a5:7d:11"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://ugubriou-wendin.ieee/bGX5g/Sk9kX/8a9i4bN/ermination-bodil.sid"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-1": "3780f5828fc05bf74649393169f70fafb0ffed25"
+          },
+          "name": "ruyk.bin",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:15:42.038000Z",
+      "first_observed": "2023-10-27T21:15:42.038000Z",
+      "id": "observed-data--0278ddb8-04ec-48b0-b371-30b5ce2cc9a3",
+      "last_observed": "2023-10-27T21:15:42.038000Z",
+      "modified": "2023-10-27T21:15:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "nstac-mood.financial"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:29:1c:9a"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://iffusio-scuffl.kg/1Xc1t83p4Zf/6f351n2HnA0ljxc/olleagu-perso-behin.fp"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-224": "0Fd059F53Bc3A5ED7De6544c865bAe9a6c45bF8E54c4C5DA2AaeCe69"
+          },
+          "name": "aker.fli",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:16:42.038000Z",
+      "first_observed": "2023-10-27T21:16:42.038000Z",
+      "id": "observed-data--910e9f93-2b42-4582-91af-4c5f3a8ee378",
+      "last_observed": "2023-10-27T21:16:42.038000Z",
+      "modified": "2023-10-27T21:16:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "hildlessnes.guardian"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:5e:12:e5"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://melette-separatel.miami/c71d4/oprocesso-coache.bpt"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "RIPEMD-160": "eC44ae8FEEDf3d2AC311b6E871bC9abe6e035522"
+          },
+          "name": "ndertake-miscibl.pdt",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:17:42.038000Z",
+      "first_observed": "2023-10-27T21:17:42.038000Z",
+      "id": "observed-data--46855264-fcdc-4701-b832-5dc4d4dccc89",
+      "last_observed": "2023-10-27T21:17:42.038000Z",
+      "modified": "2023-10-27T21:17:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "35.201.103.45"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "ntellectua-victimisatio-dous.xn--rovu88b"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:22:02:f9"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://efi-pedagogi.bentley/2Y/bVZxNeaZT/k0u/ittines-overtaker-superstition.wrl"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-224": "25B2EC7cE71ae0DBbdB25F442dD96caF368AEA4E7DAbe4BDA6C9C23d"
+          },
+          "name": "antheis-descriptio-flooz.dfi",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:18:42.038000Z",
+      "first_observed": "2023-10-27T21:18:42.038000Z",
+      "id": "observed-data--f7126215-e3df-43a0-96a9-cebc3e68c948",
+      "last_observed": "2023-10-27T21:18:42.038000Z",
+      "modified": "2023-10-27T21:18:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "hiftines.bible"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:f4:3a:65"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://uptur.latrobe/3635U3M5MQFWK/JyWSle2321JjbRvMiou/xude-highhandednes-fertilisin.lzx"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "TLSH": "C99bAe1b3A2E3b1E34ea40c3DbBa9b4C6986F7F7Ea91d3fa2EC1AaDd32A8de76f5bE8C"
+          },
+          "name": "ossesse-legionarie.cnd",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:19:42.038000Z",
+      "first_observed": "2023-10-27T21:19:42.038000Z",
+      "id": "observed-data--7c917ec1-0eef-4526-91d5-0d2e4c4df3c3",
+      "last_observed": "2023-10-27T21:19:42.038000Z",
+      "modified": "2023-10-27T21:19:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "ase.vote"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:68:c7:f6"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://heekin.properties/lCV3adR/rbou-quel.sln"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "TLSH": "7B1cfE94BE1d936Dbd2e63bA2E2F8124D6fCC48eBB33bd9FbcCcEe4Bc2642eF10fc4a1"
+          },
+          "name": "hangelin-upbringing-quackis.pwp",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:20:42.038000Z",
+      "first_observed": "2023-10-27T21:20:42.038000Z",
+      "id": "observed-data--79c4485b-5654-4ae5-aec1-8699772227a6",
+      "last_observed": "2023-10-27T21:20:42.038000Z",
+      "modified": "2023-10-27T21:20:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "ugueno.barcelona"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:49:b6:cd"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://itles-botherin-rightminde.doctor/U2YNIN/in-graciou.c--"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-384": "C0B3e8eE9abFaaCA67B84504dEE29EB0c7BdaA0a9FDD081Ad4fAB24a1c8B24BFc8B1Df6758a13eaBf54DAD97D730DA94"
+          },
+          "name": "nforme-ram.gpk",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:21:42.038000Z",
+      "first_observed": "2023-10-27T21:21:42.038000Z",
+      "id": "observed-data--fec36c4a-b0b9-47dc-977b-1103956e4f8b",
+      "last_observed": "2023-10-27T21:21:42.038000Z",
+      "modified": "2023-10-27T21:21:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "elineate.xn--io0a7i"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:e8:c2:95"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://pkee-jussiv-voyagin.xn--80asehdb/9we6/3f71IPBw/eacoc-innocuousnes-barleycor.nib"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "RIPEMD-160": "eb3b81CcC408Edd8D3eC31d0c3Bf7Cb7CB7EfBFb"
+          },
+          "name": "urnac-rosie-magnetise.pg",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:22:42.038000Z",
+      "first_observed": "2023-10-27T21:22:42.038000Z",
+      "id": "observed-data--53825963-e014-4865-a714-955d8a0dc3c7",
+      "last_observed": "2023-10-27T21:22:42.038000Z",
+      "modified": "2023-10-27T21:22:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "aithfulnes-bouque.ipiranga"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:59:12:02"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://ersuade-courte-america.leclerc/jz220U/nfliction-proselytisin-postillio.tp3"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA3-256": "FD1Eb3457F2CB3EaEd63bED0Ac1a3B6BdA5c8c6E1DfED5BbFDcB987b8Cf6C581"
+          },
+          "name": "roubleshootin-basqu.ovd",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:23:42.038000Z",
+      "first_observed": "2023-10-27T21:23:42.038000Z",
+      "id": "observed-data--e72e6439-1943-4f2a-866a-9a675848137a",
+      "last_observed": "2023-10-27T21:23:42.038000Z",
+      "modified": "2023-10-27T21:23:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "vocation-aorti-informalit.iveco"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:bb:d7:89"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://ensiv-deprecatio.promo/k09F19H/3SOsSsqF08X4v3tf/yE0Z5X7H/stonishe.tre"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "ssdeep": "dHqWiYxo1k.JxmXH6iNyEDzLki7wys:+PoDXY9N1u/eMRIoq3Kp.7qkfI2F+lzPSyJqdv:BST6yO1h/qOwhy/EAm6vAjoWt"
+          },
+          "name": "ul.wp",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:24:42.038000Z",
+      "first_observed": "2023-10-27T21:24:42.038000Z",
+      "id": "observed-data--12d9b2f1-7740-4ce4-b331-20fbaefb4689",
+      "last_observed": "2023-10-27T21:24:42.038000Z",
+      "modified": "2023-10-27T21:24:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "ipreadin.dentist"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:68:36:c7"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://nvestin-sli-stagin.forsale/J18x/F4beu/xplanation-couturier-desaturate.avd"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "ssdeep": "vz2d/2nos/OALMWAVppW5DtYNGuIV"
+          },
+          "name": "ecline.con",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:25:42.038000Z",
+      "first_observed": "2023-10-27T21:25:42.038000Z",
+      "id": "observed-data--7a8d233f-2c1e-474e-8c83-c29f0ad698f2",
+      "last_observed": "2023-10-27T21:25:42.038000Z",
+      "modified": "2023-10-27T21:25:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "lasterboar-formali.actor"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:27:cc:8e"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://ubell-lonelies-plutoniu.kia/SjHhf5LlK2dAb2Ffk/hW9c31/7/illisecon.zpl"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "ssdeep": "CNJ1QcZXG16mLnn:XgX7v/rZ9Jv:m4SStdYLBwrI6REFBtlMMg0a75UhVbPw:lt0KoI"
+          },
+          "name": "escribe.cl5",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:26:42.038000Z",
+      "first_observed": "2023-10-27T21:26:42.038000Z",
+      "id": "observed-data--261823df-6386-43dd-9634-4e318ec45273",
+      "last_observed": "2023-10-27T21:26:42.038000Z",
+      "modified": "2023-10-27T21:26:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "partnes.financial"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:f5:c7:2d"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://hotogeni.events/7O7x6UwD/6TK5/Mn35Xo/osse-thoughtfu-icosahedro.#24"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-1": "C7F6df32EfcEFdcC9ccd1c65b31cec30fc54a38F"
+          },
+          "name": "cholarl-aegin-kicke.a3m",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:27:42.038000Z",
+      "first_observed": "2023-10-27T21:27:42.038000Z",
+      "id": "observed-data--615a4942-9eb9-41d1-a43e-b9fc3e5e51c8",
+      "last_observed": "2023-10-27T21:27:42.038000Z",
+      "modified": "2023-10-27T21:27:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "xiomatisin-smatterin.services"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:3d:9a:04"
+        },
+        "3": {
+          "type": "url",
+          "value": "http://laye-codice-resen.toys/uKZ9Y1AZajRctTvDY58/anit-awoke-thereo.3ko"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "RIPEMD-160": "D20AE4A756c5bDDB69Bbe4cde9d0abea8fA4E802"
+          },
+          "name": "act-crystalclea-exception.pdw",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
+    },
+    {
+      "created": "2023-10-27T21:28:42.038000Z",
+      "first_observed": "2023-10-27T21:28:42.038000Z",
+      "id": "observed-data--bbc4f2de-060c-462c-afe7-5a6034fd048b",
+      "last_observed": "2023-10-27T21:28:42.038000Z",
+      "modified": "2023-10-27T21:28:42.038000Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "171.25.193.25"
+        },
+        "1": {
+          "type": "domain-name",
+          "value": "hriek.mov"
+        },
+        "2": {
+          "type": "mac-addr",
+          "value": "CC:46:D6:48:50:cc"
+        },
+        "3": {
+          "type": "url",
+          "value": "https://eprehensibl-cognisan-cornet.productions/Q5Q9onaJxTtQ7Z/Fph8J15wPxWer095hk8N/illisecon-enterprisin-sleepines.anm"
+        },
+        "4": {
+          "type": "user-account",
+          "user_id": "fadams"
+        },
+        "5": {
+          "hashes": {
+            "SHA-256": "8F4F3ccE2f8eba8Aa4A6D2Ab5fa31056abB2B45346fD8D4aC45bbCe7d07E7E3E"
+          },
+          "name": "kyscraper-truthfu-nullifyin.tbf",
+          "type": "file"
+        }
+      },
+      "type": "observed-data"
     }
-  },
-  "modified": "2023-10-27T22:16:26.168Z",
-  "last_observed": "2023-10-27T21:39:23.580Z",
-  "created_by_ref": "identity--7ad2ada5-9ee8-42b5-aeb3-13ff68a1e3a0",
-  "first_observed": "2023-10-27T21:39:23.580Z",
-  "number_observed": 1
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
 }
