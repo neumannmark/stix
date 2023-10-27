@@ -1,0 +1,113 @@
+{
+  "id": "observed-data--2c2a19e2-49c9-4c92-9a30-0fa014ecf049",
+  "type": "observed-data",
+  "created": "2023-10-27T22:16:26.168Z",
+  "objects": {
+    "0": {
+      "type": "x-oca-event",
+      "agent": "Custom Rule Engine-8 :: qradar",
+      "action": "Potential Log4Shell Evasion detected",
+      "created": "2023-10-27T21:39:23.580Z",
+      "outcome": "Potential Web Exploit",
+      "category": [
+        "Potential Exploit"
+      ],
+      "provider": "Custom Rule Engine",
+      "network_ref": "4",
+      "original_ref": "7"
+    },
+    "1": {
+      "qid": 67502391,
+      "type": "x-qradar",
+      "direction": "L2R",
+      "domain_id": 0,
+      "relevance": 10,
+      "category_id": 13011,
+      "credibility": 10,
+      "device_type": 18,
+      "domain_name": "Default Domain",
+      "has_offense": "true",
+      "log_source_id": 63,
+      "cre_event_list": [
+        "100719",
+        "100164",
+        "100146",
+        "100221",
+        "100216",
+        "100726",
+        "100716",
+        "100337",
+        "100075",
+        "100674",
+        "103575",
+        "100279",
+        "100097",
+        "100272",
+        "100227",
+        "100225"
+      ],
+      "high_level_category_id": 13000
+    },
+    "2": {
+      "end": "2023-10-27T21:39:23.580Z",
+      "name": "Potential Log4Shell Evasion detected",
+      "type": "x-ibm-finding",
+      "start": "2023-10-27T21:39:23.580Z",
+      "severity": 10,
+      "magnitude": 10,
+      "dst_ip_ref": "6",
+      "rule_names": [
+        "Log4Shell Evasion Pattern",
+        "BB:CategoryDefinition: Suspicious Event Categories",
+        "BB:CategoryDefinition: Suspicious Events",
+        "Destination Asset Weight is Low",
+        "Context is Local to Remote",
+        "X-Force: Internal Host Communicating with Host Categorized as Anonymizer",
+        "X-Force Risky IP, Anonymization",
+        "BB:CategoryDefinition: Medium Magnitude Events",
+        "BB:CategoryDefinition: High Magnitude Events",
+        "BB:UBA : Excluded Geographic Locations",
+        "BB:NetworkDefinition: Trusted Source Network Segment",
+        "BB:NetworkDefinition: Server Networks",
+        "BB:BehaviorDefinition: Compromise Activities",
+        "Load Basic Building Blocks",
+        "Source Asset Weight is Low",
+        "Source Asset Exists"
+      ],
+      "src_ip_ref": "3",
+      "description": "An event was found that could be associated with Log4Shell CVE-2021-44228",
+      "event_count": 1,
+      "finding_type": "event",
+      "dst_geolocation": "Europe.Sweden",
+      "src_geolocation": "NorthAmerica.UnitedStates"
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "35.201.103.45"
+    },
+    "4": {
+      "type": "network-traffic",
+      "dst_ref": "6",
+      "src_ref": "3",
+      "dst_port": 0,
+      "src_port": 0,
+      "protocols": [
+        "tcp"
+      ]
+    },
+    "6": {
+      "type": "ipv4-addr",
+      "value": "171.25.193.25"
+    },
+    "7": {
+      "type": "artifact",
+      "mime_type": "text/plain",
+      "payload_bin": "UG90ZW50aWFsIExvZzRTaGVsbCBFdmFzaW9uIGRldGVjdGVkCUFuIGV2ZW50IHdhcyBmb3VuZCB0aGF0IGNvdWxkIGJlIGFzc29jaWF0ZWQgd2l0aCBMb2c0U2hlbGwgQ1ZFLTIwMjEtNDQyMjg="
+    }
+  },
+  "modified": "2023-10-27T22:16:26.168Z",
+  "last_observed": "2023-10-27T21:39:23.580Z",
+  "created_by_ref": "identity--7ad2ada5-9ee8-42b5-aeb3-13ff68a1e3a0",
+  "first_observed": "2023-10-27T21:39:23.580Z",
+  "number_observed": 1
+}
